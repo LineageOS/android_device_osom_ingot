@@ -183,7 +183,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-aidl-service-qti \
     gnss@2.0-base.policy \
     gnss@2.0-xtra-daemon.policy \
-    gnss@2.0-xtwifi-client.policy \
     libbatching:64 \
     libgeofencing:64 \
     libgnss:64 \
@@ -199,8 +198,7 @@ PRODUCT_PACKAGES += \
     gps.conf \
     izat.conf \
     lowi.conf \
-    sap.conf \
-    xtwifi.conf
+    sap.conf
 
 # Health
 PRODUCT_PACKAGES += \
