@@ -61,7 +61,8 @@ PRODUCT_PACKAGES += \
     SystemUICornersOverlay \
     SystemUIVibratorOverlay \
     TogglesOverlay \
-    VzwMmsOverlay
+    VzwMmsOverlay \
+    WifiOverlay
 
 # Lineage Specific RROs
 PRODUCT_PACKAGES += \
