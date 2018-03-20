@@ -292,7 +292,7 @@
         autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
     <!-- Enable doze mode -->
-    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
 
