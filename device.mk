@@ -60,6 +60,7 @@ PRODUCT_PACKAGES += \
     FingerprintOverlay \
     SettingsOverlay \
     SystemUICornersOverlay \
+    SystemUIVibratorOverlay \
     TogglesOverlay \
     VzwMmsOverlay
 
