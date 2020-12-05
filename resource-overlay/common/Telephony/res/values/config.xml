@@ -19,9 +19,6 @@
 <!-- Phone app resources that may need to be customized
      for different hardware or product builds. -->
 <resources>
-    <!-- Flag indicating if the phone is a world phone -->
-    <bool name="world_phone">true</bool>
-
     <!-- Show RTT option in Accessibility menu -->
     <bool name="config_support_rtt">true</bool>
 
