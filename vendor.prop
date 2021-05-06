@@ -68,6 +68,7 @@ vendor.display.enable_async_vds_creation=1
 vendor.display.enable_dpps_dynamic_fps=1
 vendor.display.enable_hdr10_gpu_target=1
 vendor.display.enable_optimize_refresh=0
+vendor.display.enable_rounded_corner=1
 vendor.display.vds_allow_hwc=1
 
 # DPM
