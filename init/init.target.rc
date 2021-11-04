@@ -124,8 +124,6 @@ on boot
     chmod 0660 /sys/devices/platform/soc/980000.i2c/i2c-0/0-0062/trusted_touch_enable
     chown system /sys/devices/platform/soc/980000.i2c/i2c-0/0-0062/trusted_touch_event
     chmod 0660 /sys/devices/platform/soc/980000.i2c/i2c-0/0-0062/trusted_touch_event
-    #USB controller configuration
-    setprop vendor.usb.controller a600000.dwc3
 
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
@@ -135,9 +133,6 @@ on property:vendor.display.lcd_density=640
 
 on property:init.svc.vendor.charger=running
     start vendor.power_off_alarm
-    setprop sys.usb.controller a600000.dwc3
-    wait /sys/class/udc/${sys.usb.controller}
-    setprop sys.usb.configfs 1
     write /sys/kernel/cnss/charger_mode 1
 
 #service vendor.lowi /vendor/bin/sscrpcd

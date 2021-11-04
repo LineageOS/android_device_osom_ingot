@@ -178,6 +178,7 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 ro.usb.uvc.disable_video_encode_flag=true
 ro.usb.uvc.enabled=true
 sys.usb.mtp.batchcancel=1
+vendor.usb.controller=a600000.dwc3
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss_sw
