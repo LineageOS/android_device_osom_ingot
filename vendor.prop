@@ -105,6 +105,7 @@ persist.sys.sf.color_saturation=1.0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 vendor.gralloc.disable_ubwc=0
+vendor.opengles.version=196610
 
 # IMS
 persist.vendor.rcs.singlereg.feature=1
