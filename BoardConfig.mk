@@ -47,7 +47,8 @@ TARGET_KERNEL_SOURCE := kernel/osom/sm8475
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
     vendor/waipio_GKI.config \
-    vendor/ingot_GKI.config
+    vendor/ingot_GKI.config \
+    vendor/debugfs.config
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
