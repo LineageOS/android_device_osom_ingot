@@ -144,9 +144,6 @@ SOONG_CONFIG_qtidisplay += \
     gralloc_handle_has_reserved_size
 SOONG_CONFIG_qtidisplay_gralloc_handle_has_reserved_size := true
 
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
-
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
