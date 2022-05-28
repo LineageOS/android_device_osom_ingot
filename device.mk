@@ -322,10 +322,6 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor
 
-# Net
-PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
-
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2.vendor:64 \
