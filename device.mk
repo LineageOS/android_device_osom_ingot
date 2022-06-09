@@ -169,6 +169,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/betterlife_inputdev.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/betterlife_inputdev.kl \
     $(LOCAL_PATH)/idc/betterlife_inputdev.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/betterlife_inputdev.idc
 
+# GMS
+ifeq ($(WITH_GMS),true)
+GMS_MAKEFILE=gms_minimal.mk
+endif
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti:64 \
