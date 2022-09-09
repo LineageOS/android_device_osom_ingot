@@ -1,5 +1,11 @@
 GNSS_CFLAGS = [
     "-Werror",
+    "-Wformat",
+    "-Wformat-extra-args",
+    "-Wunused-label",
+    "-Wunused-variable",
+    "-Wunused-function",
+    "-Wimplicit-fallthrough",
     "-Wno-undefined-bool-conversion",
 ]
 
