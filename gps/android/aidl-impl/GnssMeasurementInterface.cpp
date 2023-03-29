@@ -21,7 +21,7 @@
 /*
 Changes from Qualcomm Innovation Center are provided under the following license:
 
-Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted (subject to the limitations in the
@@ -586,9 +586,9 @@ void GnssMeasurementInterface::convertElapsedRealtimeNanos(
 }
 
 void GnssMeasurementInterface::printGnssData(GnssData& data) {
-    LOC_LOGd(" Measurements Info for %d satellites", data.measurements.size());
+    LOC_LOGd(" Measurements Info for %zu satellites", data.measurements.size());
     for (size_t i = 0; i < data.measurements.size(); i++) {
-        LOC_LOGd("%02d : flags: 0x%08x,"
+        LOC_LOGd("%zu : flags: 0x%08x,"
                  " svid: %d,"
                  " signalType.constellation: %u,"
                  " signalType.carrierFrequencyHz: %.2f,"
