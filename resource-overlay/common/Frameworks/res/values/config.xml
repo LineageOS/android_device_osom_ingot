@@ -137,7 +137,6 @@
     <bool name="config_showNavigationBar">true</bool>
     <!-- Enable doze mode -->
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- Whether to select voice/data/sms preference without user confirmation -->
