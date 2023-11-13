@@ -1,6 +1,3 @@
-# Charger
-ro.charger.enable_suspend=1
-
 # System server
 arm64.memtag.process.system_server=off
 
