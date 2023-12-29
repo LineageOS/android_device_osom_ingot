@@ -62,6 +62,11 @@ function blob_fixup() {
         vendor/bin/hw/android.hardware.security.keymint-service-qti)
             ${PATCHELF} --add-needed "android.hardware.security.rkp-V3-ndk.so" "${2}"
             ;;
+        vendor/etc/libnfc-hal-st.conf)
+            sed -i "s/NFC_DEBUG_ENABLED=1/NFC_DEBUG_ENABLED=0/" "${2}"
+            sed -i "s/STNFC_HAL_LOGLEVEL=3/STNFC_HAL_LOGLEVEL=2/" "${2}"
+            sed -i "s/STNFC_FW_DEBUG_ENABLED=1/STNFC_FW_DEBUG_ENABLED=0/" "${2}"
+            ;;
     esac
 }
 
