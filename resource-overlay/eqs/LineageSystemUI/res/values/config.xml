@@ -32,9 +32,6 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">64</integer>
 
-    <!-- Color of the UDFPS pressed view -->
-    <color name="config_udfpsColor">#ffffff</color>
-
     <!-- Doze: does the double tap sensor need a proximity check? -->
     <bool name="doze_double_tap_proximity_check">true</bool>
 </resources>
