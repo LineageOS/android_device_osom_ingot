@@ -2143,7 +2143,6 @@ vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 ###############
 vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
 vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
-vendor/app/pasrservice/pasrservice.apk
 vendor/app/powermodule_java/powermodule_java.apk
 
 vendor/bin/KmInstallKeybox
@@ -2225,7 +2224,6 @@ vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/hw/vendor.qti.hardware.limits@1.1-service
 vendor/bin/hw/vendor.qti.hardware.secureprocessor@1.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-vendor/bin/hw/vendor.qti.memory.pasrmanager@1.0-service
 vendor/bin/hw/vendor.qti.psiclient@1.0-service
 
 vendor/bin/init.qcom.efs.sync.sh
@@ -2270,7 +2268,6 @@ vendor/etc/init/vendor.qti.hardware.limits-service.rc
 vendor/etc/init/vendor.qti.hardware.secureprocessor@1.0.rc
 vendor/etc/init/vendor.qti.hardware.wifi.wificfr@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
-vendor/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 vendor/etc/init/vendor.wlan.lowirpcd.rc
 vendor/etc/init/vmmgr.rc
@@ -2305,7 +2302,6 @@ vendor/etc/telephony_packages.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.wifi.wificfr@1.0-service.xml
--vendor/etc/vintf/manifest/vendor.qti.memory.pasrmanager@1.0-service.xml
 
 vendor/etc/vmmgr.conf
 vendor/etc/wifi/icm.conf
@@ -2423,7 +2419,6 @@ vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
-vendor/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so
 
 vendor/lib/lib-imscommon.so
 vendor/lib/lib-imsdpl.so
@@ -2532,12 +2527,10 @@ vendor/lib/liboemaids_vendor.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libopenvx.so
 vendor/lib/libops.so
-vendor/lib/libpasrutils.so
 vendor/lib/libpdmapper.so
 vendor/lib/libpdnotifier.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libpowercallback.so
-vendor/lib/libpsi.so
 vendor/lib/libqc2audio_base.so
 vendor/lib/libqc2audio_basecodec.so
 vendor/lib/libqc2audio_core.so
@@ -2805,7 +2798,8 @@ vendor/lib/vendor.qti.latency@2.1.so
 vendor/lib/vendor.qti.latency@2.2.so
 vendor/lib/vendor.qti.mstatservice@1.0-impl.so
 vendor/lib/vendor.qti.mstatservice@1.0.so
-vendor/lib/vendor.qti.power.pasrmanager@1.0.so
+vendor/lib/vendor.qti.memory.pasrmanager@1.0.so
+vendor/lib/vendor.qti.memory.pasrmanager@1.1.so
 vendor/lib/vendor.qti.qesdsys-V1-ndk.so
 vendor/lib/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib/vendor.qti.qspmhal@1.0.so
@@ -2854,7 +2848,6 @@ vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
 vendor/lib64/hw/fingerprint.betterlife.so
 vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.wifidisplaysession@1.0-impl.so
-vendor/lib64/hw/vendor.qti.memory.pasrmanager@1.0-impl.so
 
 vendor/lib64/libBtlFpHal.so
 vendor/lib64/libbase64.so
@@ -2950,6 +2943,7 @@ vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 vendor/lib64/vendor.qti.latency@2.2.so
 vendor/lib64/vendor.qti.mstatservice@1.0-impl.so
 vendor/lib64/vendor.qti.mstatservice@1.0.so
-vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
+vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
+vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 vendor/lib64/vendor.qti.qesdsys-V1-ndk.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
