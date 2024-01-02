@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := motorola
-
 DEVICE_PATH := device/osom/ingot
 
 # Architecture
