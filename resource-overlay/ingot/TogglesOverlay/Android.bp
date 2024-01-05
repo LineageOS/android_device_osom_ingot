@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "TogglesOverlay",
+    product_specific: true,
+}

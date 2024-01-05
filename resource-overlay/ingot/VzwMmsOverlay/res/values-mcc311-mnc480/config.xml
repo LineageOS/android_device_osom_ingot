@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Overlay config file for Verizon operator -->
+    <string name="config_mms_user_agent">ov1</string>
+    <string name="config_mms_user_agent_profile_url">http://uaprof.vtext.com/osom/ov1/ov1.xml</string>
+</resources>
