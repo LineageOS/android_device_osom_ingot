@@ -5,5 +5,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
     package="com.android.wifi.resources.overlay.common">
+
+    <application android:hasCode="false"/>
+
     <overlay android:targetPackage="com.android.wifi.resources" android:targetName = "WifiCustomization" android:isStatic="true" />
 </manifest>

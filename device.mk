@@ -45,16 +45,27 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# QCOM Common RROs
 PRODUCT_PACKAGES += \
     FrameworksResCommon_Sys \
     CarrierConfigResCommon_Sys \
     CellBroadcastReceiverResCommon_Sys \
+    SettingsResCommon_Sys \
     SystemUIResCommon_Sys \
     TelecommResCommon_Sys \
     TelephonyResCommon_Sys \
     WifiResCommon_Sys \
-    FrameworksResTarget \
-    WifiResTarget \
+    WifiResCommonMainline_Sys
+
+# QCOM Chipset RROs (taro: taro, diwali, ukee, cape)
+PRODUCT_PACKAGES += \
+    FrameworksResTarget_Vendor \
+    WifiResTarget_cape \
+    WifiResTarget_spf \
+    WifiResTarget
+
+# Device Specific RROs
+PRODUCT_PACKAGES += \
     FrameworksResEqs \
     LineageSystemUIEqs \
     SettingsProviderResEqs \

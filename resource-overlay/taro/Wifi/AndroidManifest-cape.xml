@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2021, 2023, Qualcomm Technologies, Inc.
+<!--Copyright (c) 2022, Qualcomm Technologies, Inc.
     All Rights Reserved.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.wifi.resources.overlay.target">
-
-    <application android:hasCode="false"/>
-
     <overlay android:targetPackage="com.android.wifi.resources"
         android:targetName = "WifiCustomization"
         android:isStatic="true"
         android:priority="500"
-        android:requiredSystemPropertyName="ro.boot.product.vendor.sku"
-        android:requiredSystemPropertyValue="taro" />
+	android:requiredSystemPropertyName="ro.boot.product.vendor.sku"
+	android:requiredSystemPropertyValue="cape"/>
 </manifest>

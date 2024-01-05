@@ -48,6 +48,14 @@
     <!-- Wifi driver supports WPA3 Opportunistic Wireless Encryption (WPA3-OWE) for softap -->
     <bool name="config_vendor_wifi_softap_owe_supported">true</bool>
 
+    <!-- Wifi driver supports Opportunistic Wireless Encryption (OWE) Transition
+         aka Enhanced Open for Soft-AP -->
+    <bool translatable="false" name="config_wifiSoftapOweTransitionSupported">true</bool>
+
+    <!-- Wifi driver supports Opportunistic Wireless Encryption (OWE)
+         aka Enhanced Open for Soft-AP -->
+    <bool translatable="false" name="config_wifiSoftapOweSupported">true</bool>
+
     <!-- Wifi driver Automatic channel selection (ACS) for softap to include DFS channels -->
     <bool translatable="false" name="config_wifiSoftapAcsIncludeDfs">true</bool>
 
@@ -65,6 +73,24 @@
     <!-- integer indicating additional disconnect delay (in ms) after IMS onLost() indication is received -->
     <integer translatable="false" name="config_wifiDelayDisconnectOnImsLostMs">1000</integer>
 
-	<!-- Boolean indicating whether 802.11r Fast BSS Transition is enabled on this platform -->
-	<bool name="config_wifi_fast_bss_transition_enabled">true</bool>
+    <!-- boolean indicating whether or not to auto-upgrade band setting configuration to dual bands during cloud configuration restore when device supported -->
+    <bool translatable="false" name ="config_wifiSoftapAutoUpgradeToBridgedConfigWhenSupported">false</bool>
+
+    <!-- Integer threshold for max number of WifiConfigurations that can be saved on the device.
+        A value of -1 indicates no limit. If a max number is specified, then under-used configs
+        will be deleted to make room for new configs.-->
+    <integer translatable="false" name="config_wifiMaxNumWifiConfigurations">1000</integer>
+
+    <!-- Lists each alternate character set per locale language for SSID translation to UTF-8. This
+         will translate all SSIDs encoded with the specified character set from the native layer
+         into UTF-8 SSIDs. The translated SSIDs are then converted back to the original character
+         set when passed back to the native layer. This effectively switches all non-UTF-8 APs into
+         UTF-8 APs from the perspective of the framework and apps, and is intended to provide
+         backwards compatibility with apps that only work with UTF-8 SSIDs. Values must be in the
+         form of the locale language and canonical java.nio Charset name, separated by a comma. If
+         the locale language is "all", then the character set will apply to all locale languages
+         that do not specify their own character set. -->
+    <string-array translatable="false" name="config_wifiCharsetsForSsidTranslation">
+        <item>zh,GBK</item>
+    </string-array>
 </resources>
