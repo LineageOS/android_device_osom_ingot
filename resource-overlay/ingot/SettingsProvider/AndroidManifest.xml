@@ -5,6 +5,6 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
-    package="com.android.systemui.overlay.eqs">
-    <overlay android:targetPackage="com.android.systemui" android:isStatic="true" />
+    package="com.android.providers.settings.overlay.ingot">
+    <overlay android:targetPackage="com.android.providers.settings" android:isStatic="true" />
 </manifest>

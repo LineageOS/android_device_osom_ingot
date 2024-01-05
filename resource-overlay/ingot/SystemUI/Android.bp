@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "FrameworksResEqs",
+    name: "SystemUIResIngot",
     sdk_version: "current",
     vendor: true
 }
