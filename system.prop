@@ -1,19 +1,34 @@
 # Audio
-audio.deep_buffer.media=true
-audio.offload.disable=false
-audio.offload.gapless.enabled=false
-audio.offload.min.duration.secs=60
-audio.offload.video=true
+dev.pm.dyn_samplingrate=1
 media.aac_51_output_enabled=true
+tunnel.audio.encode=true
+qcom.hw.aac.encoder=true
+use.voice.path.for.pcm.voip=true
+vendor.mm.enable.qcom_parser=16777215
+
+# Bluetooth
+persist.vendor.btstack.aac_frm_ctl.enabled=true
 
 # Charger
 ro.charger.enable_suspend=1
 
+# Coresight
+persist.debug.coresight.config=stm-events
+
 # Display
 debug.sf.enable_hwc_vds=1
+debug.sf.latch_unsignaled=1
+ro.opengles.version=196610
+
+# CCodec
+debug.stagefright.ccodec=1
 
 # CNE
 persist.vendor.cne.feature=1
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.heapsize=36m
 
 # Data
 persist.data.df.agg.dl_pkt=10
@@ -24,15 +39,31 @@ persist.data.df.iwlan_mux=9
 persist.data.df.mux_count=8
 persist.data.df.ul_mode=5
 
-# Google
-ro.opa.eligible_device=true
+# GNSS
+persist.backup.ntpServer="0.pool.ntp.org"
+persist.vendor.overlay.izat.optin=rro
 
-# IMS
+# HWUI
+debug.hwui.skia_atrace_enabled=false
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.gradient_cache_size=1
+ro.hwui.layer_cache_size=48
+ro.hwui.path_cache_size=32
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.text_large_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_small_cache_width=1024
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.texture_cache_size=72
+
+# IMS - Force Enable IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
 # Media
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.enable-aac=true
 media.stagefright.enable-fma2dp=true
 media.stagefright.enable-http=true
@@ -40,14 +71,25 @@ media.stagefright.enable-player=true
 media.stagefright.enable-qcp=true
 media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
+mmp.enable.3g2=true
 ro.media.recorder-max-base-layer-fps=60
 
 # Netmgrd
 persist.vendor.data.mode=concurrent
 
+# NFC
+ro.nfc.port=I2C
+
 # Radio
+persist.data.wda.enable=true
+persist.rmnet.data.enable=true
 persist.vendor.radio.atfwd.start=true
-ro.telephony.default_network=33,33
+ril.subscription.types=NV,RUIM
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+ro.telephony.default_network=31,31
+ro.vendor.use_data_netmgrd=true
+sys.qca1530=detect
+telephony.lteOnCdmaDevice=1
 
 # RTT
 config.disable_rtt=true
@@ -55,8 +97,8 @@ config.disable_rtt=true
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 
-# SSR
-persist.vendor.ssr.restart_level=ALL_ENABLE
+# Time
+persist.timed.enable=true
 
 # Vendor
 ro.vendor.qti.va_aosp.support=1
@@ -65,5 +107,5 @@ ro.vendor.qti.va_aosp.support=1
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
-#Disable MTE Async for system server
+# Disable MTE Async for system server
 arm64.memtag.process.system_server=off
