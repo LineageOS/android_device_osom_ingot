@@ -517,6 +517,7 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 # WiFi Display
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor:64 \
+    android.media.audio.common.types-V2-cpp:64 \
     libavservices_minijail \
     libnl \
     libwfdaac_vendor:64
