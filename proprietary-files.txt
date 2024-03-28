@@ -425,7 +425,7 @@ vendor/lib64/libsdsprpc.so
 vendor/etc/charger_fw_fstab.qti
 
 # CNE
-vendor/app/CneApp/CneApp.apk
+vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_vendor_symlink
 vendor/bin/cnd
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
