@@ -30,7 +30,7 @@
 /*
 Changes from Qualcomm Innovation Center are provided under the following license:
 
-Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+Copyright (c) 2022, 2023 Qualcomm Innovation Center, Inc. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted (subject to the limitations in the
@@ -197,7 +197,10 @@ public:
         return mLBSProxy->getIzatDevId();
     }
     inline void sendMsg(const LocMsg *msg) { getMsgTask()->sendMsg(msg); }
-
+    inline bool checkFeatureStatus(int* fids,
+            LocFeatureStatus* status, uint32_t idCount, bool directQwesCall = false) const {
+        return mLocApiProxy->checkFeatureStatus(fids, status, idCount, directQwesCall);
+    }
     static loc_gps_cfg_s_type mGps_conf;
     static loc_sap_cfg_s_type mSap_conf;
     static bool sIsEngineCapabilitiesKnown;
@@ -206,6 +209,7 @@ public:
     static bool sGnssMeasurementSupported;
     static GnssNMEARptRate sNmeaReportRate;
     static LocationCapabilitiesMask sQwesFeatureMask;
+    static LocationHwCapabilitiesMask sHwCapabilitiesMask;
 
     void readConfig();
     static uint32_t getCarrierCapabilities();
@@ -319,6 +323,20 @@ public:
                        sQwesFeatureMask &= ~LOCATION_CAPABILITIES_QWES_DGNSS;
                    }
                break;
+               case LOCATION_QWES_FEATURE_TYPE_RSSI_POSITIONING:
+                   if (itr->second) {
+                       sQwesFeatureMask |= LOCATION_CAPABILITIES_QWES_WIFI_RSSI_POSITIONING;
+                   } else {
+                       sQwesFeatureMask &= ~LOCATION_CAPABILITIES_QWES_WIFI_RSSI_POSITIONING;
+                   }
+               break;
+               case LOCATION_QWES_FEATURE_TYPE_RTT_POSITIONING:
+                   if (itr->second) {
+                       sQwesFeatureMask |= LOCATION_CAPABILITIES_QWES_WIFI_RTT_POSITIONING;
+                   } else {
+                       sQwesFeatureMask &= ~LOCATION_CAPABILITIES_QWES_WIFI_RTT_POSITIONING;
+                   }
+               break;
            }
        }
 
@@ -356,7 +374,19 @@ public:
         return (ContextBase::sQwesFeatureMask);
     }
 
+    /*
+        set HW feature status info
+    */
+    static inline void setHwCapabilities(const LocationHwCapabilitiesMask& mask) {
+        sHwCapabilitiesMask |= mask;
+    }
 
+    /*
+        get HW feature status info
+    */
+    static inline LocationHwCapabilitiesMask getHwCapabilitiesMask() {
+        return (ContextBase::sHwCapabilitiesMask);
+    }
 };
 
 struct LocApiResponse: LocMsg {

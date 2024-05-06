@@ -352,6 +352,7 @@ void deInitPPS()
     pthread_mutex_lock(&ts_lock);
     if (0 == isActive) {
         LOC_LOGV("%s:%d deInitPPS called before initPPS", __func__, __LINE__);
+        pthread_mutex_unlock(&ts_lock);
         return;
     }
     isActive = 0;

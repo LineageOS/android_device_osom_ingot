@@ -30,7 +30,7 @@
 /*
 Changes from Qualcomm Innovation Center are provided under the following license:
 
-Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted (subject to the limitations in the
@@ -463,10 +463,16 @@ public:
 class SystemStatusENH : public SystemStatusItemBase {
 public:
     ENHDataItem mDataItem;
-    inline SystemStatusENH(bool enabled=false): mDataItem(enabled) {}
+    inline SystemStatusENH(bool enabled, ENHDataItem::Fields updateBit = ENHDataItem::FIELD_MAX):
+            mDataItem(enabled, updateBit) {}
     inline SystemStatusENH(const ENHDataItem& itemBase): mDataItem(itemBase) {}
+    inline virtual SystemStatusItemBase& collate(SystemStatusItemBase& peer) {
+        mDataItem.mEnhFields = ((const SystemStatusENH&)peer).mDataItem.mEnhFields;
+        mDataItem.updateFields();
+        return *this;
+    }
     inline bool equals(const SystemStatusItemBase& peer) override {
-        return mDataItem.mEnabled == ((const SystemStatusENH&)peer).mDataItem.mEnabled;
+        return mDataItem.mEnhFields == ((const SystemStatusENH&)peer).mDataItem.mEnhFields;
     }
 };
 
@@ -836,6 +842,38 @@ public:
     }
 };
 
+class SystemStatusLocFeatureStatus : public SystemStatusItemBase {
+public:
+    LocFeatureStatusDataItem mDataItem;
+    inline SystemStatusLocFeatureStatus(std::unordered_set<int> fids) : mDataItem(fids) {}
+    inline SystemStatusLocFeatureStatus(const LocFeatureStatusDataItem& itemBase):
+            mDataItem(itemBase) {}
+    inline bool equals(const SystemStatusItemBase& peer) override {
+        return mDataItem.mFids ==
+            ((const SystemStatusLocFeatureStatus&)peer).mDataItem.mFids;
+    }
+    inline void dump(void) override {
+        string str;
+        mDataItem.stringify(str);
+        LOC_LOGd("Location feature qwes status: %s", str.c_str());
+    }
+};
+
+class SystemStatusNlpSessionStarted : public SystemStatusItemBase {
+public:
+    NlpSessionStartedDataItem mDataItem;
+    inline SystemStatusNlpSessionStarted(bool value = false): mDataItem(value) {}
+    inline SystemStatusNlpSessionStarted(const NlpSessionStartedDataItem& itemBase):
+        mDataItem(itemBase) {}
+    inline bool equals(const SystemStatusItemBase& peer) override {
+        return mDataItem.mNlpStarted ==
+            ((const SystemStatusNlpSessionStarted&)peer).mDataItem.mNlpStarted;
+    }
+    inline void dump(void) override {
+        LOC_LOGd("NLP Session started: %d", mDataItem.mNlpStarted);
+    }
+};
+
 /******************************************************************************
  SystemStatusReports
 ******************************************************************************/
@@ -887,6 +925,8 @@ public:
     std::vector<SystemStatusMccMnc>           mMccMnc;
     std::vector<SystemStatusBtDeviceScanDetail> mBtDeviceScanDetail;
     std::vector<SystemStatusBtleDeviceScanDetail> mBtLeDeviceScanDetail;
+    std::vector<SystemStatusLocFeatureStatus>  mLocFeatureStatus;
+    std::vector<SystemStatusNlpSessionStarted>  mNlpSessionStarted;
 };
 
 /******************************************************************************
@@ -936,8 +976,11 @@ public:
     bool updatePowerConnectState(bool charging);
     void resetNetworkInfo();
     bool eventOptInStatus(bool userConsent);
+    bool eventRegionStatus(bool region);
     bool eventInEmergencyCall(bool isEmergency);
     void setTracking(bool tracking);
+    bool eventLocFeatureStatus(std::unordered_set<int> fids);
+    bool eventNlpSessionStatus(bool nlpStarted);
 };
 
 } // namespace loc_core
