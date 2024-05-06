@@ -1,4 +1,4 @@
-# Firmware - from ingot-user 13 TKQ1.221220.548 685 release-keys (factory image)
+# Firmware - from ingot-user 14 UKQ1.231121.127 127 release-keys (factory image)
 
 abl.elf:abl.img;AB
 aop.mbn:aop.img;AB

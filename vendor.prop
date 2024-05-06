@@ -168,7 +168,7 @@ vendor.display.enable_hdr10_gpu_target=1
 vendor.display.enable_optimize_refresh=0
 vendor.display.enable_rc_support=1
 vendor.display.use_smooth_motion=1
-vendor.display.vds_allow_hwc=0
+vendor.display.vds_allow_hwc=1
 
 # DPM
 persist.vendor.dpm.vndr.feature=11
@@ -194,7 +194,7 @@ debug.mdpcomp.logs=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_gl_backpressure=1
-debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
 debug.sf.high_fps_late_app_phase_offset_ns=1000000
@@ -297,3 +297,8 @@ ro.vendor.beluga.t=0x240
 vendor.mm.enable.qcom_parser=16777215
 vendor.pasr.activemode.enabled=false
 vendor.power.pasr.enabled=false
+
+vendor.display.enable_display_extensions=1
+
+ro.hardware.keystore_desede=true
+ro.crypto.metadata_init_delete_all_keys.enabled=true

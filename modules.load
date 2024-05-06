@@ -4,10 +4,10 @@ lzo.ko
 lzo-rle.ko
 msm_show_resume_irq.ko
 mhi_cntrl_qcom.ko
-mhi.ko
 mhi_dev_uci.ko
 mhi_dev_netdev.ko
 mhi_dev_dtr.ko
+mhi.ko
 phy-qcom-ufs-qmp-v4-lahaina.ko
 phy-qcom-ufs-qmp-v4-parrot.ko
 phy-qcom-ufs-qmp-v4-anarok.ko
@@ -93,7 +93,7 @@ qcom_iommu_debug.ko
 lt9611uxc.ko
 msm_kgsl.ko
 zram.ko
-hdcp_qseecom.ko
+hdcp.ko
 qseecom-mod.ko
 qcom-i2c-pmic.ko
 sg.ko
@@ -140,7 +140,7 @@ qcom_ipc_lite.ko
 synx-driver.ko
 radio-i2c-rtc6226-qca.ko
 qcom-pon.ko
-qti_battery_charger.ko
+qti_battery_charger_main.ko
 qcom-spmi-temp-alarm.ko
 qti-adc-tm.ko
 qti_qmi_sensor_v2.ko

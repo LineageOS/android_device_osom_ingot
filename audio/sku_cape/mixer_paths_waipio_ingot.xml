@@ -228,7 +228,7 @@
     <ctl name="TX SMIC MUX7" value="ZERO" />
 
     <!-- Volume controls -->
-    <ctl name="WSA_RX0 Digital Volume" value="84" />
+    <ctl name="WSA_RX0 Digital Volume" value="70" />
     <ctl name="WSA_RX1 Digital Volume" value="84" />
     <ctl name="RX_RX0 Digital Volume" value="84" />
     <ctl name="RX_RX1 Digital Volume" value="84" />
@@ -2198,9 +2198,6 @@
         <ctl name="SpkrLeft COMP Switch" value="1" />
         <ctl name="SpkrLeft VISENSE Switch" value="1" />
         <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
-        <ctl name="WSA_RX0 Digital Volume" value="84" />
-        <ctl name="WSA_COMP1 Switch" value="0" />
-        <ctl name="SpkrLeft COMP Switch" value="0" />
     </path>
 
     <path name="handset-mic">
@@ -2289,7 +2286,6 @@
     </path>
 
     <path name="voice-handset">
-        <ctl name="WSA_RX0 Digital Volume" value="60" />
         <path name="handset" />
     </path>
 
@@ -2314,7 +2310,6 @@
     </path>
 
     <path name="voice-speaker-stereo">
-        <ctl name="WSA_RX0 Digital Volume" value="60" />
         <path name="speaker" />
     </path>
 
@@ -2335,7 +2330,6 @@
     </path>
 
     <path name="voice-speaker-stereo-vbat">
-        <ctl name="WSA_RX0 Digital Volume" value="60" />
         <path name="speaker-vbat" />
     </path>
 

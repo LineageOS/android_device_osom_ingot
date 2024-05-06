@@ -91,7 +91,7 @@ gpucc-diwali.ko
 gpucc-waipio.ko
 gsim.ko
 guestvm_loader.ko
-hdcp_qseecom.ko
+hdcp.ko
 hdmi_dlkm.ko
 heap_mem_ext_v01.ko
 hung_task_enh.ko
@@ -282,7 +282,7 @@ qti-adc-tm.ko
 qti-fixed-regulator.ko
 qti-regmap-debugfs.ko
 qti_amoled_ecm.ko
-qti_battery_charger.ko
+qti_battery_charger_main.ko
 qti_battery_debug.ko
 qti_cpufreq_cdev.ko
 qti_devfreq_cdev.ko

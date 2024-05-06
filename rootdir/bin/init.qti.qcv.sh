@@ -19,15 +19,33 @@ if [ "$soc_id" -eq 457 ] || [ "$soc_id" -eq 482 ] || [ "$soc_id" -eq 552 ]; then
 elif [ "$soc_id" -eq 537 ]; then
     setprop ro.vendor.qti.soc_name parrot
     setprop ro.vendor.qti.soc_model SM6450
-elif [ "$soc_id" -eq 568 ]; then
+elif [ "$soc_id" -eq 583 ]; then
+    setprop ro.vendor.qti.soc_name parrot
+    setprop ro.vendor.qti.soc_model SM6450P
+elif [ "$soc_id" -eq 631 ]; then
+    setprop ro.vendor.qti.soc_name parrot
+    setprop ro.vendor.qti.soc_model SM6450Q
+elif [ "$soc_id" -eq 613 ]; then
+    setprop ro.vendor.qti.soc_name parrot
+    setprop ro.vendor.qti.soc_model SM7435
+elif [ "$soc_id" -eq 633 ]; then
+    setprop ro.vendor.qti.soc_name parrot
+    setprop ro.vendor.qti.soc_model SG6150
+elif [ "$soc_id" -eq 634 ]; then
+    setprop ro.vendor.qti.soc_name parrot
+    setprop ro.vendor.qti.soc_model SG6150P
+elif [ "$soc_id" -eq 638 ]; then
+    setprop ro.vendor.qti.soc_name parrot
+    setprop ro.vendor.qti.soc_model SM7435P
+elif [ "$soc_id" -eq 568 ] || [ "$soc_id" -eq 602 ]; then
     setprop ro.vendor.qti.soc_name ravelin
     setprop ro.vendor.qti.soc_model SM4450
 elif [ "$soc_id" -eq 581 ]; then
     setprop ro.vendor.qti.soc_name ravelin
-    setprop ro.vendor.qti.soc_model QCM4450
+    setprop ro.vendor.qti.soc_model QCM4490
 elif [ "$soc_id" -eq 582 ]; then
     setprop ro.vendor.qti.soc_name ravelin
-    setprop ro.vendor.qti.soc_model QCS4450
+    setprop ro.vendor.qti.soc_model QCS4490
 elif [ "$soc_id" -eq 506 ] || [ "$soc_id" -eq 547 ] || [ "$soc_id" -eq 564 ]; then
     setprop ro.vendor.qti.soc_name diwali
     setprop ro.vendor.qti.soc_model SM7450

@@ -34,6 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-osom
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=ingot \
-    PRIVATE_BUILD_DESC="ingot-user 13 TKQ1.221220.548 685 release-keys"
+    PRIVATE_BUILD_DESC="ingot-user 14 UKQ1.231121.127 127 release-keys"
 
-BUILD_FINGERPRINT := OSOM/ingot/ingot:13/TKQ1.221220.548/685:user/release-keys
+BUILD_FINGERPRINT := OSOM/ingot/ingot:14/UKQ1.231121.127/127:user/release-keys
