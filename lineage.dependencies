@@ -2,5 +2,13 @@
   {
     "repository": "android_kernel_osom_sm8475",
     "target_path": "kernel/osom/sm8475"
+  },
+  {
+    "repository": "android_kernel_osom_sm8475-devicetrees",
+    "target_path": "kernel/osom/sm8475-devicetrees"
+  },
+  {
+    "repository": "android_kernel_osom_sm8475-modules",
+    "target_path": "kernel/osom/sm8475-modules"
   }
 ]

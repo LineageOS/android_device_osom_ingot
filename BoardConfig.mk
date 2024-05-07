@@ -60,7 +60,7 @@ TARGET_KERNEL_SOURCE := kernel/osom/sm8475
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
     vendor/waipio_GKI.config \
-    vendor/ingot.config
+    vendor/ingot_GKI.config
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
@@ -72,11 +72,28 @@ BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD)
 BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
 RECOVERY_KERNEL_MODULES := $(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD)
 
-TARGET_KERNEL_EXT_MODULE_ROOT := kernel/osom/sm8475/modules
+TARGET_KERNEL_EXT_MODULE_ROOT := kernel/osom/sm8475-modules
 
 TARGET_KERNEL_EXT_MODULES := \
-    nfc \
-    uwb/kernel
+    qcom/opensource/mmrm-driver \
+    qcom/opensource/audio-kernel \
+    qcom/opensource/camera-kernel \
+    qcom/opensource/cvp-kernel \
+    qcom/opensource/dataipa/drivers/platform/msm \
+    qcom/opensource/datarmnet/core \
+    qcom/opensource/datarmnet-ext/aps \
+    qcom/opensource/datarmnet-ext/offload \
+    qcom/opensource/datarmnet-ext/shs \
+    qcom/opensource/datarmnet-ext/perf \
+    qcom/opensource/datarmnet-ext/perf_tether \
+    qcom/opensource/datarmnet-ext/sch \
+    qcom/opensource/datarmnet-ext/wlan \
+    qcom/opensource/display-drivers/msm \
+    qcom/opensource/eva-kernel \
+    qcom/opensource/video-driver \
+    qcom/opensource/wlan/qcacld-3.0/.qca6490 \
+    qorvo/uwb-stack/kernel \
+    st/nfc
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true

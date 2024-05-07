@@ -281,4 +281,4 @@ snd_event_dlkm.ko
 swr_ctrl_dlkm.ko
 swr_dlkm.ko
 st21nfc.ko
-wlan.ko
+qca_cld3_qca6490.ko

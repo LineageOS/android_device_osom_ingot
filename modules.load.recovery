@@ -376,7 +376,7 @@ wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 wcd9xxx_dlkm.ko
 wcd_core_dlkm.ko
-wlan.ko
+qca_cld3_qca6490.ko
 wlan_firmware_service.ko
 wsa881x_dlkm.ko
 wsa883x_dlkm.ko
