@@ -2126,7 +2126,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.light-service.osom
 vendor/bin/hw/android.hardware.nfc-service.st
 vendor/bin/hw/capabilityconfigstoretest
-vendor/bin/hw/vendor.osom.seedvault-service
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/hw/vendor.qti.hardware.limits@1.1-service
@@ -2169,7 +2168,6 @@ vendor/etc/init/qmipriod.debug.rc
 vendor/etc/init/qms.rc
 vendor/etc/init/qttestservice.rc
 vendor/etc/init/ssgtzd.rc
-vendor/etc/init/vendor.osom.seedvault-service.rc
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
 vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.limits-service.rc
@@ -2206,7 +2204,6 @@ vendor/etc/telephony_packages.xml
 -vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 -vendor/etc/vintf/manifest/manifest_lahaina_identity.xml
 -vendor/etc/vintf/manifest/nfc-service-default.xml
--vendor/etc/vintf/manifest/vendor.osom.seedvault.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
@@ -2863,7 +2860,6 @@ vendor/lib64/libvideoml.so
 vendor/lib64/nfc_nci.st21nfc.default.so
 vendor/lib64/qcrilNr_aidl_IQtiRadioConfig.so
 vendor/lib64/qcril_client.so
-vendor/lib64/vendor.osom.seedvault-V2-ndk.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 vendor/lib64/vendor.qti.gnss-V3-ndk.so
