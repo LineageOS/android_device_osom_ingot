@@ -128,12 +128,6 @@ vendor/lib64/libagmclient.so
 vendor/lib64/libagmmixer.so
 -vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 
-# Audio configs
-vendor/etc/audio/sku_cape/resourcemanager_upd.xml
-vendor/etc/audio_policy_configuration.xml
-vendor/etc/bluetooth_qti_audio_policy_configuration.xml
-vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml
-
 # Audio libraries
 vendor/lib/hw/audio.primary.taro.so
 vendor/lib/libadm.so
