@@ -1,26 +1,8 @@
-# Audio
-audio.record.delay=100
-audio.sys.mute.latency.factor=2
-audio.sys.noisy.broadcast.delay=500
-audio.sys.routing.latency=0
-audio.sys.offload.pstimeout.secs=3
+# Charger
+ro.charger.enable_suspend=1
 
-# Camera
-persist.vendor.camera.multicam.multicameralogicalxmlfile=taro_ingot.xml
+# System server
+arm64.memtag.process.system_server=off
 
-# Dalivk
-ro.product.cpu.pagesize.max=4096
-ro.dalvik.vm.enable_uffd_gc=true
-
-# Google
+# Voice assistant
 ro.opa.eligible_device=true
-
-# Media
-media.stagefright.audio.deep=false
-
-# RKP
-remote_provisioning.enable_rkpd=true
-remote_provisioning.hostname=remoteprovisioning.googleapis.com
-
-# SSR
-persist.vendor.ssr.restart_level=ALL_ENABLE
