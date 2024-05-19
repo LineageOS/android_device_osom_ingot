@@ -1,0 +1,3 @@
+allow vendor_location fwk_sensor_service:service_manager find;
+
+dontaudit vendor_location vendor_sysfs_soc_sensitive:file r_file_perms;

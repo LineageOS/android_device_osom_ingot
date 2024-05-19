@@ -1,0 +1,12 @@
+# Audio
+/(mnt/vendor/persist|persist)/audio/audio.cal   u:object_r:vendor_persist_audio_file:s0
+
+# Fingerprint
+/dev/blfp   u:object_r:betterlife_device:s0
+
+# Light
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.osom   u:object_r:hal_light_default_exec:s0
+
+# NFC
+/(vendor|system/vendor)/bin/hw/android\.hardware\.nfc-service\.st   u:object_r:hal_nfc_default_exec:s0
+/dev/st21nfc                                                        u:object_r:nfc_device:s0

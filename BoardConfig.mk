@@ -46,7 +46,6 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE += video=vfb:640x400,bpp=32,memsize=3072000
 BOARD_KERNEL_CMDLINE += qcom_dload_mode.download_mode=0
 BOARD_BOOTCONFIG += androidboot.hardware=qcom
-BOARD_BOOTCONFIG += androidboot.selinux=permissive
 BOARD_BOOTCONFIG += androidboot.memcg=1
 BOARD_BOOTCONFIG += androidboot.usbcontroller=a600000.dwc3
 BOARD_KERNEL_IMAGE_NAME := Image.gz
@@ -221,10 +220,7 @@ VENDOR_SECURITY_PATCH := 2024-03-05
 
 # SELinux
 include device/qcom/sepolicy_vndr/SEPolicy.mk
-BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
-PRODUCT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

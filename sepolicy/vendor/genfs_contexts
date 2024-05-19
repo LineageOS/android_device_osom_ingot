@@ -1,0 +1,3 @@
+# Wakeup
+genfscon sysfs /devices/platform/soc/0.fingerprint/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-2/2-0008/wakeup u:object_r:sysfs_wakeup:s0
