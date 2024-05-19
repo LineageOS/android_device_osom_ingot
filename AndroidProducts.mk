@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_ingot.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_ingot-user \
-    lineage_ingot-userdebug \
-    lineage_ingot-eng
