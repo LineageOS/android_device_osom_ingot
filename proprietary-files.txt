@@ -984,6 +984,7 @@ vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
 
 # Graphics - Adreno firmware
+vendor/firmware/a730_sqe.fw
 vendor/firmware/gmu_gen70000.bin
 vendor/gpu/kbc/sequence_manifest.bin
 vendor/gpu/kbc/unified_kbcs_32.bin
@@ -2185,52 +2186,6 @@ vendor/etc/telephony_packages.xml
 vendor/etc/vmmgr.conf
 vendor/etc/wifi/icm.conf
 vendor/etc/wifi/vendor_cmd.xml
-
-vendor/firmware/a610_zap.b00
-vendor/firmware/a610_zap.b01
-vendor/firmware/a610_zap.b02
-vendor/firmware/a610_zap.elf
-vendor/firmware/a610_zap.mdt
-vendor/firmware/a630_sqe.fw
-vendor/firmware/a660_sqe.fw
-vendor/firmware/a662_gmu.bin
-vendor/firmware/a662_zap.b00
-vendor/firmware/a662_zap.b01
-vendor/firmware/a662_zap.b02
-vendor/firmware/a662_zap.elf
-vendor/firmware/a662_zap.mbn
-vendor/firmware/a662_zap.mdt
-vendor/firmware/a710_sqe.fw
-vendor/firmware/a710_zap.b00
-vendor/firmware/a710_zap.b01
-vendor/firmware/a710_zap.b02
-vendor/firmware/a710_zap.elf
-vendor/firmware/a710_zap.mbn
-vendor/firmware/a710_zap.mdt
-vendor/firmware/a730_sqe.fw
-
-vendor/firmware/evass-lt-21.b00
-vendor/firmware/evass-lt-21.b01
-vendor/firmware/evass-lt-21.b02
-vendor/firmware/evass-lt-21.b03
-vendor/firmware/evass-lt-21.b04
-vendor/firmware/evass-lt-21.b05
-vendor/firmware/evass-lt-21.b06
-vendor/firmware/evass-lt-21.b07
-vendor/firmware/evass-lt-21.b08
-vendor/firmware/evass-lt-21.b09
-vendor/firmware/evass-lt-21.b10
-vendor/firmware/evass-lt-21.b11
-vendor/firmware/evass-lt-21.b12
-vendor/firmware/evass-lt-21.b13
-vendor/firmware/evass-lt-21.b14
-vendor/firmware/evass-lt-21.b15
-vendor/firmware/evass-lt-21.b16
-vendor/firmware/evass-lt-21.b17
-vendor/firmware/evass-lt-21.b18
-vendor/firmware/evass-lt-21.b19
-vendor/firmware/evass-lt-21.mbn
-vendor/firmware/evass-lt-21.mdt
 
 vendor/firmware/st54j_conf.bin
 
