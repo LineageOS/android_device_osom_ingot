@@ -230,6 +230,7 @@ PRODUCT_PACKAGES += \
     liblocation_api_headers \
     libgps.utils_headers \
     liblocation_api \
+    libgnsspps \
     libgps.utils \
     libbatching \
     libgeofencing \
@@ -255,6 +256,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
+
+# Identity
+PRODUCT_PACKAGES += \
+    android.hardware.identity-V3-ndk.vendor \
+    android.hardware.keymaster-V3-ndk.vendor
 
 # Init
 PRODUCT_COPY_FILES += \
@@ -290,9 +296,14 @@ PRODUCT_PACKAGES += \
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.security.keymint-V1-ndk.vendor \
+    android.hardware.security.rkp-V1-ndk.vendor \
     android.hardware.security.rkp-V3-ndk.vendor \
     android.hardware.security.secureclock-V1-ndk.vendor \
     android.hardware.security.sharedsecret-V1-ndk.vendor \
+
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light-V1-ndk.vendor:64
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -338,7 +349,7 @@ PRODUCT_PACKAGES += \
 
 # Perf
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2.vendor
+    vendor.qti.hardware.perf@2.3.vendor
 
 # Permissions
 PRODUCT_COPY_FILES += \
