@@ -1108,9 +1108,12 @@ vendor/etc/init/modemManager.rc
 vendor/etc/seccomp_policy/modemManager.policy
 
 # NFC - configs
+vendor/etc/libese-hal-st.conf
 vendor/etc/libnfc-hal-st.conf
+vendor/etc/libnfc-nci.conf
 
 # NFC firmware
+vendor/firmware/st54j_conf.bin
 vendor/firmware/st54j_fw.bin
 
 # OMX
@@ -2099,7 +2102,6 @@ vendor/bin/wifilearner
 vendor/bin/hw/android.hardware.identity-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.light-service.osom
-vendor/bin/hw/android.hardware.nfc-service.st
 vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
@@ -2136,7 +2138,6 @@ vendor/etc/init/hw/init.qcom.factory.rc
 vendor/etc/init/hw/init.qti.ufs.rc
 vendor/etc/init/init.embmssl_server.rc
 vendor/etc/init/init.qti.fm.rc
-vendor/etc/init/nfc-service-default.rc
 vendor/etc/init/qapeservice.rc
 vendor/etc/init/qguard.rc
 vendor/etc/init/qmipriod.debug.rc
@@ -2151,9 +2152,6 @@ vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 vendor/etc/init/vendor.wlan.lowirpcd.rc
 vendor/etc/init/vmmgr.rc
-
-vendor/etc/libese-hal-st.conf
-vendor/etc/libnfc-nci.conf
 
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_c2_audio.xml
@@ -2171,14 +2169,11 @@ vendor/etc/qguard.json
 vendor/etc/seccomp_policy/qapeservice.policy
 
 vendor/etc/smomo_setting.xml
-vendor/etc/st54j_conf.txt
-vendor/etc/sttesttool.json
 vendor/etc/telephony_packages.xml
 
 -vendor/etc/vintf/manifest/android.hardware.light-service.osom.xml
 -vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 -vendor/etc/vintf/manifest/manifest_lahaina_identity.xml
--vendor/etc/vintf/manifest/nfc-service-default.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
 -vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
@@ -2186,8 +2181,6 @@ vendor/etc/telephony_packages.xml
 vendor/etc/vmmgr.conf
 vendor/etc/wifi/icm.conf
 vendor/etc/wifi/vendor_cmd.xml
-
-vendor/firmware/st54j_conf.bin
 
 vendor/lib/rfsa/adsp/libsw2dlut_dsp_skel.so
 
@@ -2649,7 +2642,6 @@ vendor/lib64/libspectre.so
 vendor/lib64/libstreamparser.so
 vendor/lib64/libsysmon_cdsp_skel.so
 vendor/lib64/libvideoml.so
-vendor/lib64/nfc_nci.st21nfc.default.so
 vendor/lib64/qcrilNr_aidl_IQtiRadioConfig.so
 vendor/lib64/qcril_client.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so

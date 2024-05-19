@@ -334,7 +334,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2.vendor:64 \
+    android.hardware.nfc-service.st \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     NfcNci \
