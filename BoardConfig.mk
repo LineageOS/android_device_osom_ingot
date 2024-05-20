@@ -131,10 +131,6 @@ SOONG_CONFIG_android_hardware_audio += \
 	run_64bit
 SOONG_CONFIG_android_hardware_audio_run_64bit := true
 
-# Bluetooth
-BOARD_HAVE_BLUETOOTH_QCOM := true
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
-
 # Display
 TARGET_USES_COLOR_METADATA := true
 TARGET_USES_DISPLAY_RENDER_INTENTS := true

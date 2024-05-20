@@ -1,4 +1,3 @@
-ifeq ($(TARGET_FWK_SUPPORTS_FULL_VALUEADDS), true)
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
@@ -13,4 +12,3 @@ LOCAL_PACKAGE_NAME := TelecommResCommon_Sys
 LOCAL_SDK_VERSION := current
 
 include $(BUILD_RRO_PACKAGE)
-endif
