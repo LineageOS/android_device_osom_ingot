@@ -129,11 +129,19 @@ PRODUCT_PACKAGES += \
     audio.primary.taro \
     audio.r_submix.default \
     audio.usb.default \
+    libagm_compress_plugin \
+    libagm_mixer_plugin \
+    libagm_pcm_plugin \
+    libagmclient \
+    libagmmixer \
+    libbatterylistener \
+    libfmpal \
+    libpalclient \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libsndcardparser \
-    libtinycompress\
+    libtinycompress \
     vendor.qti.hardware.AGMIPC@1.0-service \
     vendor.qti.hardware.pal@1.0-impl
 
