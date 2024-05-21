@@ -22,7 +22,6 @@ camera.ko
 cdsp-loader.ko
 cdsprm.ko
 cfg80211.ko
-charger-ulog-glink.ko
 clk-dummy.ko
 clk-qcom.ko
 clk-rpmh.ko
@@ -54,7 +53,6 @@ crypto-qti-hwkm.ko
 dcc_v2.ko
 dcvs_fp.ko
 ddr_cdev.ko
-debug-regulator.ko
 debugcc-diwali.ko
 debugcc-waipio.ko
 dispcc-diwali.ko
@@ -64,7 +62,6 @@ dwc3-msm.ko
 ehset.ko
 ep_pcie_drv.ko
 eud.ko
-f_fs_ipc_log.ko
 focaltech_fts.ko
 frpc-adsprpc.ko
 fsa4480-i2c.ko
@@ -104,7 +101,6 @@ i3c-master-msm-geni.ko
 icc-bcm-voter.ko
 icc-debug.ko
 icc-rpmh.ko
-icc-test.ko
 iommu-logger.ko
 ipa_clientsm.ko
 ipa_fmwk.ko
@@ -232,7 +228,6 @@ qcom-spmi-temp-alarm.ko
 qcom-vadc-common.ko
 qcom_aoss.ko
 qcom_cpu_vendor_hooks.ko
-qcom_cpuss_sleep_stats.ko
 qcom_dma_heaps.ko
 qcom_edac.ko
 qcom_esoc.ko
@@ -241,10 +236,8 @@ qcom_glink.ko
 qcom_glink_smem.ko
 qcom_glink_spss.ko
 qcom_hwspinlock.ko
-qcom_iommu_debug.ko
 qcom_iommu_util.ko
 qcom_ipc_lite.ko
-qcom_ipc_logging.ko
 qcom_ipcc.ko
 qcom_llcc_pmu.ko
 qcom_logbuf_vendor_hooks.ko
@@ -280,7 +273,6 @@ qsee_ipc_irq_bridge.ko
 qseecom-mod.ko
 qti-adc-tm.ko
 qti-fixed-regulator.ko
-qti-regmap-debugfs.ko
 qti_amoled_ecm.ko
 qti_battery_charger_main.ko
 qti_battery_debug.ko
@@ -296,7 +288,6 @@ redriver.ko
 regmap-spmi.ko
 repeater-i2c-eusb2.ko
 repeater.ko
-rimps_log.ko
 rmnet_aps.ko
 rmnet_core.ko
 rmnet_ctl.ko
@@ -358,7 +349,6 @@ sys_pm_vx.ko
 sysmon_subsystem_stats.ko
 thermal_pause.ko
 tmecom-intf.ko
-tz_log.ko
 ucsi_glink.ko
 ufs_qcom.ko
 ufshcd-crypto-qti.ko
