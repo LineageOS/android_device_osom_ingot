@@ -113,7 +113,7 @@ PRODUCT_PACKAGES += \
     audioadsprpcd \
     audio.bluetooth.default:64 \
     audio.primary.taro:64 \
-    audio.r_submix.default:64 \
+    audio.r_submix.default \
     audio.usb.default:64 \
     libagm_compress_plugin:64 \
     libagm_mixer_plugin:64 \
@@ -174,7 +174,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.mapper@4.0-impl-qti-display:64 \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh \
     gralloc.default:64 \
