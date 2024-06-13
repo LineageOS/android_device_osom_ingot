@@ -160,7 +160,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7.vendor:64 \
     libcamera2ndk_vendor:64 \
+    libexif.vendor:64 \
     libgui_vendor:64 \
+    libyuv.vendor:64 \
     vendor.qti.hardware.camera.postproc@1.0.vendor:64 \
     vendor.qti.hardware.camera.aon@1.0.vendor:64
 
@@ -387,9 +389,13 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
     libjson:64 \
+    libjsoncpp.vendor:64 \
+    libnetutils.vendor:64 \
     libqti_vndfwk_detect:64 \
     libqti_vndfwk_detect.vendor:64 \
+    libsqlite.vendor:64 \
     libvndfwk_detect_jni.qti:64 \
     libvndfwk_detect_jni.qti_vendor:64
 
