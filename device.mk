@@ -504,6 +504,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
+# WiFi firmware symlinks
+PRODUCT_PACKAGES += \
+    firmware_wlanmdsp.otaupdate_symlink \
+    firmware_WCNSS_qcom_cfg.ini_symlink
+
 # WiFi Display
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor:64 \
