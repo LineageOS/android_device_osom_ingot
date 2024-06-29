@@ -67,6 +67,9 @@ function blob_fixup() {
             sed -i "s/STNFC_HAL_LOGLEVEL=3/STNFC_HAL_LOGLEVEL=2/" "${2}"
             sed -i "s/STNFC_FW_DEBUG_ENABLED=1/STNFC_FW_DEBUG_ENABLED=0/" "${2}"
             ;;
+        vendor/etc/media_codecs_cape.xml|vendor/etc/media_codecs_cape_vendor.xml)
+            sed -Ei "/media_codecs_(google_audio|google_telephony|vendor_audio)/d" "${2}"
+            ;;
     esac
 }
 
