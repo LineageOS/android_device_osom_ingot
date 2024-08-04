@@ -312,10 +312,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti_vendor:64 # Needed by CNE app
 
-# RenderScript
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.multihal
