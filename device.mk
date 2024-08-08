@@ -62,10 +62,6 @@ PRODUCT_PACKAGES += \
     TogglesOverlay \
     VzwMmsOverlay
 
-# Lineage Specific RROs
-PRODUCT_PACKAGES += \
-    SettingsProviderResIngot
-
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
