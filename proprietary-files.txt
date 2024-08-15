@@ -116,7 +116,6 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 -vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 
 # Audio libraries
--vendor/lib/libar-pal.so
 vendor/lib64/libadm.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libar-acdb.so
