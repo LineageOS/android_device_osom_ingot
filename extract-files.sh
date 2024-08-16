@@ -67,6 +67,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q android.hardware.security.rkp-V3-ndk.so "${2}" || "${PATCHELF}" --add-needed "android.hardware.security.rkp-V3-ndk.so" "${2}"
             ;;
+        vendor/bin/qcc-trd)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libgrpc++_unsecure.so" "libgrpc++_unsecure_prebuilt.so" "${2}"
+            ;;
         vendor/etc/libnfc-hal-st.conf)
             [ "$2" = "" ] && return 0
             sed -i "s/NFC_DEBUG_ENABLED=1/NFC_DEBUG_ENABLED=0/" "${2}"
@@ -76,6 +80,10 @@ function blob_fixup() {
         vendor/etc/media_codecs_cape.xml|vendor/etc/media_codecs_cape_vendor.xml)
             [ "$2" = "" ] && return 0
             sed -Ei "/media_codecs_(google_audio|google_c2|google_telephony|vendor_audio)/d" "${2}"
+            ;;
+        vendor/lib64/libgrpc++_unsecure_prebuilt.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --set-soname libgrpc++_unsecure_prebuilt.so "${2}"
             ;;
         *)
             return 1
