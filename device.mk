@@ -101,10 +101,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti.recovery:64 \
     android.hardware.boot@1.2-service
 
-# Ant
-PRODUCT_PACKAGES += \
-    com.dsi.ant@1.0.vendor:64
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl:64 \
@@ -152,27 +148,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     $(LOCAL_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
 
-# Bluetooth
-PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor:64 \
-    vendor.qti.hardware.bluetooth_audio@2.1.vendor:64 \
-    vendor.qti.hardware.btconfigstore@1.0.vendor:64 \
-    vendor.qti.hardware.btconfigstore@2.0.vendor:64
-
-# Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.7.vendor:64 \
-    libcamera2ndk_vendor:64 \
-    libexif.vendor:64 \
-    libgui_vendor:64 \
-    libyuv.vendor:64 \
-    vendor.qti.hardware.camera.postproc@1.0.vendor:64 \
-    vendor.qti.hardware.camera.aon@1.0.vendor:64
-
-# Configstore
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.capabilityconfigstore@1.0.vendor:64
-
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
@@ -182,21 +157,9 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh \
     gralloc.default:64 \
-    libdisplayconfig.qti \
-    libdisplayconfig.system.qti:64 \
-    libqdMetaData:64 \
-    libsdmcore:64 \
-    libsdmutils:64 \
-    vendor.display.config@1.3.vendor:64 \
-    vendor.display.config@2.0:64 \
-    vendor.display.config@2.0.vendor:64 \
-    vendor.qti.hardware.display.config-V2-ndk.vendor:64 \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.display.demura-service \
-    vendor.qti.hardware.display.mapper@2.0.vendor:64 \
-    vendor.qti.hardware.display.mapper@3.0.vendor:64 \
-    vendor.qti.hardware.display.mapper@4.0.vendor:64
+    vendor.qti.hardware.display.demura-service
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -213,10 +176,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/betterlife_inputdev.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/betterlife_inputdev.kl \
     $(LOCAL_PATH)/idc/betterlife_inputdev.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/betterlife_inputdev.idc
-
-# Gatekeeper
-PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor:64
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -249,16 +208,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery
 
-# HIDL
-PRODUCT_PACKAGES += \
-    libhidltransport.vendor:64 \
-    libhwbinder.vendor:64
-
-# Identity
-PRODUCT_PACKAGES += \
-    android.hardware.identity-V3-ndk.vendor:64 \
-    android.hardware.keymaster-V3-ndk.vendor:64
-
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -283,41 +232,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
-# Keymaster
-PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.1.vendor:64 \
-    libkeymaster_messages.vendor:64
-
-# Keymint
-PRODUCT_PACKAGES += \
-    android.hardware.security.keymint-V1-ndk.vendor:64 \
-    android.hardware.security.rkp-V1-ndk.vendor:64 \
-    android.hardware.security.rkp-V3-ndk.vendor:64 \
-    android.hardware.security.secureclock-V1-ndk.vendor:64 \
-    android.hardware.security.sharedsecret-V1-ndk.vendor:64 \
-
-# Light
-PRODUCT_PACKAGES += \
-    android.hardware.light-V1-ndk.vendor:64
-
-# Media
-PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.0.vendor:64 \
-    libavservices_minijail.vendor:64 \
-    libcodec2_hidl@1.0.vendor:64
-
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st \
-    android.hardware.secure_element@1.2.vendor:64 \
     com.android.nfc_extras \
     NfcNci \
     SecureElement \
     Tag
-
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.3.vendor:64
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -383,38 +304,15 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libcurl.vendor:64 \
-    libjson:64 \
-    libjsoncpp.vendor:64 \
-    libnetutils.vendor:64 \
-    libqti_vndfwk_detect:64 \
-    libqti_vndfwk_detect.vendor:64 \
-    libsqlite.vendor:64 \
-    libvndfwk_detect_jni.qti:64 \
-    libvndfwk_detect_jni.qti_vendor:64
-
-# QTI service tracker
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.servicetracker@1.2.vendor:64
+    libvndfwk_detect_jni.qti_vendor:64 # Needed by CNE app
 
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
-# RIL
-PRODUCT_PACKAGES += \
-    android.hardware.radio@1.6.vendor:64 \
-    android.hardware.radio.config@1.3.vendor:64 \
-    android.hardware.radio.deprecated@1.0.vendor:64 \
-    android.system.net.netd@1.1.vendor:64 \
-    libprotobuf-cpp-full-3.9.1-vendorcompat:64 \
-    librmnetctl:64
-
 # Sensors
 PRODUCT_PACKAGES += \
-    android.frameworks.sensorservice@1.0.vendor:64 \
-    android.hardware.sensors@2.1-service.multihal \
-    libsensorndkbridge:64
+    android.hardware.sensors@2.1-service.multihal
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -443,12 +341,7 @@ PRODUCT_BOOT_JARS += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti-v2 \
-    android.hardware.thermal@2.0:64
-
-# Trusted UI
-PRODUCT_PACKAGES += \
-    android.hidl.memory.block@1.0.vendor:64
+    android.hardware.thermal@2.0-service.qti-v2
 
 # Update engine
 PRODUCT_PACKAGES += \
@@ -486,7 +379,6 @@ PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
-    android.hardware.wifi.hostapd@1.0.vendor:64 \
     hostapd \
     libwpa_client \
     libwifi-hal-ctrl:64 \
@@ -502,9 +394,6 @@ PRODUCT_PACKAGES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.3.vendor:64 \
-    libavservices_minijail:64 \
-    libnl:64 \
     libwfdaac_vendor:64
 
 PRODUCT_BOOT_JARS += \
