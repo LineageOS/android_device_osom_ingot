@@ -874,7 +874,6 @@ vendor/lib64/qti.video.utils.videobufferlayout.so
 
 # Media configs
 vendor/etc/media_cape/video_system_specs.json
-vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_c2_audio.xml
 vendor/etc/media_codecs_cape.xml
 vendor/etc/media_codecs_cape_vendor.xml
