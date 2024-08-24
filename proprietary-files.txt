@@ -842,7 +842,10 @@ vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
+vendor/lib64/libAlacSwDec.so
+vendor/lib64/libApeSwDec.so
 vendor/lib64/libEvrcSwCodec.so
+vendor/lib64/libFlacSwDec.so
 vendor/lib64/libQcelp13SwCodec.so
 vendor/lib64/libdsd2pcm.so
 vendor/lib64/libmmosal_vendor.so
@@ -893,11 +896,6 @@ vendor/etc/libnfc-nci.conf
 # NFC firmware
 vendor/firmware/st54j_conf.bin
 vendor/firmware/st54j_fw.bin
-
-# OMX
-vendor/lib64/libAlacSwDec.so
-vendor/lib64/libApeSwDec.so
-vendor/lib64/libFlacSwDec.so
 
 # PASR manager
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
