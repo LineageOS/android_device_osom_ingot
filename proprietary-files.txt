@@ -116,20 +116,20 @@ vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio AGM
--vendor/lib64/libagm.so
--vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+vendor/lib64/libagm.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 
 # Audio libraries
 vendor/lib64/libadm.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
--vendor/lib64/libar-gsl.so
--vendor/lib64/libar-pal.so;DISABLE_CHECKELF
--vendor/lib64/libats.so
+vendor/lib64/libar-gsl.so
+vendor/lib64/libar-pal.so;DISABLE_CHECKELF
+vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/liblx-ar_util.so
--vendor/lib64/liblx-osal.so
+vendor/lib64/liblx-osal.so
 vendor/lib64/libmcs.so
 vendor/lib64/libpal_net_if.so
 vendor/lib64/libqtigefar.so
@@ -427,7 +427,7 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastcvdsp_stub.so
--vendor/lib64/libfastcvopt.so
+vendor/lib64/libfastcvopt.so
 vendor/lib64/libsdsprpc.so
 
 # Charger
@@ -521,9 +521,9 @@ vendor/lib64/libhdr_stub.so
 vendor/lib64/libhdr_tm.so
 
 # Display (HWC)
--vendor/lib/libvmmem.so
+vendor/lib/libvmmem.so
 vendor/lib64/libmemutils.so
--vendor/lib64/libvmmem.so
+vendor/lib64/libvmmem.so
 
 # Display (SDM)
 vendor/etc/display/DPU660.xml
@@ -1431,7 +1431,7 @@ vendor/bin/ssr_setup
 vendor/bin/thermal-engine-v2
 vendor/etc/init/init_thermal-engine-v2.rc
 vendor/etc/thermal-engine.conf
--vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalclient.so
 
 # Time services
 vendor/app/TimeService/TimeService.apk
