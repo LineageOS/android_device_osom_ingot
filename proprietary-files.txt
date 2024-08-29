@@ -938,11 +938,6 @@ vendor/etc/media_profiles_cape.xml
 vendor/bin/mlid
 vendor/lib64/libminksocket_vendor.so
 
-# ModemManager
-vendor/bin/modemManager
-vendor/etc/init/modemManager.rc
-vendor/etc/seccomp_policy/modemManager.policy
-
 # NFC configs
 vendor/etc/libese-hal-st.conf
 vendor/etc/libnfc-hal-st.conf
