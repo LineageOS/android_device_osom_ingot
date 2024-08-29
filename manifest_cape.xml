@@ -290,11 +290,6 @@
         <fqname>@3.0::IRTPService/imsrtpservice</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.qesdhal</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::IQesdhal/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.qspmhal</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IQspmhal/default</fqname>
