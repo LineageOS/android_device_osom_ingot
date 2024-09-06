@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from ingot-user 14 UKQ1.231121.127 127 release-keys
+# All unpinned blobs below are extracted from ingot-user 14 UKQ1.240227.155 155 release-keys
 
 # Current blobs with ELF checks disabled:
 # libar-pal depends on libagmclient, which is a gnu makefile target
@@ -1356,6 +1356,7 @@ vendor/etc/sensors/config/sns_tilt.json
 vendor/etc/sensors/config/sns_tilt_sw_disabled.json
 vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
+vendor/etc/sensors/config/sns_transport_ppe.json
 vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/config/waipio_ak991x_0.json
 vendor/etc/sensors/config/waipio_bu52053nvx_0.json
