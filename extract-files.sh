@@ -87,6 +87,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -Ei "/media_codecs_(google_audio|google_c2|google_telephony|vendor_audio)/d" "${2}"
             ;;
+        vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy)
+            [ "$2" = "" ] && return 0
+            grep -q "setsockopt: 1" "${2}" || echo "setsockopt: 1" >> "${2}"
+            ;;
         vendor/lib64/libgrpc++_unsecure_prebuilt.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --set-soname libgrpc++_unsecure_prebuilt.so "${2}"
