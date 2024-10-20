@@ -19,12 +19,9 @@ PRODUCT_MANUFACTURER := Solana Mobile
 PRODUCT_BRAND := OSOM
 PRODUCT_MODEL := Saga
 
-PRODUCT_SYSTEM_NAME := ingot
-
 PRODUCT_GMS_CLIENTID_BASE := android-osom
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME) \
-    PRIVATE_BUILD_DESC="ingot-user 14 UKQ1.240227.155 155 release-keys"
-
-BUILD_FINGERPRINT := OSOM/ingot/ingot:14/UKQ1.240227.155/155:user/release-keys
+    BuildDesc="ingot-user 14 UKQ1.240227.155 155 release-keys" \
+    BuildFingerprint=OSOM/ingot/ingot:14/UKQ1.240227.155/155:user/release-keys \
+    DeviceProduct=ingot
