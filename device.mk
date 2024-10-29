@@ -316,7 +316,8 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/sm8450/audio/agm/ipc/HwBinders
 
 # Telephony
 PRODUCT_PACKAGES += \
