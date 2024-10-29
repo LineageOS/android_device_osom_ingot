@@ -21,6 +21,7 @@ from extract_utils.main import (
 namespace_imports = [
     'device/osom/ingot',
     'hardware/qcom-caf/sm8450',
+    'hardware/qcom-caf/sm8450/audio/agm/ipc/HwBinders/interfaces',
     'hardware/qcom-caf/wlan',
     'vendor/qcom/opensource/commonsys/display',
     'vendor/qcom/opensource/commonsys-intf/display',
