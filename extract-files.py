@@ -57,7 +57,7 @@ blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libwfdnative.so': blob_fixup()
         .add_needed('libinput_shim.so'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
-        .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V3-cpp.so'),
+        .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
     'vendor/bin/qcc-trd': blob_fixup()
         .replace_needed('libgrpc++_unsecure.so', 'libgrpc++_unsecure_prebuilt.so'),
     'vendor/etc/libnfc-hal-st.conf': blob_fixup()
