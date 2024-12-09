@@ -1,6 +1,9 @@
 # Audio
 /(mnt/vendor/persist|persist)/audio/audio.cal   u:object_r:vendor_persist_audio_file:s0
 
+# Battery
+/sys/class/qcom-battery/charging_enabled    u:object_r:sysfs_battery_supply:s0
+
 # Fingerprint
 /dev/blfp   u:object_r:betterlife_device:s0
 
