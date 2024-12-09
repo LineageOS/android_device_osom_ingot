@@ -132,6 +132,9 @@ DEVICE_MANIFEST_SKUS := cape
 DEVICE_MANIFEST_CAPE_FILES += \
     $(DEVICE_PATH)/manifest_cape.xml
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/qcom-battery/charging_enabled
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
