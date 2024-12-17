@@ -22,6 +22,6 @@ PRODUCT_MODEL := Saga
 PRODUCT_GMS_CLIENTID_BASE := android-osom
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="ingot-user 14 UKQ1.240227.155 155 release-keys" \
-    BuildFingerprint=OSOM/ingot/ingot:14/UKQ1.240227.155/155:user/release-keys \
+    BuildDesc="ingot-user 14 UKQ1.240227.165 165 release-keys" \
+    BuildFingerprint=OSOM/ingot/ingot:14/UKQ1.240227.165/165:user/release-keys \
     DeviceProduct=ingot

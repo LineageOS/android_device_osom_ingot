@@ -173,7 +173,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.recovery
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security
-VENDOR_SECURITY_PATCH := 2024-09-05
+VENDOR_SECURITY_PATCH := 2024-11-01
 
 # SELinux
 include device/qcom/sepolicy_vndr/SEPolicy.mk

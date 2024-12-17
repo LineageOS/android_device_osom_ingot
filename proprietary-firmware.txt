@@ -1,4 +1,4 @@
-# Firmware - from ingot-user 14 UKQ1.240227.155 155 release-keys (factory image)
+# Firmware - from ingot-user 14 UKQ1.240227.165 165 release-keys (factory image)
 
 abl.elf:abl.img;AB
 aop.mbn:aop.img;AB
