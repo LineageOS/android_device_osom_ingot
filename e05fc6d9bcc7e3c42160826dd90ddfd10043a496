@@ -16,6 +16,23 @@
       "message": "verified in log while setting property",
       "revId": "e05fc6d9bcc7e3c42160826dd90ddfd10043a496",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ec81fdd_1694e7ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-12-31T19:26:01Z",
+      "side": 1,
+      "message": "I think this is better than nothing, QCC might still do things in the background but we can figure that out later.",
+      "revId": "e05fc6d9bcc7e3c42160826dd90ddfd10043a496",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
