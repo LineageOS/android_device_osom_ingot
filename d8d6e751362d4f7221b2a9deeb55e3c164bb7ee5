@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e9a4166_bc84962d",
+        "filename": "resource-overlay/common/Frameworks/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 328,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-02T17:46:30Z",
+      "side": 1,
+      "message": "This is not needed, it\u0027s already in another rro",
+      "revId": "d8d6e751362d4f7221b2a9deeb55e3c164bb7ee5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
