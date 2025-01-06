@@ -39,6 +39,30 @@
       },
       "revId": "2c3a70e9c136b5d23629a1af71aa8e5386b441e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f22b896_57fc06a4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2025-01-06T16:18:10Z",
+      "side": 1,
+      "message": "Oh well, looking at the lines below, I should put the module name there, and not the filename...",
+      "parentUuid": "00e9600a_da117d3c",
+      "range": {
+        "startLine": 4,
+        "startChar": 2,
+        "endLine": 4,
+        "endChar": 24
+      },
+      "revId": "2c3a70e9c136b5d23629a1af71aa8e5386b441e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
