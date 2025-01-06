@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14ac6a95_548f037c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2025-01-06T10:48:38Z",
+      "side": 1,
+      "message": "These are already set in DisplayOverlay (and the value 240 is also wrong).",
+      "revId": "c763f0db217cebbb704a88f9b3053032a135a429",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
