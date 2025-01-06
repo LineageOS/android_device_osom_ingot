@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4bcd2cd_86d3fad6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2025-01-06T16:15:14Z",
+      "side": 1,
+      "message": "Vendor PR is open: https://github.com/TheMuppets/proprietary_vendor_osom_ingot/pull/1",
+      "revId": "2c3a70e9c136b5d23629a1af71aa8e5386b441e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
