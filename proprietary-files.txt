@@ -1,6 +1,7 @@
 # All unpinned blobs below are extracted from ingot-user 14 UKQ1.240227.165 165 release-keys
 
 # Current blobs with ELF checks disabled:
+# audio.primary.ingot depends on vendor.qti.hardware.pal@1.0-impl, which is a gnu makefile target
 # libar-pal depends on libagmclient, which is a gnu makefile target
 # libcne, libmasc, lowi-server, qms depend on libwpa_client, which is a gnu makefile target
 # libqc2audio_hwaudiocodec depends on libpalclient, which is a gnu makefile target
@@ -119,6 +120,7 @@ vendor/lib64/libagm.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 
 # Audio libraries
+vendor/lib64/hw/audio.primary.taro.so:vendor/lib64/hw/audio.primary.ingot.so;DISABLE_CHECKELF;FIX_SONAME
 vendor/lib64/libadm.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libar-acdb.so
