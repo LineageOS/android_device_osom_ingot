@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bb240f1_3e662510",
+        "filename": "device.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2025-01-14T02:25:55Z",
+      "side": 1,
+      "message": "maybe this isn\u0027t needed since vendor looks for it in the ns defined somewhere else",
+      "revId": "6dd500a030b05e9bd40e7bb325fdaced72e19871",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
