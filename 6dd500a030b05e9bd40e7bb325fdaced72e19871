@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b2dd7c3_d06a7163",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2025-01-14T02:28:24Z",
+      "side": 1,
+      "message": "nvm this is for the legacy mk:\nhardware/qcom-caf/sm8450/audio/agm/ipc/HwBinders/agm_ipc_client/Android.mk: error: \"libagmclient (SHARED_LIBRARIES android-arm64) missing vendor.qti.hardware.AGMIPC@1.0 (SHARED_LIBRARIES android-arm64)\"\nYou can set ALLOW_MISSING_DEPENDENCIES\u003dtrue in your environment if this is intentional, but that may defer real problems until later in the build.\nhardware/qcom-caf/sm8450/audio/agm/ipc/HwBinders/agm_ipc_service/Android.mk: error: \"vendor.qti.hardware.AGMIPC@1.0-service (EXECUTABLES android-arm64) missing vendor.qti.hardware.AGMIPC@1.0 (SHARED_LIBRARIES android-arm64)\"\nYou can set ALLOW_MISSING_DEPENDENCIES\u003dtrue in your environment if this is intentional, but that may defer real problems until later in the build.\nbuild/make/core/main.mk:1184: error: exiting from previous errors.\n21:27:37 ckati failed with: exit status 1",
+      "revId": "6dd500a030b05e9bd40e7bb325fdaced72e19871",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3bb240f1_3e662510",
@@ -14,6 +31,24 @@
       "writtenOn": "2025-01-14T02:25:55Z",
       "side": 1,
       "message": "maybe this isn\u0027t needed since vendor looks for it in the ns defined somewhere else",
+      "revId": "6dd500a030b05e9bd40e7bb325fdaced72e19871",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef9c13cf_77bc3c1e",
+        "filename": "device.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2025-01-14T02:28:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3bb240f1_3e662510",
       "revId": "6dd500a030b05e9bd40e7bb325fdaced72e19871",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
