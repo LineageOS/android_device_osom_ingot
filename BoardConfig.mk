@@ -111,8 +111,6 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 TARGET_PAL_SPKR_PROTECTION_PATH := /mnt/vendor/persist/audio/audio.cal
 
-$(call soong_config_set,android_hardware_audio,run_64bit,true)
-
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
