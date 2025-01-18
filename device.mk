@@ -399,9 +399,5 @@ PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
-# WiFi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/osom/ingot/ingot-vendor.mk)
