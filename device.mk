@@ -186,7 +186,6 @@ PRODUCT_PACKAGES += \
     libgnss:64
 
 PRODUCT_PACKAGES += \
-    apdr.conf \
     batching.conf \
     gnss_antenna_info.conf \
     gps.conf \
