@@ -33,6 +33,23 @@
       "message": "all newlines are missing",
       "revId": "704688513d1fb5ec1c69b86c0744508b5809caa0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a05fa38_e202fa8f",
+        "filename": "overlay-lineage/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-22T21:20:13Z",
+      "side": 1,
+      "message": "this isn\u0027t merged yet",
+      "revId": "704688513d1fb5ec1c69b86c0744508b5809caa0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
