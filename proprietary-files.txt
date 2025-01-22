@@ -890,11 +890,6 @@ vendor/etc/init/android.hardware.security.keymint-service-qti.rc
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml
 vendor/lib64/libqtikeymint.so
 
-# Light
-vendor/bin/hw/android.hardware.light-service.osom
-vendor/etc/init/android.hardware.light-service.osom.rc
-vendor/etc/vintf/manifest/android.hardware.light-service.osom.xml
-
 # Listen
 vendor/lib64/libcapiv2svacnnvendor.so
 vendor/lib64/libcapiv2svarnnvendor.so
