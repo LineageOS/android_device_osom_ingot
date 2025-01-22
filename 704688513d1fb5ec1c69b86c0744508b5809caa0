@@ -16,6 +16,23 @@
       "message": "Okay with https://review.lineageos.org/q/topic:%22led-breath%22",
       "revId": "704688513d1fb5ec1c69b86c0744508b5809caa0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "181724d4_34ae2745",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-22T21:20:02Z",
+      "side": 1,
+      "message": "all newlines are missing",
+      "revId": "704688513d1fb5ec1c69b86c0744508b5809caa0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
