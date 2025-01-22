@@ -16,6 +16,24 @@
       "message": "This conveniently extends the capabilities of our LED. The only problem, which exists even without this patch though, is that in Settings the user can configure duration and speed of the blinking, but these parameters are disregarded, as our LED only supports fixed-duty cycle breathing.",
       "revId": "76ca67245cc6c895000adfca84ab7f8ce6969dc5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "890e28d0_5fbdfad8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-22T14:57:36Z",
+      "side": 1,
+      "message": "Try https://review.lineageos.org/q/topic:%22led-breath%22",
+      "parentUuid": "ea64dc1f_861faded",
+      "revId": "76ca67245cc6c895000adfca84ab7f8ce6969dc5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
