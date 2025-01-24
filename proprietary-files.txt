@@ -1,10 +1,10 @@
 # All unpinned blobs below are extracted from ingot-user 14 UKQ1.240227.165 165 release-keys
 
 # Current blobs with ELF checks disabled:
-# audio.primary.ingot depends on vendor.qti.hardware.pal@1.0-impl, which is a gnu makefile target
-# libar-pal depends on libagmclient, which is a gnu makefile target
 # libcne, libmasc, lowi-server, qms depend on libwpa_client, which is a gnu makefile target
+# libmcs depends on libar-acdb, libagm, libats, liblx-osal which are gnu makefile targets
 # libqc2audio_hwaudiocodec depends on libpalclient, which is a gnu makefile target
+# libqtigefar depends on libar-pal, which is a gnu makefile target
 
 # ACDB
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
@@ -115,25 +115,13 @@ vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio AGM
-vendor/lib64/libagm.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
-
 # Audio libraries
-vendor/lib64/hw/audio.primary.taro.so:vendor/lib64/hw/audio.primary.ingot.so;DISABLE_CHECKELF;FIX_SONAME
 vendor/lib64/libadm.so
 vendor/lib64/libadsprpc.so
-vendor/lib64/libar-acdb.so
-vendor/lib64/libar-gpr.so
-vendor/lib64/libar-gsl.so
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
-vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
-vendor/lib64/liblx-ar_util.so
-vendor/lib64/liblx-osal.so
-vendor/lib64/libmcs.so
+vendor/lib64/libmcs.so;DISABLE_CHECKELF
 vendor/lib64/libpal_net_if.so
-vendor/lib64/libqtigefar.so
+vendor/lib64/libqtigefar.so;DISABLE_CHECKELF
 
 # Audio misc
 vendor/etc/models/acd/event.eai
@@ -151,9 +139,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-vendor/lib64/lib_bt_aptx.so
-vendor/lib64/lib_bt_ble.so
-vendor/lib64/lib_bt_bundle.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
@@ -897,8 +882,6 @@ vendor/lib64/libcapiv2uvvendor.so
 vendor/lib64/libeai_fixed.so
 vendor/lib64/libeai_float.so
 vendor/lib64/liblistensoundmodel2vendor.so
-vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 
 # Media
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
