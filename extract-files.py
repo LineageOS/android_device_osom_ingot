@@ -45,10 +45,13 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.qspmhal@1.0',
     ): lib_fixup_vendor_suffix,
     (
-        'libagmclient',
+        'libagm',
+        'libar-acdb',
+        'libar-pal',
+        'libats',
+        'liblx-osal',
         'libpalclient',
         'libwpa_client',
-        'vendor.qti.hardware.pal@1.0-impl',
     ): lib_fixup_remove,
 }
 

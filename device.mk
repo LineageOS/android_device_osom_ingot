@@ -109,24 +109,23 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl:64 \
     audioadsprpcd \
     audio.bluetooth.default:64 \
+    audio.primary.taro:64 \
     audio.r_submix.default \
     audio.usb.default:64 \
+    lib_bt_aptx:64 \
+    lib_bt_ble:64 \
+    lib_bt_bundle:64 \
     libagm_compress_plugin:64 \
     libagm_mixer_plugin:64 \
     libagm_pcm_plugin:64 \
-    libagmclient:64 \
-    libagmmixer:64 \
     libbatterylistener:64 \
     libfmpal:64 \
     libpalclient:64 \
     libqcompostprocbundle:64 \
     libqcomvisualizer:64 \
     libqcomvoiceprocessing:64 \
-    libsndcardparser:64 \
-    libtinycompress:64 \
     sound_trigger.primary.taro:64 \
-    vendor.qti.hardware.AGMIPC@1.0-service \
-    vendor.qti.hardware.pal@1.0-impl:64
+    vendor.qti.hardware.AGMIPC@1.0-service
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
