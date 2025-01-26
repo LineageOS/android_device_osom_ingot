@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2021-2022 Qualcomm Technologies, Inc.
-     All Rights Reserved.
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
-
 <resources>
-    <!-- Wifi driver supports OCV for softap -->
-    <bool translatable="false" name="config_vendor_softap_ocv_supported">true</bool>
-
-    <!-- Wifi driver supports beacon protection for softap -->
-    <bool translatable="false" name="config_vendor_softap_beacon_protection_supported">true</bool>
-
     <!-- Wifi driver supports IEEE80211AX for softap -->
     <bool translatable="false" name="config_wifiSoftapIeee80211axSupported">true</bool>
 
@@ -29,20 +23,8 @@
     <!-- Boolean indicating performing a partial initial scan is enabled -->
     <bool translatable="false" name="config_wifiEnablePartialInitialScan">true</bool>
 
-    <!-- Boolean indicating supports for quick connect -->
-    <bool translatable="false" name="config_wifi_framework_enable_quick_connect">true</bool>
-
-    <!-- Integer for Wifi Partial scan results fetching period(in ms) -->
-    <integer translatable="false" name="config_wifi_partial_scan_results_fetching_period_ms">1000</integer>
-
     <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support. -->
     <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
-
-    <!-- Wifi driver supports Automatic channel selection (ACS) for softap -->
-    <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
-
-    <!-- Enable connected frequency enhancement for pno scan -->
-    <bool translatable="false" name="config_wifiConnectedFrequencyEnhancementEnabled">true</bool>
 
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
