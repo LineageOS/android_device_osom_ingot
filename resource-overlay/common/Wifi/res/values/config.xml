@@ -12,9 +12,6 @@
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
 
-    <!-- Wifi driver supports batched scan -->
-    <bool translatable="false" name="config_wifi_batched_scan_supported">true</bool>
-
    <!-- Enable ACS (auto channel selection) for Wifi hotspot (SAP) -->
    <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
 
@@ -46,26 +43,11 @@
     <!-- Indicates whether the network-centric QoS policy feature is enabled. -->
     <bool translatable="false" name="config_wifiNetworkCentricQosPolicyFeatureEnabled">true</bool>
 
-    <!-- Indicates whether the application-centric QoS policy feature is enabled. -->
-    <bool translatable="false" name="config_wifiApplicationCentricQosPolicyFeatureEnabled">true</bool>
-
-    <!-- Boolean to provide support to keep wifi5 symbol for 8SS supported device and 11ax AP -->
-    <bool translateble="false" name="config_wifi_report_he_ready">true</bool>
-
     <!-- Channel list for softap 2G band. Empty means all channels -->
     <string translateble="false" name="config_wifiSoftap2gChannelList"></string>
-    <!-- Channel list for softap 5G band. Empty means all channels -->
-    <string translateble="false" name="config_wifiSoftap5gChannelList"></string>
-    <!-- Channel list for softap 6G band. Empty means all channels -->
-    <string translateble="false" name="config_wifiSoftap6gChannelList"></string>
-
-    <!-- Boolean to provide support to keep wifi5 symbol for 8SS supported device and 11ax AP -->
-    <bool translatable="false" name="config_vendorWifi11axReadySupport">true</bool>
 
     <!-- Wifi driver supports WPA3 Simultaneous Authentication of Equals (WPA3-SAE) for softap -->
     <bool name="config_wifi_softap_sae_supported">true</bool>
-    <!-- Wifi driver supports WPA3 Opportunistic Wireless Encryption (WPA3-OWE) for softap -->
-    <bool name="config_vendor_wifi_softap_owe_supported">true</bool>
 
     <!-- Wifi driver supports Opportunistic Wireless Encryption (OWE) Transition
          aka Enhanced Open for Soft-AP -->

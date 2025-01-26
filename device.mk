@@ -47,8 +47,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FrameworksResTarget_Vendor \
     WifiResTarget_cape \
-    WifiResTarget_spf \
-    WifiResTarget
+    WifiResTarget_spf
 
 # Device Specific RROs
 PRODUCT_PACKAGES += \
