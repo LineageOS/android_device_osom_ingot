@@ -185,11 +185,7 @@ PRODUCT_PACKAGES += \
     gnss@2.0-xtra-daemon.policy \
     libbatching:64 \
     libgeofencing:64 \
-    libgnss:64 \
-    libgnsspps:64 \
-    libgps.utils:64 \
-    libloc_core:64 \
-    liblocation_api:64
+    libgnss:64
 
 PRODUCT_PACKAGES += \
     apdr.conf \
