@@ -50,6 +50,24 @@
       "message": "this isn\u0027t merged yet",
       "revId": "704688513d1fb5ec1c69b86c0744508b5809caa0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13868f7b_3fe3da5c",
+        "filename": "overlay-lineage/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2025-01-28T13:44:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a05fa38_e202fa8f",
+      "revId": "704688513d1fb5ec1c69b86c0744508b5809caa0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
