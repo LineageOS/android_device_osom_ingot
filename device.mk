@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: 2022-2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2022-2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -319,7 +319,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.multihal
+    android.hardware.sensors-service.multihal
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
