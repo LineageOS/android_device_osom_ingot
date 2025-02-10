@@ -16,6 +16,24 @@
       "message": "```suggestion\n    (\u0027vendor/lib64/libqcrilNr.so\u0027, \u0027vendor/lib64/libril-db.so\u0027): blob_fixup()\n```",
       "revId": "630184230e2d325f5c967c208d42e9421b90ebe6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c797065_59c79087",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-02-10T20:01:42Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "0a9ed1aa_f50f786e",
+      "revId": "630184230e2d325f5c967c208d42e9421b90ebe6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
