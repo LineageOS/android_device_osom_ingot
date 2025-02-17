@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0aadad91_a7fa9eca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2025-02-17T20:58:49Z",
+      "side": 1,
+      "message": "A quick test made a few days ago seemed to confirm that all three sensors support this, but I\u0027ll double-check it tomorrow.",
+      "revId": "a5f047088436343f64bf33b35f173c20cd8fc9b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
