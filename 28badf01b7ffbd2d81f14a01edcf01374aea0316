@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "940b2312_a557421c",
+        "filename": "qcril-database/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-02-18T17:17:14Z",
+      "side": 1,
+      "message": "These aren\u0027t actually needed to build the db and vendor/osom/ingot adds them to TARGET_PACKAGES anyway. Once you add new ones they must of course also be included to TARGET_PACKAGES or this, so i thought it\u0027s consistent to let it depend on all migrations.",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 2
+      },
+      "revId": "28badf01b7ffbd2d81f14a01edcf01374aea0316",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
