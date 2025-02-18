@@ -1,0 +1,6 @@
+prebuilt_etc {
+    name: "13.1_config.sql",
+    src: "13.1_config.sql",
+    sub_dir: "qcril_database/upgrade/config",
+    vendor: true,
+}
