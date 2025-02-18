@@ -1,0 +1,78 @@
+filegroup {
+    name: "rildb_other_sql_files",
+    srcs: [
+        "//vendor/osom/ingot:0_initial_qcrilnr.sql",
+        "//vendor/osom/ingot:1_version_intro_qcrilnr.sql",
+        "//vendor/osom/ingot:2_version_add_wps_config_qcrilnr.sql",
+        "//vendor/osom/ingot:3_version_update_wps_config_qcrilnr.sql",
+        "//vendor/osom/ingot:4_version_update_ecc_table_qcrilnr.sql",
+        "//vendor/osom/ingot:5_version_update_ecc_table_qcrilnr.sql",
+        "//vendor/osom/ingot:6_version_change_property_table_qcrilnr.sql",
+        "//vendor/osom/ingot:7_version_update_ecc_table_qcrilnr.sql",
+        "//vendor/osom/ingot:8_version_update_ecc_table.sql",
+        "//vendor/osom/ingot:9_version_update_ecc_table.sql",
+        "//vendor/osom/ingot:10_version_update_ecc_table.sql",
+        "//vendor/osom/ingot:11_version_update_ecc_table.sql",
+        "//vendor/osom/ingot:12_version_update_ecc_table.sql",
+    ],
+}
+
+filegroup {
+    name: "rildb_config_sql_files",
+    srcs: [
+        "//vendor/osom/ingot:6.0_config.sql",
+        "//vendor/osom/ingot:7.0_config.sql",
+        "//vendor/osom/ingot:8.0_config.sql",
+        "//vendor/osom/ingot:9.0_config.sql",
+        "//vendor/osom/ingot:10.0_config.sql",
+        "//vendor/osom/ingot:11.0_config.sql",
+        "//vendor/osom/ingot:12.0_config.sql",
+        "//vendor/osom/ingot:13.0_config.sql",
+    ],
+}
+
+genrule {
+    name: "qcril_config_database",
+    enabled: true,
+    srcs: [
+        ":rildb_other_sql_files",
+        ":rildb_config_sql_files",
+    ],
+    tools: [
+        "generate_qcril_db",
+        "sqlite3",
+    ],
+    cmd: "$(location generate_qcril_db) $(location sqlite3) $(out) $(in)",
+    out: ["qcrilNr.db"],
+}
+
+prebuilt_etc {
+    name: "qcrilNrDb_vendor",
+    filename: "qcrilNr.db",
+    src: ":qcril_config_database",
+    sub_dir: "qcril_database",
+    vendor: true,
+    required: [
+        "0_initial_qcrilnr.sql",
+        "1_version_intro_qcrilnr.sql",
+        "2_version_add_wps_config_qcrilnr.sql",
+        "3_version_update_wps_config_qcrilnr.sql",
+        "4_version_update_ecc_table_qcrilnr.sql",
+        "5_version_update_ecc_table_qcrilnr.sql",
+        "6_version_change_property_table_qcrilnr.sql",
+        "7_version_update_ecc_table_qcrilnr.sql",
+        "8_version_update_ecc_table.sql",
+        "9_version_update_ecc_table.sql",
+        "10_version_update_ecc_table.sql",
+        "11_version_update_ecc_table.sql",
+        "12_version_update_ecc_table.sql",
+        "6.0_config.sql",
+        "7.0_config.sql",
+        "8.0_config.sql",
+        "9.0_config.sql",
+        "10.0_config.sql",
+        "11.0_config.sql",
+        "12.0_config.sql",
+        "13.0_config.sql",
+    ],
+}
