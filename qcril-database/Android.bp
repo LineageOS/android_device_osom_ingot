@@ -33,6 +33,7 @@ filegroup {
         "//vendor/osom/ingot:11.0_config.sql",
         "//vendor/osom/ingot:12.0_config.sql",
         "//vendor/osom/ingot:13.0_config.sql",
+        "13.1_config.sql",
     ],
 }
 
@@ -79,5 +80,6 @@ prebuilt_etc {
         "11.0_config.sql",
         "12.0_config.sql",
         "13.0_config.sql",
+        "13.1_config.sql",
     ],
 }
