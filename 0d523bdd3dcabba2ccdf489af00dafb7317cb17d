@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3ab1be1_92f811c2",
+        "filename": "qcril-database/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 34167
+      },
+      "writtenOn": "2025-02-19T15:32:28Z",
+      "side": 1,
+      "message": "If I\u0027m not wrong, you might want to add colon in front of 13.1_config.sql (:13.1_config.sql) as it\u0027s module.\nOtherwise, you\u0027ll get build failure.\n\ne.g. Log:\n\u001b[31merror:\u001b[0m device/sony/sm8550-common/qcril-database/Android.bp:25:1: module \"rildb_config_sql_files\": module source path \"device/sony/sm8550-common/qcril-database/12.1_config.sql\" does not exist\nfatal errors encountered",
+      "revId": "0d523bdd3dcabba2ccdf489af00dafb7317cb17d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
