@@ -95,6 +95,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries-qti_system_ext.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-qti.txt
 
 # Boot control
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/bootctrl
+
 PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
     android.hardware.boot-service.qti.recovery
