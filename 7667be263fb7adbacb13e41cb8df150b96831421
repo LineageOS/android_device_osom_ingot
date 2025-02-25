@@ -16,6 +16,23 @@
       "message": "There are versions of this change which keep the line with \"peripheral\", and there are versions that add an additional \u0027wait /sys/class/power_supply/battery\u0027 at the bottom of the file. I\u0027m not sure which is correct but this version does the job.",
       "revId": "7667be263fb7adbacb13e41cb8df150b96831421",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12c76bbe_9d8293ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2025-02-25T18:08:46Z",
+      "side": 1,
+      "message": "(and does not break adb)",
+      "revId": "7667be263fb7adbacb13e41cb8df150b96831421",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
