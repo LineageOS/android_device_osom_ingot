@@ -260,72 +260,72 @@ static const struct effect_stream effects[] = {
     {
         /* CLICK */
         .effect_id = 0,
-        .data = effect_2,
         .length = ARRAY_SIZE(effect_2),
         .play_rate_hz = 24000,
+        .data = effect_2,
     },
 
     {
         /* DOUBLE_CLICK */
         .effect_id = 1,
-        .data = effect_3,
         .length = ARRAY_SIZE(effect_3),
         .play_rate_hz = 24000,
+        .data = effect_3,
     },
 
     {
         /* TICK */
         .effect_id = 2,
-        .data = effect_2,
         .length = ARRAY_SIZE(effect_2),
         .play_rate_hz = 24000,
+        .data = effect_2,
     },
 
     {
         /* THUD */
         .effect_id = 3,
-        .data = effect_1,
         .length = ARRAY_SIZE(effect_1),
         .play_rate_hz = 24000,
+        .data = effect_1,
     },
 
     {
         /* POP */
         .effect_id = 4,
-        .data = effect_4,
         .length = ARRAY_SIZE(effect_4),
         .play_rate_hz = 24000,
+        .data = effect_4,
     },
 
     {
         /* HEAVY_CLICK */
         .effect_id = 5,
-        .data = effect_1,
         .length = ARRAY_SIZE(effect_1),
         .play_rate_hz = 24000,
+        .data = effect_1,
     },
 };
 
 static const struct effect_stream primitives[] = {
     {
         .effect_id = 0,
-        .data = primitive_0,
         .length = ARRAY_SIZE(primitive_0),
         .play_rate_hz = 8000,
+        .data = primitive_0,
     },
 
     {
         .effect_id = 1,
-        .data = primitive_1,
         .length = ARRAY_SIZE(primitive_1),
         .play_rate_hz = 8000,
+        .data = primitive_1,
     },
 
     {
         .effect_id = 2,
-        .data = primitive_2,
         .length = ARRAY_SIZE(primitive_2),
         .play_rate_hz = 8000,
+        .data = primitive_2,
     },
 };
 
