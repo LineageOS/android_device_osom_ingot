@@ -1,7 +1,6 @@
 # All unpinned blobs below are extracted from ingot-user 14 UKQ1.240227.165 165 release-keys
 
 # Current blobs with ELF checks disabled:
-# libcne, libmasc, lowi-server, qms depend on libwpa_client, which is a gnu makefile target
 # libmcs depends on libar-acdb, libagm, libats, liblx-osal which are gnu makefile targets
 # libqc2audio_hwaudiocodec depends on libpalclient, which is a gnu makefile target
 # libqtigefar depends on libar-pal, which is a gnu makefile target
@@ -455,11 +454,11 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile7.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
-vendor/lib64/libcne.so;DISABLE_CHECKELF
+vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
-vendor/lib64/libmasc.so;DISABLE_CHECKELF
+vendor/lib64/libmasc.so
 vendor/lib64/libshsc.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
@@ -657,7 +656,7 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 # GNSS
 vendor/bin/edgnss-daemon
 vendor/bin/loc_launcher
-vendor/bin/lowi-server;DISABLE_CHECKELF
+vendor/bin/lowi-server
 vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
 vendor/etc/init/loc-launcher.rc
@@ -1145,7 +1144,7 @@ vendor/bin/ks
 vendor/bin/netmgrd
 vendor/bin/pd-mapper
 vendor/bin/port-bridge
-vendor/bin/qms;DISABLE_CHECKELF
+vendor/bin/qms
 vendor/bin/qrtr-ns
 vendor/bin/rmt_storage
 vendor/bin/shsusrd
