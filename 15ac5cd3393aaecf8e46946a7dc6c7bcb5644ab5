@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8e2f2e2_81254090",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-03-24T21:26:15Z",
+      "side": 1,
+      "message": "The generated db matches the prebuilt one from UKQ1.240227.165\n`$ sqldiff out/target/product/ingot/vendor/etc/qcril_database/qcrilNr.db ~/android/vendor/ingot/vendor/etc/qcril_database/qcrilNr.db\n$`",
+      "revId": "15ac5cd3393aaecf8e46946a7dc6c7bcb5644ab5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
