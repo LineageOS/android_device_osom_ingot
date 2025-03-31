@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4276d19_8dff5271",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17257
+      },
+      "writtenOn": "2025-03-31T15:56:56Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_motorola_sm8475-common/+/423868\n\nyou could also do this one to get rid of one extra file in device tree.",
+      "revId": "78784a3307cfbb022704c8f710a773703a691e32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
