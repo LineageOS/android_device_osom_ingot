@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aeb5cdc9_b823ecf0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2025-05-02T08:42:12Z",
+      "side": 1,
+      "message": "All of a sudden our previous sed workaround does not work anymore and this seems to be the only way to make SMS work again.",
+      "revId": "f42c61c8b3972978bd7114e64e9a1a5803688271",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
