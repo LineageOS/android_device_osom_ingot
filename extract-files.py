@@ -63,6 +63,7 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libbinder_shim.so')
         .add_needed('libinput_shim.so'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
+        .add_needed('libaudioclient_shim.so')
         .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
     'vendor/bin/qcc-trd': blob_fixup()
         .replace_needed('libgrpc++_unsecure.so', 'libgrpc++_unsecure_prebuilt.so'),
