@@ -1,10 +1,5 @@
 # All unpinned blobs below are extracted from ingot-user 14 UKQ1.240227.165 165 release-keys
 
-# Current blobs with ELF checks disabled:
-# libmcs depends on libar-acdb, libagm, libats, liblx-osal which are gnu makefile targets
-# libqc2audio_hwaudiocodec depends on libpalclient, which is a gnu makefile target
-# libqtigefar depends on libar-pal, which is a gnu makefile target
-
 # ACDB
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
@@ -118,9 +113,9 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/libadm.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libmcs.so;DISABLE_CHECKELF
+vendor/lib64/libmcs.so
 vendor/lib64/libpal_net_if.so
-vendor/lib64/libqtigefar.so;DISABLE_CHECKELF
+vendor/lib64/libqtigefar.so
 
 # Audio misc
 vendor/etc/models/acd/event.eai
@@ -907,7 +902,7 @@ vendor/lib64/libqc2audio_base.so
 vendor/lib64/libqc2audio_basecodec.so
 vendor/lib64/libqc2audio_core.so
 vendor/lib64/libqc2audio_hooks.so
-vendor/lib64/libqc2audio_hwaudiocodec.so;DISABLE_CHECKELF
+vendor/lib64/libqc2audio_hwaudiocodec.so
 vendor/lib64/libqc2audio_platform.so
 vendor/lib64/libqc2audio_swaudiocodec.so
 vendor/lib64/libqc2audio_utils.so
