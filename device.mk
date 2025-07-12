@@ -109,21 +109,21 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl:64 \
     audioadsprpcd \
     audio.bluetooth.default:64 \
-    audio.primary.taro:64 \
+    audio.primary.taro \
     audio.r_submix.default \
     audio.usb.default:64 \
-    lib_bt_aptx:64 \
-    lib_bt_ble:64 \
-    lib_bt_bundle:64 \
-    libagm_compress_plugin:64 \
-    libagm_mixer_plugin:64 \
-    libagm_pcm_plugin:64 \
-    libbatterylistener:64 \
-    libfmpal:64 \
-    libqcompostprocbundle:64 \
-    libqcomvisualizer:64 \
-    libqcomvoiceprocessing:64 \
-    sound_trigger.primary.taro:64 \
+    lib_bt_aptx \
+    lib_bt_ble \
+    lib_bt_bundle \
+    libagm_compress_plugin \
+    libagm_mixer_plugin \
+    libagm_pcm_plugin \
+    libbatterylistener \
+    libfmpal \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    sound_trigger.primary.taro \
     vendor.qti.hardware.AGMIPC@1.0-service
 
 PRODUCT_COPY_FILES += \
