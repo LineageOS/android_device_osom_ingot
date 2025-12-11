@@ -1,4 +1,4 @@
-#!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
+w#!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
 #
 # SPDX-FileCopyrightText: 2024 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
@@ -50,6 +50,12 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libinput_shim.so'),
     'system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so': blob_fixup()
         .replace_needed('libprotobuf-cpp-full.so', 'libprotobuf-cpp-full-21.7.so'),
+    (
+        'vendor/bin/poweropt-service',
+        'vendor/lib64/libdpps.so',
+        'vendor/lib64/libsnapdragoncolor-manager.so',
+    ): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/bin/qcc-trd': blob_fixup()
         .replace_needed('libgrpc++_unsecure.so', 'libgrpc++_unsecure_prebuilt.so'),
     'vendor/etc/libnfc-hal-st.conf': blob_fixup()
