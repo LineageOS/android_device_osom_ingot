@@ -66,6 +66,12 @@ blob_fixups: blob_fixups_user_type = {
         .fix_soname(),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
         .add_needed('libhidlbase_shim.so'),
+    (
+        'vendor/bin/poweropt-service',
+        'vendor/lib64/libdpps.so',
+        'vendor/lib64/libsnapdragoncolor-manager.so',
+    ): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2_1.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
