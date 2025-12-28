@@ -374,7 +374,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 $(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.ingot)
-$(call soong_config_set,qti_vibrator,use_effect_stream,true)
+$(call soong_config_set_bool,qti_vibrator,use_effect_stream,true)
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
