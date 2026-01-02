@@ -16,6 +16,23 @@
       "message": "bump?",
       "revId": "ba0414e4f23061fff2a2db028baae3772d88d28b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "edee7118_804d73bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-01-02T22:57:48Z",
+      "side": 1,
+      "message": "If this is something wanted it would be better to pick the CLO commit instead as stated in the xiaomi sm8450-common commit",
+      "revId": "ba0414e4f23061fff2a2db028baae3772d88d28b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
