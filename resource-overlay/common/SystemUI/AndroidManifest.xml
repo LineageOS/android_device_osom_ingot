@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2018, Qualcomm Technologies, Inc.
-    All Rights Reserved.
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    coreApp="true"
-    package="com.android.systemui.overlay.common">
-    <overlay android:targetPackage="com.android.systemui" android:isStatic="true" />
+          package="com.android.systemui.overlay.common">
+    <overlay android:targetPackage="com.android.systemui"
+             android:isStatic="true" />
 </manifest>

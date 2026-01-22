@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2022, Qualcomm Technologies, Inc.
-    All Rights Reserved.
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.wifi.resources.overlay.target">
+          package="com.android.wifi.resources.overlay.target">
     <overlay android:targetPackage="com.android.wifi.resources"
-        android:targetName = "WifiCustomization"
-        android:isStatic="true"
-        android:priority="500"
-	android:requiredSystemPropertyName="ro.boot.product.vendor.sku"
-	android:requiredSystemPropertyValue="cape"/>
+             android:targetName="WifiCustomization"
+             android:isStatic="true"
+             android:priority="500"
+             android:requiredSystemPropertyName="ro.boot.product.vendor.sku"
+             android:requiredSystemPropertyValue="cape" />
 </manifest>

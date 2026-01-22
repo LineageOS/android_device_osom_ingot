@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2019, Qualcomm Technologies, Inc.
-    All Rights Reserved.
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.overlay.target">
-    <overlay android:targetPackage="android" android:isStatic="true" android:priority="500"/>
-    <application android:hasCode="false" />
+          package="android.overlay.target">
+    <overlay android:targetPackage="android"
+             android:isStatic="true"
+             android:priority="500" />
 </manifest>

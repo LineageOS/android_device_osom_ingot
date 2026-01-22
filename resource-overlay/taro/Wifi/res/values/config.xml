@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2021-2022 Qualcomm Technologies, Inc.
-     All Rights Reserved.
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
-
 <resources>
+    <!-- Indicates that bridged AP mode is supported on this device provided that
+     the device interface combination allows for it -->
+    <bool name="config_wifiBridgedSoftApSupported">true</bool>
+
     <!-- Enable Make-Before-Break Wifi network switching.
          Note: this is conditional on the device supporting dual concurrent STAs. -->
     <bool translatable="false" name="config_wifiMultiStaNetworkSwitchingMakeBeforeBreakEnabled">true</bool>
@@ -11,10 +15,8 @@
     <!-- Enable concurrent peer to peer + internet connectivity
          Note: this is conditional on the device supporting dual concurrent STAs. -->
     <bool translatable="false" name="config_wifiMultiStaLocalOnlyConcurrencyEnabled">true</bool>
+
     <!-- Enable concurrent restricted connectivity + internet connectivity
          Note: this is conditional on the device supporting dual concurrent STAs. -->
     <bool translatable="false" name="config_wifiMultiStaRestrictedConcurrencyEnabled">true</bool>
-
-    <!-- dual sap mode is supported on this device. -->
-    <bool name="config_wifiBridgedSoftApSupported">true</bool>
 </resources>
