@@ -16,6 +16,24 @@
       "message": "https://github.com/LineageOS/android_device_osom_ingot/blob/lineage-23.2/device.mk#L167",
       "revId": "73d11dd8f43bb8e7c1cae78d23d481fbea58b5a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f22ab989_b1ab474e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-06-26T15:08:50Z",
+      "side": 1,
+      "message": "Yeah just did push the patchset like I did other devices. Will update",
+      "parentUuid": "45505fcc_e581c9fa",
+      "revId": "73d11dd8f43bb8e7c1cae78d23d481fbea58b5a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
