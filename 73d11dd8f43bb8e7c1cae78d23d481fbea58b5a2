@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45505fcc_e581c9fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-06-26T08:19:59Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_osom_ingot/blob/lineage-23.2/device.mk#L167",
+      "revId": "73d11dd8f43bb8e7c1cae78d23d481fbea58b5a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
