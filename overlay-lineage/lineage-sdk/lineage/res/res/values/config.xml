@@ -19,14 +19,6 @@
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
-    <!-- Defines the actions shown in advanced reboot submenu -->
-    <string-array name="config_restartActionsList">
-        <item>restart</item>
-        <item>restart_recovery</item>
-        <item>restart_bootloader</item>
-        <item>restart_fastboot</item>
-    </string-array>
-
     <!-- Some devices might require always setting the toggle instead of set based on current toggle
          value. If this is the case, set this config to true to let the toggle provider always set
          charging enabled status regardless of the current status. -->
