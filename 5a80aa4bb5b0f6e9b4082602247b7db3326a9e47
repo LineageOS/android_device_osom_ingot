@@ -16,6 +16,23 @@
       "message": "After the recent updates to the lights HAL we could be ready to bring back this. Needs testing",
       "revId": "5a80aa4bb5b0f6e9b4082602247b7db3326a9e47",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b35759c2_20471722",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2026-07-02T13:42:55Z",
+      "side": 1,
+      "message": "Seems fine",
+      "revId": "5a80aa4bb5b0f6e9b4082602247b7db3326a9e47",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
