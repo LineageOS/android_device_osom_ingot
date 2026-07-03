@@ -500,9 +500,7 @@ vendor/lib64/libhdr_stub.so
 vendor/lib64/libhdr_tm.so
 
 # Display (HWC)
-vendor/lib/libvmmem.so
 vendor/lib64/libmemutils.so
-vendor/lib64/libvmmem.so
 
 # Display (SDM)
 vendor/etc/display/DPU660.xml
