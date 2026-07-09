@@ -81,6 +81,36 @@ blob_fixups: blob_fixups_user_type = {
         .fix_soname(),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
         .add_needed('libhidlbase_shim.so'),
+    (
+        'vendor/lib64/com.qti.feature2.anchorsync.so',
+        'vendor/lib64/com.qti.feature2.demux.so',
+        'vendor/lib64/com.qti.feature2.derivedoffline.so',
+        'vendor/lib64/com.qti.feature2.frameselect.so',
+        'vendor/lib64/com.qti.feature2.fusion.so',
+        'vendor/lib64/com.qti.feature2.generic.so',
+        'vendor/lib64/com.qti.feature2.gs.sm8450.so',
+        'vendor/lib64/com.qti.feature2.hdr.so',
+        'vendor/lib64/com.qti.feature2.mcreprocrt.so',
+        'vendor/lib64/com.qti.feature2.memcpy.so',
+        'vendor/lib64/com.qti.feature2.mfsr.sm8450.so',
+        'vendor/lib64/com.qti.feature2.mfsr.so',
+        'vendor/lib64/com.qti.feature2.ml.so',
+        'vendor/lib64/com.qti.feature2.mux.so',
+        'vendor/lib64/com.qti.feature2.qcfa.so',
+        'vendor/lib64/com.qti.feature2.rawhdr.so',
+        'vendor/lib64/com.qti.feature2.realtimeserializer.so',
+        'vendor/lib64/com.qti.feature2.rt.so',
+        'vendor/lib64/com.qti.feature2.rtmcx.so',
+        'vendor/lib64/com.qti.feature2.serializer.so',
+        'vendor/lib64/com.qti.feature2.statsregeneration.so',
+        'vendor/lib64/com.qti.feature2.stub.so',
+        'vendor/lib64/com.qti.feature2.swmf.so',
+        'vendor/lib64/com.qualcomm.mcx.policy.mfl.so',
+        'vendor/lib64/com.qualcomm.mcx.policy.xr.so',
+        'vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so',
+        'vendor/lib64/hw/com.qti.chi.override.so',
+    ): blob_fixup()
+        .binary_regex_replace(b'\xc8\x00\x00\xb4\x08\x01\x40\x39\x1f\x09\x00\x71\x61\x00\x00\x54\x28\x00\x80\x52\xe8\x0f\x00\xb9', b'\x1f\x20\x03\xd5\x08\x01\x40\x39\x1f\x09\x00\x71\x1f\x20\x03\xd5\x28\x00\x80\x52\xe8\x0f\x00\xb9'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
