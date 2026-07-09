@@ -53,7 +53,7 @@ external_firmware_handler /devices/platform/soc/soc:qcom,guestvm_loader@e0b00000
 /dev/st54spi              0660   secure_element secure_element
 
 # Touch
-/sys/devices/platform/soc/990000.i2c/i2c-0/0-0038 fts_gesture_mode 0660 system system
+/sys/devices/platform/soc/9c0000.qcom,qupv3_0_geni_se/990000.i2c/i2c-4/4-0038 fts_gesture_mode 0660 system system
 
 # Trusted touch
 /sys/devices/platform/soc/990000.i2c/i2c-*/*-0038 trusted_touch_enable 0660 system root
