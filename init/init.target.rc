@@ -109,6 +109,9 @@ on post-fs-data
     # Enable WLAN cold boot calibration
     write /sys/kernel/cnss/fs_ready 1
 
+    mkdir /data/adbroot 0700 root root
+    write /data/adbroot/enabled 1
+
     # Betterlife
     mkdir /data/vendor/blfp 0777 system system
     chmod 0666 /dev/blfp
