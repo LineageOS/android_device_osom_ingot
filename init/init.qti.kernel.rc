@@ -10,6 +10,7 @@ on early-init
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
     mount_all /vendor/etc/charger_fw_fstab.qti --early
 
+    exec_start gki.modprobe
     start vendor.modprobe
 
 on init
@@ -54,6 +55,14 @@ service kernel-post-boot /vendor/bin/sh /vendor/bin/init.kernel.post_boot.sh
     user root
     group root system wakelock graphics
     disabled
+    oneshot
+
+service gki.modprobe /vendor/bin/modprobe -b -s -p --all=/system_dlkm/lib/modules/modules.load
+    class main
+    user root
+    group root system
+    disabled
+    seclabel u:r:vendor_modprobe:s0
     oneshot
 
 service vendor.modprobe /vendor/bin/modprobe -b -s -p --all=/vendor_dlkm/lib/modules/modules.load
