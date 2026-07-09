@@ -206,9 +206,12 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.recovery.rc \
     init.qcom.sh \
+    init.qti.kernel.rc \
     init.target.rc \
+    system_dlkm_modprobe.sh \
     ueventd.odm.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    vendor_modprobe.sh
 
 # IPACM
 PRODUCT_PACKAGES += \
