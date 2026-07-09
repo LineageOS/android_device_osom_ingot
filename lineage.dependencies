@@ -1,14 +1,18 @@
 [
   {
+    "type": "kernel",
+    "version": "6.6"
+  },
+  {
     "repository": "android_kernel_osom_sm8475",
-    "target_path": "kernel/osom/sm8475"
+    "target_path": "kernel/platform/kernel-6.6/vendor/osom/ingot-kernel"
   },
   {
     "repository": "android_kernel_osom_sm8475-devicetrees",
-    "target_path": "kernel/osom/sm8475-devicetrees"
+    "target_path": "kernel/platform/kernel-6.6/vendor/osom/ingot-devicetrees"
   },
   {
     "repository": "android_kernel_osom_sm8475-modules",
-    "target_path": "kernel/osom/sm8475-modules"
+    "target_path": "kernel/platform/kernel-6.6/vendor/osom/ingot-modules"
   }
 ]
