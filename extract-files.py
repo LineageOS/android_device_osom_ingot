@@ -81,43 +81,6 @@ blob_fixups: blob_fixups_user_type = {
         .fix_soname(),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
         .add_needed('libhidlbase_shim.so'),
-    (
-        'vendor/lib64/com.qti.feature2.anchorsync.so',
-        'vendor/lib64/com.qti.feature2.demux.so',
-        'vendor/lib64/com.qti.feature2.derivedoffline.so',
-        'vendor/lib64/com.qti.feature2.frameselect.so',
-        'vendor/lib64/com.qti.feature2.fusion.so',
-        'vendor/lib64/com.qti.feature2.generic.so',
-        'vendor/lib64/com.qti.feature2.gs.sm8450.so',
-        'vendor/lib64/com.qti.feature2.hdr.so',
-        'vendor/lib64/com.qti.feature2.mcreprocrt.so',
-        'vendor/lib64/com.qti.feature2.memcpy.so',
-        'vendor/lib64/com.qti.feature2.mfsr.sm8450.so',
-        'vendor/lib64/com.qti.feature2.mfsr.so',
-        'vendor/lib64/com.qti.feature2.ml.so',
-        'vendor/lib64/com.qti.feature2.mux.so',
-        'vendor/lib64/com.qti.feature2.qcfa.so',
-        'vendor/lib64/com.qti.feature2.rawhdr.so',
-        'vendor/lib64/com.qti.feature2.realtimeserializer.so',
-        'vendor/lib64/com.qti.feature2.rt.so',
-        'vendor/lib64/com.qti.feature2.rtmcx.so',
-        'vendor/lib64/com.qti.feature2.serializer.so',
-        'vendor/lib64/com.qti.feature2.statsregeneration.so',
-        'vendor/lib64/com.qti.feature2.stub.so',
-        'vendor/lib64/com.qti.feature2.swmf.so',
-        'vendor/lib64/com.qualcomm.mcx.policy.mfl.so',
-        'vendor/lib64/com.qualcomm.mcx.policy.xr.so',
-        'vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so',
-    ): blob_fixup()
-        .sig_replace(
-            'C8 00 00 B4 08 01 40 39 1F 09 00 71 61 00 00 54 28 00 80 52 E8 0F 00 B9',
-            '1F 20 03 D5 08 01 40 39 1F 09 00 71 1F 20 03 D5 28 00 80 52 E8 0F 00 B9',
-        ),
-    'vendor/lib64/hw/com.qti.chi.override.so': blob_fixup()
-        .sig_replace(
-            'C8 00 00 B4 08 01 40 39 1F 09 00 71 61 00 00 54 29 00 80 52 E9 0F 00 B9',
-            '1F 20 03 D5 08 01 40 39 1F 09 00 71 1F 20 03 D5 29 00 80 52 E9 0F 00 B9',
-        ),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
