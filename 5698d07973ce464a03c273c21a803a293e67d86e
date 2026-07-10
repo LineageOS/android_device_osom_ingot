@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f8b6dde_7470b9ab",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-07-10T04:52:20Z",
+      "side": 1,
+      "message": "sig replace instead? Also doesn\u0027t match \u0027vendor/lib64/hw/com.qti.chi.override.so\u0027,",
+      "revId": "5698d07973ce464a03c273c21a803a293e67d86e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
