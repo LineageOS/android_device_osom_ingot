@@ -77,6 +77,11 @@ blob_fixups: blob_fixups_user_type = {
         .add_line_if_missing('setsockopt: 1'),
     ('vendor/etc/seccomp_policy/wfdhdcphalservice.policy', 'vendor/etc/seccomp_policy/modemManager.policy'): blob_fixup()
         .add_line_if_missing('gettid: 1'),
+    'vendor/lib64/hw/com.qti.chi.override.so': blob_fixup()
+        .binary_regex_replace(
+              b'\xe8\x0b\x40\xf9\xc8\x00\x00\xb4\x08\x01\x40\x39',
+              b'\x29\x00\x80\x52\xe9\x0f\x00\xb9\x05\x00\x00\x14',
+        ),
     'vendor/lib64/libgrpc++_unsecure_prebuilt.so': blob_fixup()
         .fix_soname(),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
