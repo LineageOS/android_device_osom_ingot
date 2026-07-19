@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17dde870_0034f78b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19665
+      },
+      "writtenOn": "2026-07-19T00:18:19Z",
+      "side": 1,
+      "message": "With config_brightnessThresholdsOfPeakRefreshRate currently set to 90, you will need to set your brightness level high enough to allow for refresh rate switching to happen in the first place, but once you do, you will notice a flickering behavior because the screen is rapidly switching back and forth between 60Hz and 120Hz. I don\u0027t really know why this happens when the timers for idle/touch are set to very low values, but once increased to 2 seconds, the switching stops.",
+      "revId": "05ba8e7ba0bdca21ff442c311c95f4dd035cd7d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
