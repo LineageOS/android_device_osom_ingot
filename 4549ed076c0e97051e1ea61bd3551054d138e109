@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a1ad1d1_06930891",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19665
+      },
+      "writtenOn": "2026-07-19T00:33:19Z",
+      "side": 1,
+      "message": "Trying to force 60Hz doesn\u0027t seem to work. Every time, when brightness and ambient light is below the defined thresholds, the phone still ends up forcing 120Hz despite me defining 60Hz as the target.",
+      "revId": "4549ed076c0e97051e1ea61bd3551054d138e109",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
