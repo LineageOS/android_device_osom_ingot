@@ -421,14 +421,14 @@
          For example, no higher refresh rate if display brightness <= disp0 && ambient brightness <= amb0 
          || display brightness <= disp1 && ambient brightness <= amb1 -->
     <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
-        <item>90</item> <!-- UI brightness -->
+        <item>9</item> <!-- UI brightness -->
     </integer-array>
     <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
-        <item>1500</item> <!-- Lux Level -->
+        <item>25</item> <!-- Lux Level -->
     </integer-array>
 
     <!-- default refresh rate in the zone defined by birghtness and ambient thresholds -->
-    <integer name="config_defaultRefreshRateInZone">120</integer>
+    <integer name="config_defaultRefreshRateInZone">60</integer>
 
     <!-- Default color for notification LED. -->
     <color name="config_defaultNotificationColor">#ff0000ff</color>
