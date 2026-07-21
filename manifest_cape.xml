@@ -100,11 +100,6 @@
         <fqname>@2.5::IFactory/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.esepowermanager</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::IEsePowerManager/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.AGMIPC</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IAGM/default</fqname>
