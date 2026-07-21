@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd686a2d_fd5128ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19665
+      },
+      "writtenOn": "2026-07-21T23:05:48Z",
+      "side": 1,
+      "message": "May possibly drop the current HEAVY_CLICK and just use the current CLICK as HEAVY_CLICK and scale it down for CLICK, TICK, and TEXTURE_TICK. The current HEAVY_CLICK has too much reverb.\n\nI will try to see if I can make the effect for the current CLICK somehow be more impactful without having the same reverb as HEAVY_CLICK so I can then use that as the basis for HEAVY_CLICK and scale down for CLICK, TICK, and TEXTURE_TICK.",
+      "revId": "d2c0bd6587cab1b45ced826ab463ecce516a3abe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
