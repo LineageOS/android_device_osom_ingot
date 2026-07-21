@@ -16,6 +16,23 @@
       "message": "Trying to force 60Hz doesn\u0027t seem to work. Every time, when brightness and ambient light is below the defined thresholds, the phone still ends up forcing 120Hz despite me defining 60Hz as the target.",
       "revId": "4549ed076c0e97051e1ea61bd3551054d138e109",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce137f9f_6065e3be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19665
+      },
+      "writtenOn": "2026-07-21T04:29:22Z",
+      "side": 1,
+      "message": "Never mind, this wasn\u0027t working because it was being overriden in device_config, with display_manager/refresh_rate_in_zone set to 120. Removing that results in this working, but there might be users who would object to having the auto refresh rate switching be hard pinned to 60Hz in low light and low screen brightness...",
+      "revId": "4549ed076c0e97051e1ea61bd3551054d138e109",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
