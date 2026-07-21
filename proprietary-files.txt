@@ -1334,6 +1334,15 @@ vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.1.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.2.so
 
+# UWB - from cheetah BP4A.251205.006
+vendor/bin/hw/android.hardware.qorvo.uwb.service|c278bd2978347541c24f1655a92df2ff9cf6655f
+vendor/etc/init/qorvo.uwb-service.rc|6b54fb42336cc9ad6631c65777f32261545401e4
+vendor/etc/uwb/UWB-calibration-default.conf|e9bd2fc6c4d9c6800f67795ae9736095d794a71d
+vendor/etc/uwb/UWB-calibration.conf|51120ab2571e752c67928a4a2abc2b9b9160b58c
+vendor/etc/uwb/calib_paths|e2195250d50c3361881df17f3aeabe814aad0e9f
+vendor/etc/uwb/libuwb-uci.conf|959de821dafc6fe4a9ed8edffe7c8c26937fff55
+vendor/etc/vintf/manifest/qorvo.uwb-service.xml|1bf8c3f6b56d02f317848e80b3269224f1a7f342
+
 # VM
 vendor/bin/vmmgr
 vendor/etc/init/vmmgr.rc
