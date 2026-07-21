@@ -347,6 +347,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
 
+# UWB
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.uwb.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.uwb.xml
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \

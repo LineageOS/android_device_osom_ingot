@@ -3,3 +3,6 @@
 
 # Fingerprint
 /dev/blfp   u:object_r:betterlife_device:s0
+
+# UWB
+/vendor/bin/hw/android\.hardware\.qorvo\.uwb\.service    u:object_r:hal_uwb_default_exec:s0
