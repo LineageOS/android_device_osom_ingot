@@ -349,6 +349,9 @@ PRODUCT_PACKAGES += \
 
 # UWB
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/uwb/UWB-calibration.conf:$(TARGET_COPY_OUT_VENDOR)/etc/uwb/UWB-calibration.conf \
+    $(LOCAL_PATH)/uwb/UWB-calibration.conf:$(TARGET_COPY_OUT_VENDOR)/etc/uwb/UWB-calibration-default.conf \
+    $(LOCAL_PATH)/uwb/UWB-calibration-unknown.conf:$(TARGET_COPY_OUT_VENDOR)/etc/uwb/UWB-calibration-unknown.conf \
     frameworks/native/data/etc/android.hardware.uwb.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.uwb.xml
 
 # Update engine

@@ -178,6 +178,10 @@ vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=1
 
+# UWB
+persist.uwb.enable_uci_stack=1
+ro.vendor.uwb.calibration.calibrationpaths=/vendor/etc/uwb/calib_paths
+
 # WiFi
 wifi.aware.interface=wifi-aware0
 
