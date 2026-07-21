@@ -1,0 +1,4 @@
+allow hal_uwb_default self:netlink_generic_socket create_socket_perms_no_ioctl;
+allow hal_uwb_default self:udp_socket { create ioctl };
+allowxperm hal_uwb_default self:udp_socket ioctl { SIOCSIFFLAGS };
+allow hal_uwb_default self:capability net_admin;
