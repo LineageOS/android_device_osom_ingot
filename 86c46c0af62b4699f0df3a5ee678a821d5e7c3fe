@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b70fa665_386e9dce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19665
+      },
+      "writtenOn": "2026-07-23T02:35:56Z",
+      "side": 1,
+      "message": "Recommend using https://github.com/vadiole/tremor/ to test all the haptics (and https://github.com/luk1337/VibeTest to test TEXTURE_TICK because that\u0027s not present in tremor)",
+      "revId": "86c46c0af62b4699f0df3a5ee678a821d5e7c3fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
