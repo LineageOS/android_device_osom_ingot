@@ -523,9 +523,6 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtestutils.so
 vendor/lib64/libtinyxml2_1.so
 
-# Display config
-vendor/etc/displayconfig/display_id_4630946852271201666.xml:vendor/etc/displayconfig/display_id_4630946852271201665.xml
-
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/ppd
