@@ -153,6 +153,9 @@ PRODUCT_PACKAGES += \
     libqti_c2_store_abi_check
 
 # Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display_config_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_130.xml
+
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     init.qti.display_boot.rc \
