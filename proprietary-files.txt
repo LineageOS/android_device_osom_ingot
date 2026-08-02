@@ -453,7 +453,6 @@ vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
 vendor/lib64/libmasc.so
-vendor/lib64/libshsc.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
@@ -493,6 +492,11 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 # CVP
 vendor/lib64/libcv_common.so
 vendor/lib64/libcvp2_1.so
+
+# Data - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/bin/shsusrd|ab22c3e3c0c0155064e1cb23df5c24952ce9b70a
+vendor/etc/init/shsusrd.rc|22ff980a8daaf62fd091485541a4c8c10fdeb4a9
+vendor/lib64/libshsc.so|4ab216b4ed1473da5e9f767adebdede85e01814e
 
 # Display (HDR)
 vendor/lib64/libhdr_backlight_adapter.so
@@ -1047,7 +1051,6 @@ vendor/bin/port-bridge
 vendor/bin/qms
 vendor/bin/qrtr-ns
 vendor/bin/rmt_storage
-vendor/bin/shsusrd
 vendor/bin/ssgqmigd
 vendor/bin/ssgtzd
 vendor/bin/tftp_server
@@ -1057,7 +1060,6 @@ vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
 vendor/etc/init/qcrilNrd.rc
 vendor/etc/init/qms.rc
-vendor/etc/init/shsusrd.rc
 vendor/etc/init/ssgtzd.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
@@ -1131,7 +1133,6 @@ vendor/lib64/libril-legacy.so
 vendor/lib64/libril-qc-ltedirectdisc.so
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/librilqmimiscservices.so
-vendor/lib64/libshsusr_verinfo.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/qcrilInterfaces.so
 vendor/lib64/qcrilMarshal.so
