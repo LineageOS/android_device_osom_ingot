@@ -357,4 +357,11 @@
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
+
+    <!-- Whether desktop mode is supported on the current device  -->
+    <bool name="config_isDesktopModeSupported">true</bool>
+
+    <!-- Whether a display enters desktop mode by default when the windowing mode of the display's
+         root TaskDisplayArea is set to WINDOWING_MODE_FREEFORM. -->
+    <bool name="config_enterDesktopByDefaultOnFreeformDisplay">true</bool>
 </resources>

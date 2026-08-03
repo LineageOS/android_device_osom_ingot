@@ -147,6 +147,10 @@ $(call soong_config_set,android_hardware_audio,run_64bit,true)
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Desktop Mode
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
+
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_config_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_130.xml
