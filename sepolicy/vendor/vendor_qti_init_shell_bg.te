@@ -1,0 +1,2 @@
+allow vendor_qti_init_shell_bg vendor_sysfs_battery_supply:dir search;
+allow vendor_qti_init_shell_bg vendor_sysfs_battery_supply:file { w_file_perms getattr };
