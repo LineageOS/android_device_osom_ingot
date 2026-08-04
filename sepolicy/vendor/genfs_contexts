@@ -1,3 +1,7 @@
+# Charging
+genfscon sysfs /class/qcom-battery/restrict_chg    u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /class/qcom-battery/restrict_cur    u:object_r:vendor_sysfs_battery_supply:s0
+
 # Wakeup
 genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-2/2-0008/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/a84000.i2c/i2c-3/3-0008/wakeup u:object_r:sysfs_wakeup:s0
