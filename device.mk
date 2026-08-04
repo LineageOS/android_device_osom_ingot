@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libvolumelistener \
     sound_trigger.primary.taro \
     vendor.qti.hardware.AGMIPC@1.0-service
 
