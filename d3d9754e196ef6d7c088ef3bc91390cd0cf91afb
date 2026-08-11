@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54a0c4df_e8afa3a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19665
+      },
+      "writtenOn": "2026-08-11T05:56:32Z",
+      "side": 1,
+      "message": "adding whitespace removal that Nolen made in 495888 PS2",
+      "revId": "d3d9754e196ef6d7c088ef3bc91390cd0cf91afb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
