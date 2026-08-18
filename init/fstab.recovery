@@ -41,4 +41,4 @@ odm                                                    /odm                   ex
 /dev/block/by-name/recovery                            /recovery              emmc    defaults                                           slotselect,avb=vbmeta,first_stage_mount
 /dev/block/by-name/vbmeta                              /vbmeta                emmc    defaults                                           slotselect,first_stage_mount
 /dev/block/by-name/vendor_boot                         /vendor_boot           emmc    defaults                                           slotselect,avb=vbmeta,first_stage_mount
-/dev/block/mmcblk0p1                                   /sdcard                vfat    nosuid,nodev                                       wait
+/devices/platform/soc/8804000.sdhci/mmc_host*          /storage/sdcard1       vfat    nosuid,nodev                                       wait,voldmanaged=sdcard1:auto
