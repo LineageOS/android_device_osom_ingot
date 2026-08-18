@@ -20,6 +20,7 @@ TARGET_NO_BOOTLOADER := true
 # Kernel
 BOARD_BOOTCONFIG += \
     androidboot.hardware=qcom \
+    androidboot.load_modules_parallel=true \
     androidboot.memcg=1 \
     androidboot.selinux=permissive \
     androidboot.serialconsole=0 \
