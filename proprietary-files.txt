@@ -681,24 +681,6 @@ vendor/etc/sap.conf
 vendor/etc/xtwifi.conf
 
 # Graphics (Adreno)
-vendor/lib/egl/eglSubDriverAndroid.so
-vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so
-vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so
-vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so
-vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/libCB.so
-vendor/lib/libOpenCL.so
-vendor/lib/libadreno_app_profiles.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libgpudataproducer.so
-vendor/lib/libgsl.so
-vendor/lib/libkcl.so
-vendor/lib/libkernelmanager.so
-vendor/lib/libllvm-glnext.so
-vendor/lib/libllvm-qcom.so
-vendor/lib/libllvm-qgl.so
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
@@ -1021,7 +1003,6 @@ vendor/lib64/libqmiservices.so
 vendor/bin/vendor.qti.qspmhal@1.0-service
 vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
 vendor/etc/seccomp_policy/qspm.policy
-vendor/lib/vendor.qti.qspmhal@1.0.so
 vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
 
@@ -1051,7 +1032,7 @@ vendor/bin/port-bridge
 vendor/bin/qms
 vendor/bin/qrtr-ns
 vendor/bin/rmt_storage
-vendor/bin/ssgqmigd
+vendor/bin/ssgqmigd64
 vendor/bin/ssgtzd
 vendor/bin/tftp_server
 vendor/etc/data/dsi_config.xml

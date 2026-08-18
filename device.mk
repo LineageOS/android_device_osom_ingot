@@ -101,16 +101,16 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@7.0-impl:64 \
-    android.hardware.audio.effect@7.0-impl:64 \
+    android.hardware.audio@7.0-impl \
+    android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.service \
-    android.hardware.bluetooth.audio-impl:64 \
-    android.hardware.soundtrigger@2.3-impl:64 \
+    android.hardware.bluetooth.audio-impl \
+    android.hardware.soundtrigger@2.3-impl \
     audioadsprpcd \
-    audio.bluetooth.default:64 \
+    audio.bluetooth.default \
     audio.primary.taro \
     audio.r_submix.default \
-    audio.usb.default:64 \
+    audio.usb.default \
     lib_bt_aptx \
     lib_bt_ble \
     lib_bt_bundle \
@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh \
-    gralloc.default:64 \
+    gralloc.default \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.display.demura-service
@@ -183,14 +183,14 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-impl-qti:64 \
-    android.hardware.gnss-aidl-impl-qti:64 \
+    android.hardware.gnss@2.1-impl-qti \
+    android.hardware.gnss-aidl-impl-qti \
     android.hardware.gnss-aidl-service-qti \
     gnss@2.0-base.policy \
     gnss@2.0-xtra-daemon.policy \
-    libbatching:64 \
-    libgeofencing:64 \
-    libgnss:64
+    libbatching \
+    libgeofencing \
+    libgnss
 
 PRODUCT_PACKAGES += \
     batching.conf \
@@ -404,7 +404,7 @@ PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
-    libwifi-hal-ctrl:64 \
+    libwifi-hal-ctrl \
     wpa_supplicant \
     wpa_supplicant.conf
 
