@@ -1,0 +1,1 @@
+dontaudit vendor_location_xtra_daemon vendor_sysfs_soc_sensitive:file r_file_perms;
