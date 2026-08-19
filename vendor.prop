@@ -11,17 +11,14 @@ ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 vendor.audio.adm.buffering.ms=2
 vendor.audio.offload.buffer.size.kb=32
-vendor.audio.ull_record_period_multiplier=2
 vendor.audio.volume.headset.gain.depcal=true
 vendor.audio_hal.period_size=192
 
 # Audio - features
 vendor.audio.feature.a2dp_offload.enable=true
-vendor.audio.feature.afe_proxy.enable=true
 vendor.audio.feature.battery_listener.enable=true
 vendor.audio.feature.dmabuf.cma.memory.enable=true
 vendor.audio.feature.hfp.enable=true
-vendor.audio.feature.kpi_optimize.enable=true
 
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
