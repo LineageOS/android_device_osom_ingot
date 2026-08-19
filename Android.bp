@@ -19,14 +19,3 @@ install_symlink {
     installed_location: "firmware/wlan/qca_cld/qca6490/WCNSS_qcom_cfg.ini",
     symlink_target: "/vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini",
 }
-
-cc_library_shared {
-    name: "libqti_c2_store_abi_check",
-    vendor: true,
-    defaults: ["libcodec2-hidl-defaults@1.0"],
-    shared_libs: ["libcodec2_hidl@1.2"],
-    srcs: [
-        "c2_store_abi_check/abi_check_1_0.cpp",
-        "c2_store_abi_check/abi_check_1_2.cpp",
-    ],
-}
