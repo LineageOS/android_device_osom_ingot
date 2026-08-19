@@ -1,3 +1,6 @@
+# Audio
+ro.audio.ihaladaptervendorextension_enabled=true
+
 # CNE
 persist.vendor.cne.feature=1
 
