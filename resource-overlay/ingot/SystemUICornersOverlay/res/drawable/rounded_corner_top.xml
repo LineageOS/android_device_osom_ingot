@@ -4,9 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="540px"
+        android:width="115px"
         android:height="115px"
-        android:viewportWidth="540"
+        android:viewportWidth="115"
         android:viewportHeight="115">
 
     <path
@@ -14,8 +14,7 @@
         M 115 1
         C 50 1 0 50 0 115
         L 0 0
-        L 540 0
-        L 540 1
+        L 115 0
         Z"
         android:fillColor="#000000" />
 
