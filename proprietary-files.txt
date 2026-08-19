@@ -11,12 +11,11 @@ vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/waipio_ingot/Ingot_acdb_cal.acdb
 vendor/etc/acdbdata/waipio_ingot/Ingot_workspaceFileXml.qwsp
 
-# ADSP
-vendor/bin/adsprpcd
-vendor/bin/loadalgo
-vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libloadalgo_stub.so
+# ADSP - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/bin/adsprpcd|1d209eb778ea00b5224bece714bcb6ee1070fd7c
+vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|3a330390ac3602715081328839b8c7081d50fc71
+vendor/lib64/libadsp_default_listener.so|514c1b0b9d7db944427d4a3e9845d62dfbcb477c
+vendor/lib64/libadsprpc.so|b0ad6492fc650d793b90c3ee505f8678c1b6bab2
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n00.bin
@@ -109,22 +108,19 @@ vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio libraries
-vendor/lib64/libadm.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libmcs.so
-vendor/lib64/libpal_net_if.so
-vendor/lib64/libqtigefar.so
+# Audio libraries - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/lib64/libadm.so|01dd47a5781d510404626a4b7b7447916ef0f82f
+vendor/lib64/libaudio_log_utils.so|1d75484064a6d1afaa4bf5d435342d8a04c7d471
+vendor/lib64/liblistensoundmodelaidl.so|50503c39fc351f9ad66ba68c54de59a30642339c
+vendor/lib64/libmcs.so|a4b5525bdf3bc3edde7747ba11f6629043352eed
+vendor/lib64/libpal_net_if.so|68613cea56dc04aaf260b2c2f3489aec15fac214
+vendor/lib64/libqtigefar.so|c36c9aa952d6909d90bbbcc6df3493b9068c55fa
+vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V1-ndk.so|fd33609cc0b001db44e0b0f21e310497e95e4e98
 
-# Audio misc
-vendor/etc/models/acd/event.eai
-vendor/etc/models/acd/music.eai
-vendor/etc/models/acd/speech.eai
-
-# Audio FX modules
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libshoebox.so
+# Audio misc - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/etc/models/acd/event.eai|9bf278d152e0c722ab9bcb11c19568c5ae3212c5
+vendor/etc/models/acd/music.eai|4eeea06fd59b0a600216c62241a313efe92df7fc
+vendor/etc/models/acd/speech.eai|aff5a8f19d803478415eb65c52249950fd0a2fae
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -153,10 +149,8 @@ vendor/lib64/libjnihelper.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
 # Camera
-vendor/bin/hw/vendor.qti.camera.provider@2.7-service_64
 vendor/etc/eva/facedetection/model3.dat
 vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted
-vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc
 vendor/lib64/camera/arcsoft_dualcam_calibration.bin
 vendor/lib64/camera/arcsoft_eis_configure
 vendor/lib64/camera/arcsoft_uw_golden_calibration.bin
@@ -241,25 +235,15 @@ vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libubifocus.so
 vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
-# Camera camx
-vendor/lib64/camx.device@3.2-impl.so
-vendor/lib64/camx.device@3.3-impl.so
-vendor/lib64/camx.device@3.4-ext-impl.so
-vendor/lib64/camx.device@3.4-impl.so
-vendor/lib64/camx.device@3.5-ext-impl.so
-vendor/lib64/camx.device@3.5-impl.so
-vendor/lib64/camx.device@3.6-ext-impl.so
-vendor/lib64/camx.device@3.6-impl.so
-vendor/lib64/camx.device@3.7-impl.so
-vendor/lib64/camx.provider@2.4-external.so
-vendor/lib64/camx.provider@2.4-impl.so
-vendor/lib64/camx.provider@2.4-legacy.so
-vendor/lib64/camx.provider@2.5-external.so
-vendor/lib64/camx.provider@2.5-legacy.so
-vendor/lib64/camx.provider@2.6-legacy.so
-vendor/lib64/camx.provider@2.7-legacy.so
+# Camera - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/bin/hw/vendor.qti.camera.provider-service_64|f2566187feed4d735b9350aeb7290ad467359116
+vendor/etc/init/vendor.qti.camera.provider-service_64.rc|a4cec1edb4312381e19f8d7246cd4727c5bbe935
+vendor/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml|c5bf529645adf309ee12eca0e8fa4a8306afcfbe
+vendor/etc/vintf/manifest/vendor.qti.camera.provider.xml|a9c4f3de3f7d8b0841d75e2d1940dd5503c36892
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|ec6a5b4e52dceded09199458139217b3c60109c7|fa3b5cece33bd1bfa8cde742c4cc7b481b50723e
+
+# Camera CamX
 vendor/lib64/libcamxcommonutils.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamxfacialfeatures.so
@@ -267,13 +251,17 @@ vendor/lib64/libcamxfdalgo.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxhwnodecontext.so
 vendor/lib64/libcamxifestriping.so
-vendor/lib64/libcamximageformatutils.so
 vendor/lib64/libcamxqsatalgo.so
 vendor/lib64/libcamxsettingsmanager.so
 vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
+
+# Camera CamX - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/lib64/camx.device-impl.so|69596cb9d17b19d702f10f5f221c3c4fc12bd8bf
+vendor/lib64/camx.provider-impl.so|3cbbb02ad6beb46bf43652efdae3801075d8b0f3
+vendor/lib64/libcamximageformatutils.so|1748a050feb507842325d954be3a64fee28cb0a0|c39823bc128cc0db1c66dee8a568bd530872ed2a
 
 # Camera components
 vendor/lib64/camera/components/com.arcsoft.node.eisv2.so
@@ -400,14 +388,13 @@ vendor/lib64/camera/com.qti.tuned.ingot_lvi_imx481.bin
 vendor/lib64/camera/com.qti.tuned.ingot_lvi_imx563.bin
 vendor/lib64/camera/com.qti.tuned.ingot_lvi_imx766.bin
 
-# CDSP
-vendor/bin/cdsprpcd
-vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libfastcvdsp_stub.so
-vendor/lib64/libfastcvopt.so
-vendor/lib64/libsdsprpc.so
+# CDSP - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/bin/cdsprpcd|d4a649fdee9a2384da1599fc1eb33708aa174f59
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|842f4411746605c370f6bae57df6f9c1a276d51a
+vendor/lib64/libcdsp_default_listener.so|ca7b1060c0bdfd05c20de81495074dc6e89ca270
+vendor/lib64/libcdsprpc.so|d5ae903f995aed8b87ba1f0e66ed823f81557f29
+vendor/lib64/libfastcvdsp_stub.so|18d5afc0b2b3f69ba122221b4a64b10b5f06fb0f
+vendor/lib64/libfastcvopt.so|6dee3ab1ed787a83200983354b860b512c799a88
 
 # Charger
 vendor/etc/charger_fw_fstab.qti
@@ -498,64 +485,56 @@ vendor/bin/shsusrd|ab22c3e3c0c0155064e1cb23df5c24952ce9b70a
 vendor/etc/init/shsusrd.rc|22ff980a8daaf62fd091485541a4c8c10fdeb4a9
 vendor/lib64/libshsc.so|4ab216b4ed1473da5e9f767adebdede85e01814e
 
-# Display (HDR)
-vendor/lib64/libhdr_backlight_adapter.so
-vendor/lib64/libhdr_stub.so
-vendor/lib64/libhdr_tm.so
+# Display (HDR) - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/lib64/libhdr_stub.so|abd6e114d700359075ed25bfd36ef5efb42f8e15
+vendor/lib64/libhdr_tm.so|f646ac9a8902bde6607bdeb486d6eb4c681f8793
 
-# Display (HWC)
-vendor/lib64/libmemutils.so
+# Display (HWC) - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/lib64/libmemutils.so|c99fd187b8abae26051174db1038cd5f88cc4c8b
 
 # Display (SDM)
-vendor/etc/display/DPU660.xml
-vendor/etc/display/DPU670.xml
-vendor/etc/display/DPU720.xml
-vendor/etc/display/DPU7__.xml
-vendor/etc/display/DPU820.xml
-vendor/etc/display/DPU830.xml
-vendor/etc/display/DPU860.xml
 vendor/etc/display/DPU8__.xml
-vendor/etc/display/DPU9__.xml
-vendor/lib64/libdisplayqos.so
-vendor/lib64/libdisplayskuutils.so
-vendor/lib64/libqseed3.so
-vendor/lib64/librcmask.so
-vendor/lib64/libsdm-color.so
-vendor/lib64/libsdm-colormgr-algo.so
-vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmextension.so
-vendor/lib64/libtestutils.so
-vendor/lib64/libtinyxml2_1.so
+
+# Display (SDM) - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/lib64/libdisplayqos.so|efd8df7eb08e496a474e9cc10e7fe68a3176880d|f343cea67a30e7417e26d6e7048ca5bcf1c0e839
+vendor/lib64/libdisplayskuutils.so|c1fa7912f6b45ad24a7cd15a65d96b2f2c9bbe27
+vendor/lib64/libintervmipc.so|d19fa046b1415149c6d030af348716a8a7312b3c
+vendor/lib64/libqseed3.so|6e798559c22fd551a038b0597581fff14ba3bbd3
+vendor/lib64/librcmask.so|6d0aaf93486968e5628881d3f70bd86fd7d72566
+vendor/lib64/libsdm-color.so|45d9bde2d291ac2b0de19b66bf3fb58e33e5f3b3
+vendor/lib64/libsdm-colormgr-algo.so|152390eb5b1b0445278ab85ee167133d97334223
+vendor/lib64/libsdm-disp-vndapis.so|c9bb27f856ec09eb43a694d6fe6639a0844b691b
+vendor/lib64/libsdmextension.so|9013247fdf3905cc8c0d0c424391a9851fe8b08b
+vendor/lib64/libtestutils.so|926f960499300aa340162f4fc89478d7322c1242
+vendor/lib64/libtinyxml2_1.so|e054691a996e61a8e1355a66eee1d941f9a96a95
+vendor/lib64/libvmfilexfer.so|ebb49c51fe7184a0d74a1fb020094dfaafc006dd
 
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json
 
-# Display postprocessing
-vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/ppd
-vendor/bin/qdcmss
-vendor/etc/init/qdcmss.rc
-vendor/etc/init/vendor.display.color@1.0-service.rc
-vendor/etc/snapdragon_color_libs_config.xml
-vendor/lib64/libbacklight-calib.so
-vendor/lib64/libcolor-default.so
-vendor/lib64/libdigital-dimming.so
-vendor/lib64/libdisp-aba.so
-vendor/lib64/libdpps.so
-vendor/lib64/libqdcm-algo.so
-vendor/lib64/libqdcm-json-mode-parser.so
-vendor/lib64/libqdcm-mode-parser.so
-vendor/lib64/libsnapdragoncolor-manager.so
-vendor/lib64/libsnapdragoncolor-qdcm.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
-vendor/lib64/vendor.display.color@1.4.so
-vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.color@1.6.so
-vendor/lib64/vendor.display.color@1.7.so
-vendor/lib64/vendor.display.postproc@1.0.so
+# Display postprocessing - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/bin/hw/vendor.qti.hardware.display.color-service|489a61cd172ba61f9df33da073483f62e556b4bc
+vendor/bin/ppd|a7e731c5ffeeab89ea637ad0676aa4e78a146b78
+vendor/bin/qdcmss|f2fdf88062d728dba6a8dd1555f5dc00d9fa5dac
+vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
+vendor/etc/init/vendor.qti.hardware.display.color-service.rc|3184edb3f185e2a9e42bf610200ebac1f4e87d8f
+vendor/etc/snapdragon_color_libs_config.xml|508763df60bde900bc83eb84933d7ba89e9726bb
+vendor/lib64/libcolor-default.so|5711b658cfff79f7f46866bd2b85ef5b7dfca58e
+vendor/lib64/libdigital-dimming.so|b71804db676b9a35d07dd119caa2efb3715ae825
+vendor/lib64/libdisp-aba.so|43d989e8bc62d78180fcf37ee64b3d78fa11eb84
+vendor/lib64/libdpps.so|451f5e6ce738fab6a741209f7836434fb174af10|be979965578c7c6448a5b7bad9a6c75007d50e70
+vendor/lib64/libqdcm-algo.so|62f2dfecd825f38a9cc8be6e0af04d31251fb5de
+vendor/lib64/libqdcm-json-mode-parser.so|64427f72400ac8c14430543fd350bc41bb41b385
+vendor/lib64/libqdcm-mode-parser.so|531f1e420c063693fec17e705e71faa9a9b9a281
+vendor/lib64/libsnapdragoncolor-manager.so|b3b6ca13c5ba5bd25692c4e56a1ce06bd0468798|1b86dd393f6a44b8706e8de371a18e6cc8f68e6c
+vendor/lib64/libsnapdragoncolor-qdcm.so|d43faa4aafe8b18afc37ee397473f92404959f84
+vendor/lib64/vendor.display.color@1.0.so|d82311fc19e6f10a45586eb247a4492fb2352498
+vendor/lib64/vendor.display.color@1.1.so|facde43948be7540cd00f9f9a22bf7f60962330b
+vendor/lib64/vendor.display.color@1.2.so|67d03a5f0841d6f769cb0e0a8deff86bb7df1ec8
+vendor/lib64/vendor.display.color@1.3.so|d80452c5a68a0080c4741f235ddb51b68ab01ab2
+vendor/lib64/vendor.display.color@1.4.so|0351a4a4440de088393976a3b1ecaf944accb4d0
+vendor/lib64/vendor.display.color@1.5.so|f0f3f8ee44f156379339fd068b573c6fa3e5df62
+vendor/lib64/vendor.display.postproc@1.0.so|32b701eaa002560c6f44dc439161d982a1e98bdc
 
 # DPM
 system_ext/bin/dpmd
@@ -615,11 +594,12 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 # DRM - from PDX257 ELBE-1.1.0-REL-260522-1202
 vendor/lib64/libminkdescriptor.so|29051d50c80caa4e97184a6a9b4beecbfec2d5a2
 
-# DSP service
-vendor/bin/dspservice
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+# DSP service - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/bin/dspservice|400c1e82a56552d60ec5cbc2f5f0950fcee516cf
+vendor/etc/init/vendor.qti.hardware.dsp-service.rc|8cf97beaec8309796cf3003aed6e52baa42cc8ba
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|cacb134fab84cb55f607fcff11b80481e2a8114d
+vendor/etc/vintf/manifest/vendor.qti.hardware.dsp-service.xml|c02c767856a1e8ef25441f3e0243487ac3829367
+vendor/lib64/vendor.qti.hardware.dsp-V1-ndk.so|cdf78fd543aa541925a3a4232221bbe1ae0bcb74
 
 # EID
 vendor/bin/hw/vendor.qti.hardware.eid@1.0-service
@@ -680,25 +660,27 @@ vendor/etc/lowi.conf
 vendor/etc/sap.conf
 vendor/etc/xtwifi.conf
 
-# Graphics (Adreno)
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
-vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so
-vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/libCB.so
-vendor/lib64/libOpenCL.so
-vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libgpudataproducer.so
-vendor/lib64/libgsl.so
-vendor/lib64/libkcl.so
-vendor/lib64/libkernelmanager.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
-vendor/lib64/libllvm-qgl.so
+# Graphics (Adreno) - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/lib64/egl/eglSubDriverAndroid.so|3b70b92cf828480775101dfc993d08bd018d8412
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|a44655e15e899863e86cb780f9be19d578ee5dd7
+vendor/lib64/egl/libGLESv1_CM_adreno.so|b90dccd16cba0ea30386e7320d5a3614a4da01e7
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|b2b5ad05df0d13f9021f26a8563a98ea70d231d1
+vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so|b3110b3112aab3e19c80d911c582549b8e2bca94
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|30dff441ef818843588260a973793198b656859c
+vendor/lib64/egl/libq3dtools_esx.so|42c29c61550c0a8457a792ac302a0b856ab86fe3
+vendor/lib64/libCB.so|422cfcff3da2aad8ae8489a8e096232e9fe1246d
+vendor/lib64/libOpenCL.so|8dfb387e215706c692884bbcd5e1b14cc83e4b5f
+vendor/lib64/libOpenCL_adreno.so|05d6e9bc0b4b52f20af05752e4bb7a6b64410563
+vendor/lib64/libadreno_app_profiles.so|9765f1262a5d59438861af88b7355d540873530b
+vendor/lib64/libadreno_compiler_cl.so|73c2e5265e20dcdbb6dd133de38929af4d40b680
+vendor/lib64/libadreno_utils.so|ef22929775749f945982dabf374cc143a468de90
+vendor/lib64/libgpudataproducer.so|615212b2bfaf035655a2d97ae6d3358d9353eac8
+vendor/lib64/libgsl.so|90d1ed8d0a461c1458bf5f068d018ff2fe2ca164
+vendor/lib64/libkcl.so|66004abc7e025348d080301694d2d5821028f0ed
+vendor/lib64/libkernelmanager.so|1b084e58741569f2ec7cb76bd58d0248ad4aa225
+vendor/lib64/libllvm-glnext.so|419527802ac78bb058a10a76022c2e9508562b2c
+vendor/lib64/libllvm-qcom.so|76ce4cf0044d782150a6838f39806a734c27b75f
+vendor/lib64/libllvm-qgl.so|a4a57682c1463b2ee1c296b20f9938ebc83360fe
 
 # Graphics (Adreno firmware)
 vendor/firmware/a730_sqe.fw
@@ -708,8 +690,8 @@ vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
-# Graphics (Vulkan)
-vendor/lib64/hw/vulkan.adreno.so
+# Graphics (Vulkan) - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/lib64/hw/vulkan.adreno.so|45a1ca85d825f2ca559b4dfdf068f2125459d199
 
 # HotwordEnrollment
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
@@ -998,12 +980,14 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
-# QSPM
-vendor/bin/vendor.qti.qspmhal@1.0-service
-vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc
-vendor/etc/seccomp_policy/qspm.policy
-vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
-vendor/lib64/vendor.qti.qspmhal@1.0.so
+# QSPM - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/bin/vendor.qti.qspmhal-service|6997db60bccd14cadef6d1bb68d22f280dc7d427
+vendor/etc/init/vendor.qti.qspmhal-service.rc|b9fd698739169d1485f437c437d2b83548670f5a
+vendor/etc/seccomp_policy/qspm.policy|87f5c78589f9efabee61683942a5b63ffeb5f22e
+vendor/etc/vintf/manifest/vendor.qti.qspmhal-service.xml|c35d488de20351b3e5be97811d5c4609c7834c16
+vendor/lib64/libqspm-mem-utils-vendor.so|182370137f6665971052e6d8aea7b36daf9fcc66
+vendor/lib64/vendor.qti.qspmhal-V1-ndk.so|318a94e6908d233d2b680b6e97cb0826078d8a0e
+vendor/lib64/vendor.qti.qspmhal-impl.so|0e6ad39e3d2521d6dcbbf1c4d7c7b069f219e4ea
 
 # RIL
 product/app/uimgbaservice/uimgbaservice.apk
@@ -1150,20 +1134,23 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
+# SDSP - from PDX257 ELBE-1.1.0-REL-260522-1202
+vendor/bin/sscrpcd|b11e792503ec30b0cc64cd752b78ce211d1f323d
+vendor/etc/init/vendor.sensors.sscrpcd.rc|df52901f1ad0fbc97d6070e28896a6be40154814
+vendor/lib64/libsdsprpc.so|f7b35ea78045cc2b864a60fdd0c368b41faec930
+vendor/lib64/libssc_default_listener.so|7f6e23e755e34441606172c9cac1358996fecdea
+
 # Sensors
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
-vendor/bin/sscrpcd
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
-vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_direct_channel_stub.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
-vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
 
 # Sensors calibrate
