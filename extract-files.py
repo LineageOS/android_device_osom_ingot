@@ -74,9 +74,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('DEVICE_HOST_WHITE_LIST', 'DEVICE_HOST_ALLOW_LIST'),
     ('vendor/etc/media_codecs_cape.xml', 'vendor/etc/media_codecs_cape_vendor.xml'): blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).*\n', ''),
-    'vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy': blob_fixup()
-        .add_line_if_missing('uname: 1')
-        .add_line_if_missing('setsockopt: 1'),
     ('vendor/etc/seccomp_policy/wfdhdcphalservice.policy', 'vendor/etc/seccomp_policy/modemManager.policy'): blob_fixup()
         .add_line_if_missing('gettid: 1'),
     'vendor/lib64/hw/com.qti.chi.override.so': blob_fixup()
@@ -86,6 +83,8 @@ blob_fixups: blob_fixups_user_type = {
         ),
     'vendor/lib64/libgrpc++_unsecure_prebuilt.so': blob_fixup()
         .fix_soname(),
+    'vendor/lib64/libqcodec2_core.so': blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
         .add_needed('libhidlbase_shim.so'),
 }  # fmt: skip
