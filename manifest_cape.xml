@@ -5,24 +5,9 @@
 -->
 <manifest version="7.0" type="device" target-level="7">
     <hal format="hidl">
-        <name>android.hardware.audio</name>
-        <transport>hwbinder</transport>
-        <fqname>@7.0::IDevicesFactory/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.audio.effect</name>
-        <transport>hwbinder</transport>
-        <fqname>@7.0::IEffectsFactory/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.bluetooth</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IBluetoothHci/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.camera.provider</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.7::ICameraProvider/legacy/1</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.drm</name>
@@ -100,11 +85,6 @@
         <fqname>@2.5::IFactory/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.AGMIPC</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IAGM/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.alarm</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IAlarm/default</fqname>
@@ -135,11 +115,6 @@
         <fqname>@1.0::IAONService/aoncameraservice</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.camera.postproc</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IPostProcService/camerapostprocservice</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.capabilityconfigstore</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::ICapabilityConfigStore/default</fqname>
@@ -167,11 +142,6 @@
         <fqname>@1.1::IDpmService/DpmService</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.dsp</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IDspService/dspservice</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.eid</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IEid/default</fqname>
@@ -180,11 +150,6 @@
         <name>vendor.qti.hardware.mwqemadapter</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IMwqemAdapter/MwqemAdapter</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.pal</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IPAL/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.qccvndhal</name>
@@ -288,11 +253,6 @@
         <name>vendor.qti.imsrtpservice</name>
         <transport>hwbinder</transport>
         <fqname>@3.0::IRTPService/imsrtpservice</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.qspmhal</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IQspmhal/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.spu</name>
