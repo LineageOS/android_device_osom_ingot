@@ -101,39 +101,49 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@7.0-impl \
-    android.hardware.audio.effect@7.0-impl \
-    android.hardware.audio.service \
-    android.hardware.bluetooth.audio-impl \
-    android.hardware.soundtrigger@2.3-impl \
     audioadsprpcd \
-    audio.bluetooth.default \
-    audio.primary.taro \
-    audio.r_submix.default \
-    audio.usb.default \
+    audiohalservice.qti \
     lib_bt_aptx \
     lib_bt_ble \
     lib_bt_bundle \
     libagm_compress_plugin \
     libagm_mixer_plugin \
     libagm_pcm_plugin \
+    libagmipcservice \
+    libaudiochargerlistener \
+    libaudiocorehal.default \
+    libaudiocorehal.qti \
+    libaudioeffecthal.qti \
     libbatterylistener \
-    libfmpal \
+    libbundleaidl \
+    libdownmixaidl \
+    libdynamicsprocessingaidl \
+    libhfp_pal \
+    libloudnessenhanceraidl \
+    libpalclient \
+    libpalipcservice \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libreverbaidl \
+    libsoundtriggerhal.qti \
+    libvisualizeraidl \
     libvolumelistener \
-    sound_trigger.primary.taro \
-    vendor.qti.hardware.AGMIPC@1.0-service
+    qtiaudiohalvendorextn
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
-    frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml
+    frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
+    frameworks/av/services/audiopolicy/config/stub_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/stub_audio_policy_configuration.xml
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/sku_cape/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_effects.xml \
+    hardware/qcom-caf/sm8450-6.6/audio/primary-hal/configs/parrot/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_effects_config.xml \
+    hardware/qcom-caf/sm8450-6.6/audio/primary-hal/configs/parrot/audio_module_config_primary.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_module_config_primary.xml \
+    hardware/qcom-caf/sm8450-6.6/audio/primary-hal/configs/parrot/vendor_audio_interfaces.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/vendor_audio_interfaces.xml
+
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sku_cape/mixer_paths_waipio_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_ingot.xml \
     $(LOCAL_PATH)/audio/sku_cape/resourcemanager_waipio_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_ingot.xml \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
@@ -154,16 +164,28 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display_config_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_130.xml
+    $(LOCAL_PATH)/configs/display_config_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_130.xml \
+    hardware/qcom-caf/sm8450-6.6/display/core/config/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
+    hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/camera_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/camera_alignments.json \
+    hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/cpu_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/cpu_alignments.json \
+    hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/default_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/default_alignments.json \
+    hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/display_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/display_alignments.json \
+    hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/formats.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/formats.json \
+    hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/graphics_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/graphics_alignments.json \
+    hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/ubwc_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/ubwc_alignments.json \
+    hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/video_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/video_alignments.json
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh \
     gralloc.default \
+    mapper.qti \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.display.demura-service
+    vendor.qti.hardware.display.demura-service \
+    vendor.qti.hardware.display.snapalloc-impl \
+    vendor.qti.hardware.memtrack-service
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -320,6 +342,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/power/config/taro/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
+# RMNet
+$(call soong_config_set,rmnetctl,old_rmnet_data,true)
 
 # Sensors
 PRODUCT_PACKAGES += \
