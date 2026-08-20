@@ -315,7 +315,8 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.multihal
+    android.hardware.sensors-service.multihal \
+    sensors.dynamic_sensor_hal
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
