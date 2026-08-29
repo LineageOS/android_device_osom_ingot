@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Overlay config file for Verizon operator -->
     <string name="config_mms_user_agent">ov1</string>
