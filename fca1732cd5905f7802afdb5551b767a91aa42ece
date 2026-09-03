@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac4cd3f8_b18e1fd7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-03T08:17:47Z",
+      "side": 1,
+      "message": "Could just pick change from QTI: https://review.lineageos.org/q/I47e3eef44a652feb428d0b372239b14c5d1f816b",
+      "revId": "fca1732cd5905f7802afdb5551b767a91aa42ece",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
