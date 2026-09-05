@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "387bd243_4893c742",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19665
+      },
+      "writtenOn": "2026-09-05T02:53:08Z",
+      "side": 1,
+      "message": "Will proceed with this for now. Will revisit after ingot gets moved to 6.6 and see if the new audio hal has the underlying issue fixed; if so, I can then revert this then.",
+      "revId": "1fad057745cad45f54e8b01a6fbae9881a9433f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
