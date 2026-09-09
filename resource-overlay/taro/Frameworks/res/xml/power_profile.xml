@@ -237,7 +237,8 @@
   <item name="wifi.controller.idle">1</item>
   <item name="wifi.controller.rx">170</item>
   <item name="wifi.controller.tx">210</item>
-  <array name="wifi.controller.tx_levels">1 <!-- mA -->
+  <array name="wifi.controller.tx_levels">
+      <value>1</value>
   </array>
   <item name="wifi.controller.voltage">4000</item>
 
