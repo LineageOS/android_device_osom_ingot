@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2020 Qualcomm Technologies, Inc.
-     All Rights Reserved.
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
-
 <resources>
 
 
@@ -26,6 +26,28 @@
 
     <!-- Indicates that p2p MAC randomization is supported on this device -->
     <bool translatable="false" name="config_wifi_p2p_mac_randomization_supported">true</bool>
+
+    <!-- Indicates that dynamic country code update in AP mode is supported on this device -->
+    <bool translatable="false" name="config_wifiSoftApDynamicCountryCodeUpdateSupported">true</bool>
+
+    <!-- Indicates that dynamic country code update in STA mode is supported on this device -->
+    <bool translatable="false" name="config_wifiStaDynamicCountryCodeUpdateSupported">true</bool>
+
+    <!-- Integer threshold of wrong password failures before the network is disabled -->
+    <integer translatable="false" name="config_wifiDisableReasonByWrongPasswordThreshold">2</integer>
+
+    <!-- Enable WPA2 to WPA3 auto-upgrade offload to capable Driver/Firmware -->
+    <bool translatable="false" name="config_wifiSaeUpgradeOffloadEnabled">true</bool>
+
+    <!-- Whether to use the explicit vendor HAL API: IWifiStaIface.setRoamingState for disabling fw roaming (only needed if
+         setting the bssid on the connection alone does not disable fw roaming on this chip) -->
+    <bool translatable="false" name="config_wifiUseHalApiToDisableFwRoaming">true</bool>
+
+    <!-- Indicates whether the network-centric QoS policy feature is enabled. -->
+    <bool translatable="false" name="config_wifiNetworkCentricQosPolicyFeatureEnabled">true</bool>
+
+    <!-- Indicates whether the application-centric QoS policy feature is enabled. -->
+    <bool translatable="false" name="config_wifiApplicationCentricQosPolicyFeatureEnabled">true</bool>
 
     <!-- Boolean to provide support to keep wifi5 symbol for 8SS supported device and 11ax AP -->
     <bool translateble="false" name="config_wifi_report_he_ready">true</bool>
