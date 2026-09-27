@@ -148,6 +148,10 @@ $(call soong_config_set,android_hardware_audio,run_64bit,true)
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Codec2
+PRODUCT_PACKAGES += \
+    libqti_c2_store_abi_check
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
