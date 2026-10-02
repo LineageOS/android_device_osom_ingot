@@ -33,6 +33,11 @@ import /vendor/etc/init/hw/init.qti.kernel.test.rc
 
 on early-init
     exec_start gki.modprobe
+
+    wait /dev/block/platform/soc/${ro.boot.bootdevice}
+    symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+    mount_all /vendor/etc/charger_fw_fstab.qti --early
+
     start vendor.modprobe
 
     # Mount tracefs in /sys/kernel/tracing as CONFIG_DEBUG_FS might be
