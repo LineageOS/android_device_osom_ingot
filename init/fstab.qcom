@@ -47,7 +47,6 @@ vendor_dlkm                                           /vendor_dlkm         ext4 
 /dev/block/by-name/dtbo                               /dtbo                emmc   defaults                                                                                        slotselect,avb=vbmeta,first_stage_mount
 /dev/block/by-name/metadata                           /metadata            ext4   noatime,nosuid,nodev,discard                                                                    wait,check,formattable,first_stage_mount
 /dev/block/by-name/misc                               /misc                emmc   defaults                                                                                        defaults
-/dev/block/by-name/modem                              /vendor/firmware_mnt vfat   ro,shortname=lower,uid=1000,gid=1000,dmask=227,fmask=337,context=u:object_r:firmware_file:s0    wait,slotselect
 /dev/block/by-name/persist                            /mnt/vendor/persist  ext4   noatime,nosuid,nodev,barrier=1                                                                  wait
 /dev/block/by-name/qmcs                               /mnt/vendor/qmcs     vfat   noatime,nosuid,nodev,context=u:object_r:vendor_qmcs_file:s0                                     wait,check,formattable
 /dev/block/by-name/recovery                           /recovery            emmc   defaults                                                                                        slotselect,avb=recovery,first_stage_mount
