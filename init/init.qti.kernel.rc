@@ -6,6 +6,10 @@
 on early-init
     write /proc/sys/kernel/firmware_config/force_sysfs_fallback 1
 
+    wait /dev/block/platform/soc/${ro.boot.bootdevice}
+    symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+    mount_all /vendor/etc/charger_fw_fstab.qti --early
+
     start vendor.modprobe
 
 on init
