@@ -234,10 +234,8 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qti.kernel.rc \
     init.target.rc \
-    system_dlkm_modprobe.sh \
     ueventd.odm.rc \
-    ueventd.qcom.rc \
-    vendor_modprobe.sh
+    ueventd.qcom.rc
 
 # ION
 $(call soong_config_set_bool,libion,legacy_impl,true)
