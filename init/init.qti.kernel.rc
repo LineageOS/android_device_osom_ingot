@@ -13,7 +13,7 @@ on early-init
     start vendor.modprobe
 
 on init
-    wait_for_prop vendor.all.modules.ready 1
+    wait_for_prop init.svc.vendor.modprobe stopped
 
 on early-boot
     exec_background u:r:vendor_qti_init_shell_bg:s0 -- /vendor/bin/init.qti.write.sh /sys/kernel/boot_adsp/boot 1
@@ -56,11 +56,10 @@ service kernel-post-boot /vendor/bin/sh /vendor/bin/init.kernel.post_boot.sh
     disabled
     oneshot
 
-service vendor.modprobe /vendor/bin/vendor_modprobe.sh
+service vendor.modprobe /vendor/bin/modprobe -b -s -p --all=/vendor_dlkm/lib/modules/modules.load
     class main
     user root
     group root system
     disabled
-    stdio_to_kmsg
     seclabel u:r:vendor_modprobe:s0
     oneshot
