@@ -1010,7 +1010,6 @@ vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/ks
 vendor/bin/netmgrd
-vendor/bin/pd-mapper
 vendor/bin/port-bridge
 vendor/bin/qms
 vendor/bin/qrtr-ns
