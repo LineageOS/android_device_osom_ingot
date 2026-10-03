@@ -151,12 +151,6 @@ on property:init.svc.vendor.charger=running
 #   group system wakelock
 #   capabilities BLOCK_SUSPEND
 
-#pd-mapper
-service vendor.pd_mapper /vendor/bin/pd-mapper
-    class core
-    user system
-    group system
-
 #Peripheral manager
 service vendor.per_mgr /vendor/bin/pm-service
     class core
