@@ -1,0 +1,62 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on early-init
+    write /proc/sys/kernel/firmware_config/force_sysfs_fallback 1
+
+    start vendor.modprobe
+
+on init
+    wait_for_prop vendor.all.modules.ready 1
+
+on early-boot
+    exec_background u:r:vendor_qti_init_shell_bg:s0 -- /vendor/bin/init.qti.write.sh /sys/kernel/boot_adsp/boot 1
+    exec_background u:r:vendor_qti_init_shell_bg:s0 -- /vendor/bin/init.qti.write.sh /sys/kernel/boot_cdsp/boot 1
+    exec_background u:r:vendor_qti_init_shell_bg:s0 -- /vendor/bin/init.qti.write.sh /sys/devices/virtual/cvp/cvp/boot 1
+
+on boot
+    write /sys/block/sda/queue/scheduler bfq
+    write /sys/block/sdb/queue/scheduler bfq
+    write /sys/block/sdc/queue/scheduler bfq
+    write /sys/block/sdd/queue/scheduler bfq
+    write /sys/block/sde/queue/scheduler bfq
+    write /sys/block/sdf/queue/scheduler bfq
+    write /sys/block/sdg/queue/scheduler bfq
+    write /sys/block/sdh/queue/scheduler bfq
+    write /sys/block/mmcblk1/queue/scheduler bfq
+
+    write /sys/block/sda/queue/iosched/slice_idle 0
+    write /sys/block/sdb/queue/iosched/slice_idle 0
+    write /sys/block/sdc/queue/iosched/slice_idle 0
+    write /sys/block/sdd/queue/iosched/slice_idle 0
+    write /sys/block/sde/queue/iosched/slice_idle 0
+    write /sys/block/sdf/queue/iosched/slice_idle 0
+    write /sys/block/sdg/queue/iosched/slice_idle 0
+    write /sys/block/sdh/queue/iosched/slice_idle 0
+    write /sys/block/mmcblk1/queue/iosched/slice_idle 0
+
+on property:sys.boot_completed=1
+    write /proc/sys/vm/page-cluster 0
+    start vendor.msm_irqbalance
+    start kernel-post-boot
+
+on property:init.svc.vendor.charger=running
+    start kernel-post-boot
+
+service kernel-post-boot /vendor/bin/sh /vendor/bin/init.kernel.post_boot.sh
+    class core
+    user root
+    group root system wakelock graphics
+    disabled
+    oneshot
+
+service vendor.modprobe /vendor/bin/vendor_modprobe.sh
+    class main
+    user root
+    group root system
+    disabled
+    stdio_to_kmsg
+    seclabel u:r:vendor_modprobe:s0
+    oneshot
