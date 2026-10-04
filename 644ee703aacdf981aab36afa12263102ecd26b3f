@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b5b5757_f34ef876",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-04T06:28:22Z",
+      "side": 1,
+      "message": "Technically this is already set for 5.10 (Sultan made change to kernel bootargs), but was just assembling a list of changes that won\u0027t break on 5.10 but will be using for 6.6.",
+      "revId": "644ee703aacdf981aab36afa12263102ecd26b3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
