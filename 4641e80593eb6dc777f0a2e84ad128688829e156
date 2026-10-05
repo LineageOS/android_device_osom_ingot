@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eca2e86_8505993e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-10-05T00:31:14Z",
+      "side": 1,
+      "message": "This change seems to be present in other trees but it\u0027s part of the original commit fixing battery in recovery. Maybe pick/adapt this for recovery too? https://github.com/LineageOS/android_device_shift_otter/commit/76f65de272600ba9cfa69bbe539a8730adc4fc8d",
+      "revId": "4641e80593eb6dc777f0a2e84ad128688829e156",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
