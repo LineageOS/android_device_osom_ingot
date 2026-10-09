@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce2b0384_dee9b37e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-09T03:13:17Z",
+      "side": 1,
+      "message": "Would want for any device shipping msm-6.6 or msm-6.12.",
+      "revId": "1a0bbc4a75a85a92f0c0b46820c2d7b090fb0358",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
