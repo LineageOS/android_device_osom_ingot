@@ -23,6 +23,7 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE += log_buf_len=1M
 BOARD_KERNEL_CMDLINE += printk.devkmsg=on
 BOARD_KERNEL_CMDLINE += scsi_mod.scan=sync
+BOARD_BOOTCONFIG += androidboot.ddr_size=12GB
 BOARD_BOOTCONFIG += androidboot.hardware=qcom
 BOARD_BOOTCONFIG += androidboot.load_modules_parallel=performance
 BOARD_BOOTCONFIG += androidboot.memcg=1
