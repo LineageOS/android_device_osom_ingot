@@ -11,28 +11,22 @@
     <string name="config_rounded_mask" translatable="false">M 71,0 C 33,0 22,-1 10,10 -1,22 0,33 0,71</string>
 
     <!-- A path similar to frameworks/base/core/res/res/values/config.xml
-      config_mainBuiltInDisplayCutout that describes a path larger than the exact path of a display
-      cutout. If present as well as config_enableDisplayCutoutProtection is set to true, then
-      SystemUI will draw this "protection path" instead of the display cutout path that is normally
-      used for anti-aliasing.
+      config_mainBuiltInDisplayCutout that describes a path larger than the exact path of a outer
+      display cutout. If present as well as config_enableDisplayCutoutProtection is set to true,
+      then SystemUI will draw this "protection path" instead of the display cutout path that is
+      normally used for anti-aliasing.
 
       This path will only be drawn when the front-facing camera turns on, otherwise the main
       DisplayCutout path will be rendered
        -->
-    <string translatable="false" name="config_frontBuiltInDisplayCutoutProtection">
-        M 540 57 
-        m -45 0 
-        a 45 45 90 1 0 90 0 
-        a 45 45 90 1 0 -90 0 
-        Z
-    </string>
+    <string name="config_frontBuiltInDisplayCutoutProtection" translatable="false">M 540 57 m -45 0 a 45 45 90 1 0 90 0 a 45 45 90 1 0 -90 0 Z</string>
 
-    <!--  ID for the camera that needs extra protection -->
-    <string translatable="false" name="config_protectedCameraId">1</string>
+    <!-- ID for the camera of outer display that needs extra protection -->
+    <string name="config_protectedCameraId" translatable="false">1</string>
 
     <!-- Comma-separated list of packages to exclude from camera protection e.g.
     "com.android.systemui,com.android.xyz" -->
-    <string translatable="false" name="config_cameraProtectionExcludedPackages">com.osomprivacy.camera</string>
+    <string name="config_cameraProtectionExcludedPackages" translatable="false">com.osomprivacy.camera</string>
 
     <!--  Flag to turn on the rendering of the above path or not  -->
     <bool name="config_enableDisplayCutoutProtection">true</bool>
