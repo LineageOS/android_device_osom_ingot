@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34e79f50_e233f3e2",
+        "filename": "resource-overlay/ingot/EssentialNotchOverlay/res/values/strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 19665
+      },
+      "writtenOn": "2026-10-15T08:48:12Z",
+      "side": 0,
+      "message": "er, was this intended to be deleted? I am noticing that the Essential cutout option is no longer available under Developer Options with this change.",
+      "revId": "601e41bceee877c4ecd1cfcf21d168bd105c8fb9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
