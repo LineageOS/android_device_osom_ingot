@@ -16,6 +16,24 @@
       "message": "typo",
       "revId": "cd34a5197a6e8584dd23cef92d768eae8b96ce6f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f37c4ed_8b21560c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-15T17:31:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f6d4d5cd_b25d62b1",
+      "revId": "cd34a5197a6e8584dd23cef92d768eae8b96ce6f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
