@@ -3,12 +3,16 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- AT&T Call Forwading Testcase strings -->
-    <string name="notForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="cf_reason_code">{3}</xliff:g> is disabled</string>
+<resources>
+    <!-- Displayed when the call forwarding query was not able to be forwarded. -->
     <string name="cfTemplateNotForwarded">@string/notForwarded</string>
+
     <!-- Displayed when the call forwarding query was set but forwarding is not enabled. -->
     <string name="cfTemplateRegistered">@string/notForwarded</string>
+
     <!-- Displayed when the call forwarding query was set but forwarding is not enabled. -->
     <string name="cfTemplateRegisteredTime">@string/notForwarded</string>
+
+    <!-- AT&T Call Forwading Testcase strings -->
+    <string xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="notForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="cf_reason_code">{3}</xliff:g> is disabled</string>
 </resources>
