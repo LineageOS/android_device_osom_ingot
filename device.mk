@@ -46,7 +46,7 @@ PRODUCT_PACKAGES += \
 # QCOM Chipset RROs (taro: taro, diwali, ukee, cape)
 PRODUCT_PACKAGES += \
     FrameworksResTarget_Vendor \
-    WifiResTarget_cape
+    WifiResTarget
 
 # Device Specific RROs
 PRODUCT_PACKAGES += \
