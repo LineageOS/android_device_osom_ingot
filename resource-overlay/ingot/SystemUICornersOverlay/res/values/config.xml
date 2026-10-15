@@ -24,10 +24,6 @@
     <!-- ID for the camera of outer display that needs extra protection -->
     <string name="config_protectedCameraId" translatable="false">1</string>
 
-    <!-- Comma-separated list of packages to exclude from camera protection e.g.
-    "com.android.systemui,com.android.xyz" -->
-    <string name="config_cameraProtectionExcludedPackages" translatable="false">com.osomprivacy.camera</string>
-
     <!--  Flag to turn on the rendering of the above path or not  -->
     <bool name="config_enableDisplayCutoutProtection">true</bool>
 </resources>
