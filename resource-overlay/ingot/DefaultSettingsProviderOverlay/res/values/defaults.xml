@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Set the automatic brightness mode on by default -->
+<resources>
+    <!-- Default screen brightness, from 0 to 255.  102 is 40%. -->
     <bool name="def_screen_brightness_automatic_mode">true</bool>
 </resources>
