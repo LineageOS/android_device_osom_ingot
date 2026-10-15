@@ -4,19 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Control the default night mode to use when there is no other mode override set.
-         One of the following values (see UiModeManager.java):
-             0 - MODE_NIGHT_AUTO
-             1 - MODE_NIGHT_NO
-             2 - MODE_NIGHT_YES
-    -->
-    <integer name="config_defaultNightMode">2</integer>
-
-    <!-- Control whether Night display is available. This should only be enabled on devices
-         that have a HWC implementation that can apply the matrix passed to setColorTransform
-         without impacting power, performance, and app compatibility (e.g. protected content). -->
-    <bool name="config_nightDisplayAvailable">true</bool>
-
     <string-array name="config_reduceBrightColorsCoefficientsNonlinear">
         <!-- a-coefficient --> <item>-0.4553233597</item>
         <!-- b-coefficient --> <item>-0.2380196976</item>
@@ -63,9 +50,6 @@
 
     <!-- Default color for notification LED. -->
     <color name="config_defaultNotificationColor">#ff0000ff</color>
-
-    <!-- Default value for led color when battery is medium charged -->
-    <integer name="config_notificationsBatteryMediumARGB">0xFF0000FF</integer>
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
