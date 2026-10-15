@@ -51,6 +51,24 @@
       "message": "Why remove this? It\u0027s false by default and we support it",
       "revId": "5236e56f76ac28a60a5d69e1404bb82875121f00",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c18a7286_921569e3",
+        "filename": "resource-overlay/ingot/SystemUIVibratorOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-15T03:59:58Z",
+      "side": 0,
+      "message": "I already had that in my review pass to fix, it\u0027s fixed in latest PS\u003e",
+      "parentUuid": "de587534_6caf5d13",
+      "revId": "5236e56f76ac28a60a5d69e1404bb82875121f00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
