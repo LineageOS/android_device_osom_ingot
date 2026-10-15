@@ -58,7 +58,6 @@ PRODUCT_PACKAGES += \
     NcmTetheringOverlay \
     SettingsOverlay \
     SystemUICornersOverlay \
-    SystemUIVibratorOverlay \
     TogglesOverlay \
     VzwMmsOverlay
 
