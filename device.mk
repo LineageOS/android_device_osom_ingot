@@ -38,7 +38,6 @@ PRODUCT_PACKAGES += \
     CarrierConfigResCommon_Sys \
     SettingsResCommon_Sys \
     SystemUIResCommon_Sys \
-    TelecommResCommon_Sys \
     TelephonyResCommon_Sys \
     WifiResCommon_Sys \
     WifiResCommonMainline_Sys
