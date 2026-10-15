@@ -34,6 +34,23 @@
       "parentUuid": "11d7d0c3_2535b6f3",
       "revId": "5236e56f76ac28a60a5d69e1404bb82875121f00",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de587534_6caf5d13",
+        "filename": "resource-overlay/ingot/SystemUIVibratorOverlay/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-10-15T03:58:42Z",
+      "side": 0,
+      "message": "Why remove this? It\u0027s false by default and we support it",
+      "revId": "5236e56f76ac28a60a5d69e1404bb82875121f00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
