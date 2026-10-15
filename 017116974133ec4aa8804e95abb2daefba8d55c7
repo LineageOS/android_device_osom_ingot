@@ -16,6 +16,24 @@
       "message": "i mean, ig but it takes zero effort to account for them by having the other manifest so don\u0027t see value in removing this",
       "revId": "017116974133ec4aa8804e95abb2daefba8d55c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7a9fe36_8e061c40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-15T05:07:01Z",
+      "side": 1,
+      "message": "to be candid, I did this because it breaks beautification scripts.\n\nI could maybe look at a better way to do it.",
+      "parentUuid": "5529b095_90e1c09f",
+      "revId": "017116974133ec4aa8804e95abb2daefba8d55c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
