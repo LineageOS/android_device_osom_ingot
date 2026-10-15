@@ -34,6 +34,24 @@
       "parentUuid": "0831671d_af666b58",
       "revId": "139aa027e9ed90fe7345a8d7b905922a34f6d4a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fb09e1e_fd7962b6",
+        "filename": "resource-overlay/common/Wifi/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-15T05:22:19Z",
+      "side": 1,
+      "message": "looks like hardware limitation despite it kinda working fine, will leave out.",
+      "parentUuid": "430b9e68_6cb19060",
+      "revId": "139aa027e9ed90fe7345a8d7b905922a34f6d4a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
