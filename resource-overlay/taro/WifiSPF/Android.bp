@@ -3,7 +3,6 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-// WifiResTarget for taro, which surppots DBS features
 runtime_resource_overlay {
     name: "WifiResTargetSPF",
     vendor: true,
