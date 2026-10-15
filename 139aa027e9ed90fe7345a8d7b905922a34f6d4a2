@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0831671d_af666b58",
+        "filename": "resource-overlay/common/Wifi/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-10-15T03:49:48Z",
+      "side": 1,
+      "message": "I am pretty sure this is disabled on purpose",
+      "revId": "139aa027e9ed90fe7345a8d7b905922a34f6d4a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
