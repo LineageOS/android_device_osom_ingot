@@ -5,5 +5,4 @@
 
 runtime_resource_overlay {
     name: "DisplayOverlay",
-    soc_specific: true,
 }
