@@ -3,10 +3,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-// WifiResTarget-cape for cape. which supports DBS features.
 runtime_resource_overlay {
     name: "WifiResTarget_cape",
-    manifest: "AndroidManifest-cape.xml",
-    resource_dirs: ["cape/res"],
     vendor: true,
 }

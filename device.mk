@@ -40,8 +40,7 @@ PRODUCT_PACKAGES += \
     SystemUIResCommon_Sys \
     TelecommResCommon_Sys \
     TelephonyResCommon_Sys \
-    WifiResCommon_Sys \
-    WifiResCommonMainline_Sys
+    WifiResCommon_Sys
 
 # QCOM Chipset RROs (taro: taro, diwali, ukee, cape)
 PRODUCT_PACKAGES += \
