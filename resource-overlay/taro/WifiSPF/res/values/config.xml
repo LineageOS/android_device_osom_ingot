@@ -4,48 +4,24 @@
 -->
 
 <resources>
-    <!-- Wifi driver supports OCV for softap -->
-    <bool translatable="false" name="config_vendor_softap_ocv_supported">true</bool>
-
-    <!-- Wifi driver supports beacon protection for softap -->
-    <bool translatable="false" name="config_vendor_softap_beacon_protection_supported">true</bool>
+    <!-- Boolean indicating performing a partial initial scan is enabled -->
+    <bool name="config_wifiEnablePartialInitialScan">true</bool>
 
     <!-- Wifi driver supports IEEE80211AX for softap -->
-    <bool translatable="false" name="config_wifiSoftapIeee80211axSupported">true</bool>
+    <bool name="config_wifiSoftapIeee80211axSupported">true</bool>
 
     <!-- Wifi driver supports IEEE80211AX single user beamformer for softap -->
-    <bool translatable="false" name="config_wifiSoftapHeSuBeamformerSupported">true</bool>
+    <bool name="config_wifiSoftapHeSuBeamformerSupported">true</bool>
 
     <!-- Wifi driver supports IEEE80211AX single user beamformee for softap -->
-    <bool translatable="false" name="config_wifiSoftapHeSuBeamformeeSupported">true</bool>
+    <bool name="config_wifiSoftapHeSuBeamformeeSupported">true</bool>
 
     <!-- Configure wifi tcp buffersizes in the form:
-        rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
+         rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
     <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,2097152,524288,1048576,4194304</string>
 
     <!-- Indicates that SAE Hash-to-Element is supported on this device -->
-    <bool translatable="false" name="config_wifiSaeH2eSupported">true</bool>
-
-    <!-- Boolean indicating performing a partial initial scan is enabled -->
-    <bool translatable="false" name="config_wifiEnablePartialInitialScan">true</bool>
-
-    <!-- Boolean indicating supports for quick connect -->
-    <bool translatable="false" name="config_wifi_framework_enable_quick_connect">true</bool>
-
-    <!-- Integer for Wifi Partial scan results fetching period(in ms) -->
-    <integer translatable="false" name="config_wifi_partial_scan_results_fetching_period_ms">1000</integer>
-
-    <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support. -->
-    <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
-
-    <!-- Wifi driver supports Automatic channel selection (ACS) for softap -->
-    <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
-
-    <!-- Enable connected frequency enhancement for pno scan -->
-    <bool translatable="false" name="config_wifiConnectedFrequencyEnhancementEnabled">true</bool>
-
-    <!-- Boolean indicating whether the wifi chipset has background scan support -->
-    <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
+    <bool name="config_wifiSaeH2eSupported">true</bool>
 
     <!-- Indicates whether or not the WLAN driver supports the NL80211_CMD_REG_CHANGE or
          NL80211_CMD_WIPHY_REG_CHANGE events which indicate the current country code which is
@@ -54,8 +30,8 @@
          HAL as a blocking call. In such a case the country code will be applied
          immediately after the country code is sent to the driver (if the method returns a
          success). -->
-    <bool translatable="false" name="config_wifiDriverSupportedNl80211RegChangedEvent">true</bool>
+    <bool name="config_wifiDriverSupportedNl80211RegChangedEvent">true</bool>
 
     <!-- Indicates whether or not the Soft AP needs to be restarted when country code changed -->
-    <bool translatable="false" name="config_wifiForcedSoftApRestartWhenCountryCodeChanged">false</bool>
+    <bool name="config_wifiForcedSoftApRestartWhenCountryCodeChanged">false</bool>
 </resources>
