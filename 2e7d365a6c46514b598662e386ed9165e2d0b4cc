@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee2d2a32_8f90c6b5",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-16T21:22:37Z",
+      "side": 1,
+      "message": "so, given bezel gki is a thing people are using, worth commonizing these vars in vendor/lineage and uprev-ing them when we update bezel manifests?",
+      "range": {
+        "startLine": 142,
+        "startChar": 23,
+        "endLine": 142,
+        "endChar": 33
+      },
+      "revId": "2e7d365a6c46514b598662e386ed9165e2d0b4cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
