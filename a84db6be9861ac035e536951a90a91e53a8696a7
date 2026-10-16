@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1dee5865_28c18544",
+        "filename": "resource-overlay/taro/Wifi/res/values/config.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-16T03:09:38Z",
+      "side": 1,
+      "message": "drop newline",
+      "revId": "a84db6be9861ac035e536951a90a91e53a8696a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
