@@ -22,6 +22,30 @@
       },
       "revId": "2e7d365a6c46514b598662e386ed9165e2d0b4cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1224372d_2b971ed1",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-16T21:24:15Z",
+      "side": 1,
+      "message": "Yes, but would need to put ?\u003d so targets with a newer //common can override.",
+      "parentUuid": "ee2d2a32_8f90c6b5",
+      "range": {
+        "startLine": 142,
+        "startChar": 23,
+        "endLine": 142,
+        "endChar": 33
+      },
+      "revId": "2e7d365a6c46514b598662e386ed9165e2d0b4cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
