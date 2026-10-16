@@ -55,6 +55,7 @@ PRODUCT_PACKAGES += \
     DisplayOverlay \
     EssentialNotchOverlay \
     FingerprintOverlay \
+    FrameworksCornersOverlay \
     NcmTetheringOverlay \
     SettingsOverlay \
     SystemUICornersOverlay \
