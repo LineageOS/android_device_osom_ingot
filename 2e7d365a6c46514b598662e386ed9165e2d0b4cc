@@ -94,6 +94,30 @@
       },
       "revId": "2e7d365a6c46514b598662e386ed9165e2d0b4cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efb5a710_49e625c2",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-16T23:43:07Z",
+      "side": 1,
+      "message": "AFAIK the security patch level for a partition should be whatever the patch level is for the oldest individual component of that partition.\n\nSo for boot.img on ingot, that would be the first stage ramdisk and the GKI kernel image. Platform is 2026-10, however GKI is 2026-07 so that is what should be set for boot.img\u0027s security level.",
+      "parentUuid": "327bb1bf_6a1a2942",
+      "range": {
+        "startLine": 142,
+        "startChar": 23,
+        "endLine": 142,
+        "endChar": 33
+      },
+      "revId": "2e7d365a6c46514b598662e386ed9165e2d0b4cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
