@@ -70,6 +70,30 @@
       },
       "revId": "2e7d365a6c46514b598662e386ed9165e2d0b4cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "327bb1bf_6a1a2942",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-16T23:34:57Z",
+      "side": 1,
+      "message": "should it tho? The whole reason we did that was no attestable patch level - but with GKI we kind of actually can?",
+      "parentUuid": "960a3000_18fb5e96",
+      "range": {
+        "startLine": 142,
+        "startChar": 23,
+        "endLine": 142,
+        "endChar": 33
+      },
+      "revId": "2e7d365a6c46514b598662e386ed9165e2d0b4cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
