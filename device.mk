@@ -56,6 +56,7 @@ PRODUCT_PACKAGES += \
     EssentialNotchOverlay \
     FingerprintOverlay \
     NcmTetheringOverlay \
+    NfcOverlay \
     SettingsOverlay \
     SystemUICornersOverlay \
     SystemUIVibratorOverlay \
