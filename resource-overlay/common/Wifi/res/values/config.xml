@@ -16,9 +16,6 @@
          capability can provide power savings when wifi needs to be always kept on. -->
     <bool name="config_wifi_background_scan_support">true</bool>
 
-    <!-- Integer indicating maximum hardware supported client number of soft ap -->
-    <integer name="config_wifiHardwareSoftapMaxClientCount">32</integer>
-
     <!-- boolean indicating whether or not to auto-upgrade band setting configuration to dual bands during cloud configuration restore when device supported -->
     <bool name="config_wifiSoftapAutoUpgradeToBridgedConfigWhenSupported">false</bool>
 

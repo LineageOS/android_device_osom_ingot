@@ -4,6 +4,9 @@
 -->
 
 <resources>
+    <!-- Integer indicating maximum hardware supported client number of soft ap -->
+    <integer name="config_wifiHardwareSoftapMaxClientCount">10</integer>
+
     <!-- Indicates that bridged AP mode is supported on this device provided that
      the device interface combination allows for it -->
     <bool name="config_wifiBridgedSoftApSupported">true</bool>
