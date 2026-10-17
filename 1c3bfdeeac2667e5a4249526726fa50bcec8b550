@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "906c253b_29566d96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-17T21:38:50Z",
+      "side": 1,
+      "message": "What the detection point drawable looks like on device: https://i.imgur.com/BONuoVo.png",
+      "revId": "1c3bfdeeac2667e5a4249526726fa50bcec8b550",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
