@@ -33,6 +33,24 @@
       "message": "Depends on https://review.lineageos.org/c/LineageOS/android_packages_modules_Nfc/+/509247",
       "revId": "1c3bfdeeac2667e5a4249526726fa50bcec8b550",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "645896d8_b8269f7d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-18T19:48:05Z",
+      "side": 1,
+      "message": "nvm, just moved to /vendor",
+      "parentUuid": "9bd17323_2a0e46ff",
+      "revId": "1c3bfdeeac2667e5a4249526726fa50bcec8b550",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
