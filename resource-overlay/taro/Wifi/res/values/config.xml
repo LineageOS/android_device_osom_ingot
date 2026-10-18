@@ -11,6 +11,10 @@
      the device interface combination allows for it -->
     <bool name="config_wifiBridgedSoftApSupported">true</bool>
 
+    <!-- Indicates that STA + bridged AP concurrency mode is supported on this device provided
+     that the device interface combination allows for it-->
+    <bool name="config_wifiStaWithBridgedSoftApConcurrencySupported">true</bool>
+
     <!-- Enable Make-Before-Break Wifi network switching.
          Note: this is conditional on the device supporting dual concurrent STAs. -->
     <bool name="config_wifiMultiStaNetworkSwitchingMakeBeforeBreakEnabled">true</bool>
