@@ -32,7 +32,5 @@
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">796px</dimen>
 
     <!-- Default device corner radius, used for assist UI -->
-    <dimen name="config_rounded_mask_size">71px</dimen>
-    <dimen name="config_rounded_mask_size_top">71px</dimen>
-    <dimen name="config_rounded_mask_size_bottom">70px</dimen>
+    <dimen name="config_rounded_mask_size">124px</dimen>
 </resources>
