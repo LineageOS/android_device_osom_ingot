@@ -4,12 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Default rounded corner curve (a Bezier). Must match (the curved path in) rounded.xml.
-         Note that while rounded.xml includes the entire path (including the horizontal and vertical
-         corner edges), this pulls out just the curve.
-     -->
-    <string name="config_rounded_mask" translatable="false">M 71,0 C 33,0 22,-1 10,10 -1,22 0,33 0,71</string>
-
     <!-- A path similar to frameworks/base/core/res/res/values/config.xml
       config_mainBuiltInDisplayCutout that describes a path larger than the exact path of a outer
       display cutout. If present as well as config_enableDisplayCutoutProtection is set to true,
