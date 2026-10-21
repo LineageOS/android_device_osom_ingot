@@ -1230,7 +1230,6 @@ vendor/etc/sensors/config/waipio_tmd3702_0.json
 vendor/etc/sensors/config/waipio_vertigo_ak991x_0.json
 vendor/etc/sensors/config/waipio_vertigo_lsm6dst_0.json
 vendor/etc/sensors/config/waipio_vertigo_lsm6dst_1.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
 # Snapdragon Computer Vision Engine
