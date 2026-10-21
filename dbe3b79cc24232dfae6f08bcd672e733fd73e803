@@ -33,6 +33,23 @@
       "message": "Works on stock, bug with parrot66 blobs most likely.",
       "revId": "dbe3b79cc24232dfae6f08bcd672e733fd73e803",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c80d39f9_347932c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-21T23:58:58Z",
+      "side": 1,
+      "message": "additional context, it *is* broken but it\u0027s a firmware race, that stock isn\u0027t hitting. working around in a separate change",
+      "revId": "dbe3b79cc24232dfae6f08bcd672e733fd73e803",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
