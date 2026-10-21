@@ -26,6 +26,7 @@
     <integer-array name="config_availableColorModes">
         <item>0</item> <!-- COLOR_MODE_NATURAL -->
         <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+        <item>2</item> <!-- COLOR_MODE_SATURATED -->
     </integer-array>
 
     <!-- The following two arrays specify which color space to use for display composition when a
@@ -42,8 +43,10 @@
     <integer-array name="config_displayCompositionColorModes">
         <item>0</item> <!-- COLOR_MODE_NATURAL   -->
         <item>1</item> <!-- COLOR_MODE_BOOSTED   -->
+        <item>2</item> <!-- COLOR_MODE_SATURATED -->
     </integer-array>
     <integer-array name="config_displayCompositionColorSpaces">
+        <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
     </integer-array>
