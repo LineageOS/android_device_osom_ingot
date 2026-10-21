@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46c1fc8e_6562f6a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-21T20:21:13Z",
+      "side": 1,
+      "message": "Went back to stock because I was curious, and yeah it\u0027s as bad there. sRGB behaves like P3, P3 is under saturated, and native is broken.",
+      "revId": "ed99b3678f6f590357381d3a048f1771acf0ea71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
