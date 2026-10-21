@@ -161,6 +161,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.display.demura-service
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
