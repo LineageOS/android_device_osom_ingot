@@ -16,6 +16,23 @@
       "message": "Need to check 5.10 but not seeing how this is related",
       "revId": "dbe3b79cc24232dfae6f08bcd672e733fd73e803",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0c17769_b6232280",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-21T20:22:38Z",
+      "side": 1,
+      "message": "Works on stock, bug with parrot66 blobs most likely.",
+      "revId": "dbe3b79cc24232dfae6f08bcd672e733fd73e803",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
