@@ -155,6 +155,10 @@ persist.vendor.sensors.enable.mag_filter=true
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # Surfaceflinger
+ro.surface_flinger.display_primary_blue=0.179398,0.062101,1.065592
+ro.surface_flinger.display_primary_green=0.191788,0.621854,0.036867
+ro.surface_flinger.display_primary_red=0.488564,0.235083,0.000288
+ro.surface_flinger.display_primary_white=0.934252,1.000000,1.167273
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
