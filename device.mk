@@ -160,6 +160,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_config_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_130.xml \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json \
     hardware/qcom-caf/sm8450-6.6/display/core/config/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
     hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/camera_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/camera_alignments.json \
     hardware/qcom-caf/sm8450-6.6/display/core/snapalloc/resources/cpu_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/cpu_alignments.json \

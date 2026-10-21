@@ -509,9 +509,6 @@ vendor/lib64/libtestutils.so|926f960499300aa340162f4fc89478d7322c1242
 vendor/lib64/libtinyxml2_1.so|e054691a996e61a8e1355a66eee1d941f9a96a95
 vendor/lib64/libvmfilexfer.so|ebb49c51fe7184a0d74a1fb020094dfaafc006dd
 
-# Display calibration data
-vendor/etc/display/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json
-
 # Display postprocessing - from PDX257 ELBE-1.1.0-REL-260522-1202
 vendor/bin/hw/vendor.qti.hardware.display.color-service|489a61cd172ba61f9df33da073483f62e556b4bc
 vendor/bin/ppd|a7e731c5ffeeab89ea637ad0676aa4e78a146b78
