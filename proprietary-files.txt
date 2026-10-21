@@ -523,9 +523,6 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtestutils.so
 vendor/lib64/libtinyxml2_1.so
 
-# Display calibration data
-vendor/etc/display/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json
-
 # Display config
 vendor/etc/displayconfig/display_id_4630946852271201666.xml:vendor/etc/displayconfig/display_id_4630946852271201665.xml
 
