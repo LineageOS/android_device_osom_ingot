@@ -6,57 +6,57 @@
 <displayConfiguration>
     <screenBrightnessMap>
         <point>
-            <value>0.02442</value>
-            <nits>3.8</nits>
+            <value>0.06984</value>
+            <nits>4.0</nits>
         </point>
         <point>
-            <value>0.02735</value>
-            <nits>4.4</nits>
+            <value>0.07814</value>
+            <nits>4.6</nits>
         </point>
         <point>
-            <value>0.03810</value>
-            <nits>7.3</nits>
+            <value>0.10940</value>
+            <nits>7.5</nits>
         </point>
         <point>
-            <value>0.05446</value>
-            <nits>13.0</nits>
+            <value>0.15629</value>
+            <nits>13.4</nits>
         </point>
         <point>
-            <value>0.07619</value>
-            <nits>24.8</nits>
+            <value>0.21880</value>
+            <nits>25.6</nits>
         </point>
         <point>
-            <value>0.10891</value>
-            <nits>51.3</nits>
+            <value>0.31258</value>
+            <nits>52.4</nits>
         </point>
         <point>
-            <value>0.19609</value>
-            <nits>108.5</nits>
+            <value>0.43761</value>
+            <nits>110.5</nits>
         </point>
         <point>
-            <value>0.31844</value>
-            <nits>181.8</nits>
+            <value>0.56264</value>
+            <nits>183.7</nits>
         </point>
         <point>
-            <value>0.47399</value>
-            <nits>281.4</nits>
+            <value>0.68767</value>
+            <nits>282.9</nits>
         </point>
         <point>
-            <value>0.66520</value>
-            <nits>412.3</nits>
+            <value>0.81270</value>
+            <nits>412.0</nits>
         </point>
         <point>
-            <value>0.77875</value>
-            <nits>497.1</nits>
+            <value>0.87912</value>
+            <nits>492.9</nits>
         </point>
         <point>
             <value>1.00000</value>
-            <nits>662.3</nits>
+            <nits>655.4</nits>
         </point>
     </screenBrightnessMap>
-    <screenBrightnessDefault>0.27009</screenBrightnessDefault>
+    <screenBrightnessDefault>0.5</screenBrightnessDefault>
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.78046</transitionPoint>
+        <transitionPoint>0.88</transitionPoint>
         <minimumLux>10000</minimumLux>
         <timing>
             <timeWindowSecs>1800</timeWindowSecs>
@@ -76,83 +76,83 @@
             <map>
                 <point>
                     <first>0</first>
-                    <second>0.02979</second>
+                    <second>0.08474</second>
                 </point>
                 <point>
                     <first>1</first>
-                    <second>0.04615</second>
+                    <second>0.13114</second>
                 </point>
                 <point>
                     <first>2</first>
-                    <second>0.06471</second>
+                    <second>0.18486</second>
                 </point>
                 <point>
                     <first>3</first>
-                    <second>0.07057</second>
+                    <second>0.20098</second>
                 </point>
                 <point>
                     <first>4</first>
-                    <second>0.07448</second>
+                    <second>0.21221</second>
                 </point>
                 <point>
                     <first>8</first>
-                    <second>0.08376</second>
+                    <second>0.23907</second>
                 </point>
                 <point>
                     <first>12</first>
-                    <second>0.09011</second>
+                    <second>0.25665</second>
                 </point>
                 <point>
                     <first>20</first>
-                    <second>0.09744</second>
+                    <second>0.27814</second>
                 </point>
                 <point>
                     <first>33</first>
-                    <second>0.10476</second>
+                    <second>0.29890</second>
                 </point>
                 <point>
                     <first>55</first>
-                    <second>0.11258</second>
+                    <second>0.32234</second>
                 </point>
                 <point>
                     <first>90</first>
-                    <second>0.12381</second>
+                    <second>0.34945</second>
                 </point>
                 <point>
                     <first>148</first>
-                    <second>0.14921</second>
+                    <second>0.37900</second>
                 </point>
                 <point>
                     <first>245</first>
-                    <second>0.17949</second>
+                    <second>0.41612</second>
                 </point>
                 <point>
                     <first>403</first>
-                    <second>0.22320</second>
+                    <second>0.46618</second>
                 </point>
                 <point>
                     <first>665</first>
-                    <second>0.28278</second>
+                    <second>0.52894</second>
                 </point>
                 <point>
                     <first>1097</first>
-                    <second>0.36264</second>
+                    <second>0.59805</second>
                 </point>
                 <point>
                     <first>1808</first>
-                    <second>0.45079</second>
+                    <second>0.66789</second>
                 </point>
                 <point>
                     <first>2981</first>
-                    <second>0.54676</second>
+                    <second>0.73529</second>
                 </point>
                 <point>
                     <first>5000</first>
-                    <second>0.65446</second>
+                    <second>0.80366</second>
                 </point>
                 <point>
                     <first>10000</first>
-                    <second>0.86056</second>
+                    <second>0.92381</second>
                 </point>
                 <point>
                     <first>20000</first>
@@ -174,5 +174,5 @@
             </blockingZoneThreshold>
         </lowerBlockingZoneConfigs>
     </refreshRate>
-    <defaultDozeBrightness>0.05885</defaultDozeBrightness>
+    <defaultDozeBrightness>0.1687</defaultDozeBrightness>
 </displayConfiguration>
