@@ -160,6 +160,24 @@
       "parentUuid": "97417a52_adc213c0",
       "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79218347_286ecba4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 25
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-28T20:43:04Z",
+      "side": 1,
+      "message": "this really doesn\u0027t matter, we can leave it out for 8850, but this is already pervasive to all shipping sm8750, and would require changes in all those trees. It\u0027s just unlikely to happen mid cycle.",
+      "parentUuid": "91731054_86480124",
+      "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
