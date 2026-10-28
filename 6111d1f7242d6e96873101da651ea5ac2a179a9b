@@ -124,6 +124,24 @@
       "parentUuid": "75fccf12_a84d0341",
       "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97417a52_adc213c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 25
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-10-28T20:20:01Z",
+      "side": 1,
+      "message": "Devices had it in their kernel before going to common and the same commit exists in sm8350, sm8450, sm8550, sm8750",
+      "parentUuid": "eae5b092_679b8e77",
+      "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
