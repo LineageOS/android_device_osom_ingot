@@ -142,6 +142,24 @@
       "parentUuid": "eae5b092_679b8e77",
       "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91731054_86480124",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 25
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-28T20:33:01Z",
+      "side": 1,
+      "message": "Yes and we could have continued to stop porting it for no reason. We can still revert the kernel changes and return to just pointing HAL at the correct thing for relevant device.\n\nNow we have 2 levers in kernel that do the same thing, e.g. if you are an SM8750 device you have \"charging_enabled\" and \"charge_control_en\" and if you don\u0027t know the context, now you have two options for how you can restrict charging.",
+      "parentUuid": "97417a52_adc213c0",
+      "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
