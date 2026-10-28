@@ -70,6 +70,24 @@
       "parentUuid": "23d4fb37_1f147df5",
       "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75fccf12_a84d0341",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 25
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-28T19:26:19Z",
+      "side": 1,
+      "message": "it\u0027s already merged, and it\u0027s what everyone on the platform is using, lets use the qcom_sm8750 way",
+      "parentUuid": "085bd732_5efcb96f",
+      "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
