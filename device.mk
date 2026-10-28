@@ -311,6 +311,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/product_privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
 # Power
+$(call soong_config_set,qtipower,tap_to_wake_node,/sys/bus/i2c/devices/0-0038/fts_gesture_mode)
+
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
