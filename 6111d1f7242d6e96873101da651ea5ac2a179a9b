@@ -34,6 +34,24 @@
       "parentUuid": "8c62daa1_e5eaf57d",
       "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23d4fb37_1f147df5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 25
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-10-28T19:19:48Z",
+      "side": 1,
+      "message": "Because you are adding a bunch of extra changes in device tree instead of using a uniform solution across devices/kernels",
+      "parentUuid": "9326f27d_78af7df5",
+      "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
