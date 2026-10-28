@@ -52,6 +52,24 @@
       "parentUuid": "9326f27d_78af7df5",
       "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "085bd732_5efcb96f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 25
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-10-28T19:23:45Z",
+      "side": 1,
+      "message": "This is not a \"bunch of extra changes\", it is +14 -2 lines on a project with no upstream, vs a kernel change that is +51 against a repo that has an upstream.\n\nThe uniform solution should be whatever keeps stuff out of kernel, when feasible.",
+      "parentUuid": "23d4fb37_1f147df5",
+      "revId": "6111d1f7242d6e96873101da651ea5ac2a179a9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
