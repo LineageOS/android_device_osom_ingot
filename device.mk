@@ -145,6 +145,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sku_cape/mixer_paths_waipio_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_ingot.xml \
     $(LOCAL_PATH)/audio/sku_cape/resourcemanager_waipio_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/resourcemanager_waipio_ingot.xml \
+    $(LOCAL_PATH)/audio/Ingot_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_ingot/Ingot_acdb_cal.acdb \
+    $(LOCAL_PATH)/audio/Ingot_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_ingot/Ingot_workspaceFileXml.qwsp \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_policy_configuration.xml \
     $(LOCAL_PATH)/audio/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     $(LOCAL_PATH)/audio/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/microphone_characteristics.xml \
