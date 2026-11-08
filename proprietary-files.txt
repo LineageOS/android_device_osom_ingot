@@ -8,8 +8,6 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
-vendor/etc/acdbdata/waipio_ingot/Ingot_acdb_cal.acdb
-vendor/etc/acdbdata/waipio_ingot/Ingot_workspaceFileXml.qwsp
 
 # ADSP - from PDX257 ELBE-1.1.0-REL-260522-1202
 vendor/bin/adsprpcd|1d209eb778ea00b5224bece714bcb6ee1070fd7c
