@@ -2015,6 +2015,7 @@
     </path>
     
     <path name="speaker">
+        <ctl name="WSA_RX0 Digital Volume" value="84" />
         <ctl name="WSA RX0 MUX" value="AIF1_PB" />
         <ctl name="WSA RX1 MUX" value="AIF1_PB" />
         <ctl name="WSA_RX0 INP0" value="RX0" />
