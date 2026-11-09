@@ -16,6 +16,23 @@
       "message": "Hmmm sec, might need to check this across multiple boots, 5.10 kernel might need this as well https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8450-devicetrees/+/511449",
       "revId": "06949bed5d8064817dce4cef1282a79a94b5650d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b17cb3c5_e274c0b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-11-09T05:19:53Z",
+      "side": 1,
+      "message": "Race possible in theory, but couldn\u0027t reproduce. Porting change to 5.10 anyways to be safe.",
+      "revId": "06949bed5d8064817dce4cef1282a79a94b5650d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
