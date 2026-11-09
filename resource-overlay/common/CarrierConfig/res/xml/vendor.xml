@@ -121,6 +121,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="csp_enabled_bool" value="true" />
     </carrier_config>
 
+    <carrier_config cid="1839" name="Verizon Wireless">
+        <boolean name="editable_wfc_mode_bool" value="true" />
+        <boolean name="carrier_wfc_supports_wifi_only_bool" value="true" />
+    </carrier_config>
+
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
