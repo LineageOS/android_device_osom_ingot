@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fd077f6_bb745c24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2026-11-09T12:00:02Z",
+      "side": 1,
+      "message": "Fixes WiFi calling on ingot + 6.6 kernel",
+      "revId": "44249e5d0c93d75fe05672bf5f4d590c4a028923",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
