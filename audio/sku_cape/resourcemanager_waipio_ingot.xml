@@ -450,7 +450,7 @@
             <!--e.g <supported_bit_format >PAL_AUDIO_FMT_PCM_S24_LE</supported_bit_format>-->
             <supported_bit_format>PAL_AUDIO_FMT_PCM_S16_LE</supported_bit_format>
             <!-- RAS should be enabled with speaker protection always -->
-            <ras_enabled>0</ras_enabled>
+            <ras_enabled>1</ras_enabled>
             <!-- Flag to specify speaker in case Voice call is switched from
                  handset to speaker with only 1 speaker.
                  Values: Both speaker : 0
