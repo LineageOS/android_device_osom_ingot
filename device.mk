@@ -87,6 +87,12 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# APEX
+PRODUCT_COMPRESSED_APEX := false
+PRODUCT_DEFAULT_APEX_PAYLOAD_TYPE := erofs
+PRODUCT_DEFAULT_APEX_PAYLOAD_EROFS_COMPRESSOR := lz4hc,12
+PRODUCT_DEFAULT_APEX_PAYLOAD_EROFS_PCLUSTER_SIZE := 65536
+
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
