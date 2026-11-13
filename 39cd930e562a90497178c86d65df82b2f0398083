@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7f35919_c3f0f45c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2026-11-13T22:20:43Z",
+      "side": 1,
+      "message": "Was mainly just for early adbd but turns out it\u0027s also a good userdata savings.",
+      "revId": "39cd930e562a90497178c86d65df82b2f0398083",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
